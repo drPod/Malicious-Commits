@@ -1,0 +1,352 @@
+2024-06-21 12:49:13,660 - INFO - Processing batch 1
+2024-06-21 12:49:13,660 - INFO - Repository exists, fetching: https://github.com//KDE/kde1-kdebase
+2024-06-21 12:49:13,660 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 12:49:13,660 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 12:49:13,660 - INFO - Repository exists, fetching: https://github.com//wp-plugins/secure-files
+2024-06-21 12:49:13,661 - INFO - Repository exists, fetching: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-21 12:49:14,064 - INFO - Checking out commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-21 12:49:14,090 - INFO - Found parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
+2024-06-21 12:49:14,090 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:49:14,098 - INFO - Checking out commit: cab025e5fc2bcdad8032d833ebc38e6bd2a13c92
+2024-06-21 12:49:14,116 - INFO - Found parent commit: b1afc063fd49cfb875e1c6f591543ebff6649469
+2024-06-21 12:49:14,116 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:49:16,007 - INFO - Checking out commit: 04906bd5de2f220bf100b605dad37b4a1d9a91a6
+2024-06-21 12:49:16,210 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 12:49:16,215 - ERROR - GitCommandError processing https://github.com//krb5/krb5 (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+  stderr: 'fatal: unable to read tree (cf1a0c411b2668c57c41e9c4efd15ba17b6b322c)'
+2024-06-21 12:49:16,943 - INFO - Found parent commit: 97b820813960d87174deca43ed34c6cd5cd03d11
+2024-06-21 12:49:16,944 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 12:49:17,220 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 12:49:17,649 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 12:49:17,654 - ERROR - GitCommandError processing https://github.com//krb5/krb5 (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+  stderr: 'fatal: unable to read tree (cf1a0c411b2668c57c41e9c4efd15ba17b6b322c)'
+2024-06-21 12:49:17,654 - INFO - Attempting full clone for https://github.com//krb5/krb5
+2024-06-21 12:49:17,733 - INFO - Checking out commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 12:49:17,757 - INFO - Found parent commit: 610d7bccb071ebe0ff8468cd3a211dcf86bb7973
+2024-06-21 12:49:17,757 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 12:49:18,158 - INFO - Checking out commit: 2bcbead3bdb5f118bf2c38c541eaa73c29dcc90f
+2024-06-21 12:49:18,218 - INFO - Found parent commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 12:49:18,218 - INFO - Repository exists, fetching: https://github.com//wp-plugins/the-hackers-diet
+2024-06-21 12:49:18,541 - INFO - Checking out commit: 7dd8acf7cd8442609840037121074425d363b694
+2024-06-21 12:49:18,574 - INFO - Found parent commit: bd2a3532505358e7346839ab064e551a36a6d9d8
+2024-06-21 12:49:18,574 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:49:20,581 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 12:49:20,587 - ERROR - GitCommandError processing https://github.com//bminor/glibc (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 2864e767053317538feafa815046fff89e5a16be
+  stderr: 'fatal: unable to read tree (2864e767053317538feafa815046fff89e5a16be)'
+2024-06-21 12:49:21,588 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 12:49:22,194 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 12:49:22,202 - ERROR - GitCommandError processing https://github.com//bminor/glibc (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 2864e767053317538feafa815046fff89e5a16be
+  stderr: 'fatal: unable to read tree (2864e767053317538feafa815046fff89e5a16be)'
+2024-06-21 12:49:22,202 - INFO - Attempting full clone for https://github.com//bminor/glibc
+2024-06-21 12:49:42,285 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 12:49:57,094 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 12:49:57,954 - INFO - Found parent commit: 0a97afba6986e2818cd26869704820e00efcae63
+2024-06-21 12:49:57,954 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:50:43,511 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: Unable to create '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/linux/.git/shallow.lock': File exists.'
+2024-06-21 12:50:44,518 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:50:48,857 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: Unable to create '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/linux/.git/shallow.lock': File exists.'
+2024-06-21 12:50:49,863 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:51:20,551 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 12:52:04,188 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 12:52:07,817 - INFO - Found parent commit: f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+2024-06-21 12:52:07,817 - INFO - Repository exists, fetching: https://github.com//cfire24/ajaxlife
+2024-06-21 12:52:08,418 - INFO - Checking out commit: 9fb53b67312fe3f4336e01c1e3e1bedb4be0c1c8
+2024-06-21 12:52:08,472 - INFO - Found parent commit: 7f544522a8f98fbd3c3d9f4add9a98deb7848bde
+2024-06-21 12:52:08,472 - INFO - Repository exists, fetching: https://github.com//iGamingModules/flashgames
+2024-06-21 12:52:09,055 - INFO - Checking out commit: 6e57683704885be32eea2ea614f80c9bb8f012c5
+2024-06-21 12:52:09,081 - INFO - Found parent commit: a4ae2e836e0f0d8f9ca871228cf5403c505be473
+2024-06-21 12:52:09,081 - INFO - Repository exists, fetching: https://github.com//drupalprojects/email_registration
+2024-06-21 12:52:09,435 - INFO - Checking out commit: 126c141b7db038c778a2dc931d38766aad8d1112
+2024-06-21 12:52:09,452 - INFO - Found parent commit: be62cfcb26770208fd68486c72a1e0ad208ca557
+2024-06-21 12:52:09,452 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:52:11,748 - INFO - Checking out commit: 771b3d8749b34b6eea4e03a2e514380da9582f90
+2024-06-21 12:52:11,755 - ERROR - GitCommandError processing https://github.com//jcollie/asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 771b3d8749b34b6eea4e03a2e514380da9582f90
+  stderr: 'fatal: unable to read tree (771b3d8749b34b6eea4e03a2e514380da9582f90)'
+2024-06-21 12:52:12,643 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: Unable to create '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/linux/.git/shallow.lock': File exists.'
+2024-06-21 12:52:12,761 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:52:13,188 - INFO - Checking out commit: 771b3d8749b34b6eea4e03a2e514380da9582f90
+2024-06-21 12:52:13,194 - ERROR - GitCommandError processing https://github.com//jcollie/asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 771b3d8749b34b6eea4e03a2e514380da9582f90
+  stderr: 'fatal: unable to read tree (771b3d8749b34b6eea4e03a2e514380da9582f90)'
+2024-06-21 12:52:13,194 - INFO - Attempting full clone for https://github.com//jcollie/asterisk
+2024-06-21 12:52:13,649 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 12:53:42,126 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: Unable to create '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/linux/.git/shallow.lock': File exists.'
+2024-06-21 12:53:42,128 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:54:11,895 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:54:57,113 - INFO - Checking out commit: a8b180875b037b8da26f6a3bcc8e5e98b8c904d2
+2024-06-21 12:54:57,856 - INFO - Found parent commit: 7dbf20f3b27a60602ec4c088b4e60e219c075ca2
+2024-06-21 12:54:57,856 - INFO - Repository exists, fetching: https://github.com//kaoru6/asterisk
+2024-06-21 12:55:25,771 - INFO - Checking out commit: 771b3d8749b34b6eea4e03a2e514380da9582f90
+2024-06-21 12:55:26,217 - INFO - Found parent commit: d25358320eaa2b8f26898ccba7df73122a5f64db
+2024-06-21 12:55:26,218 - INFO - Repository exists, fetching: https://github.com//lyx2014/Asterisk
+2024-06-21 12:55:58,952 - INFO - Checking out commit: 1fe14f38dd43dc894d21f85762b51208ba5c8acb
+2024-06-21 12:55:58,959 - ERROR - GitCommandError processing https://github.com//kaoru6/asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 1fe14f38dd43dc894d21f85762b51208ba5c8acb
+  stderr: 'fatal: unable to read tree (1fe14f38dd43dc894d21f85762b51208ba5c8acb)'
+2024-06-21 12:55:59,962 - INFO - Repository exists, fetching: https://github.com//kaoru6/asterisk
+2024-06-21 12:56:10,651 - INFO - Checking out commit: 0670e43c30135044e25cca7f80e1833e2c128653
+2024-06-21 12:56:10,657 - ERROR - GitCommandError processing https://github.com//lyx2014/Asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 0670e43c30135044e25cca7f80e1833e2c128653
+  stderr: 'fatal: unable to read tree (0670e43c30135044e25cca7f80e1833e2c128653)'
+2024-06-21 12:56:11,659 - INFO - Repository exists, fetching: https://github.com//lyx2014/Asterisk
+2024-06-21 12:56:47,659 - INFO - Checking out commit: 1fe14f38dd43dc894d21f85762b51208ba5c8acb
+2024-06-21 12:56:47,666 - ERROR - GitCommandError processing https://github.com//kaoru6/asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 1fe14f38dd43dc894d21f85762b51208ba5c8acb
+  stderr: 'fatal: unable to read tree (1fe14f38dd43dc894d21f85762b51208ba5c8acb)'
+2024-06-21 12:56:47,666 - INFO - Attempting full clone for https://github.com//kaoru6/asterisk
+2024-06-21 12:57:07,492 - ERROR - GitCommandError processing https://github.com//lyx2014/Asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: could not open '.git/objects/pack/tmp_pack_xzYCei' for reading: No such file or directory
+fatal: fetch-pack: invalid index-pack output'
+2024-06-21 12:57:08,495 - INFO - Repository exists, fetching: https://github.com//lyx2014/Asterisk
+2024-06-21 12:57:16,970 - INFO - Checking out commit: 0670e43c30135044e25cca7f80e1833e2c128653
+2024-06-21 12:57:16,976 - ERROR - GitCommandError processing https://github.com//lyx2014/Asterisk (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 0670e43c30135044e25cca7f80e1833e2c128653
+  stderr: 'fatal: unable to read tree (0670e43c30135044e25cca7f80e1833e2c128653)'
+2024-06-21 12:57:16,977 - INFO - Repository exists, fetching: https://github.com//silentindark/asterisk-1
+2024-06-21 12:57:29,446 - INFO - Checking out commit: fe8b7f31db687f8b9992864b82c93d22833019c7
+2024-06-21 12:57:29,460 - ERROR - GitCommandError processing https://github.com//silentindark/asterisk-1 (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fe8b7f31db687f8b9992864b82c93d22833019c7
+  stderr: 'fatal: unable to read tree (fe8b7f31db687f8b9992864b82c93d22833019c7)'
+2024-06-21 12:57:30,465 - INFO - Repository exists, fetching: https://github.com//silentindark/asterisk-1
+2024-06-21 12:57:31,554 - INFO - Checking out commit: fe8b7f31db687f8b9992864b82c93d22833019c7
+2024-06-21 12:57:31,561 - ERROR - GitCommandError processing https://github.com//silentindark/asterisk-1 (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fe8b7f31db687f8b9992864b82c93d22833019c7
+  stderr: 'fatal: unable to read tree (fe8b7f31db687f8b9992864b82c93d22833019c7)'
+2024-06-21 12:57:31,561 - INFO - Attempting full clone for https://github.com//silentindark/asterisk-1
+2024-06-21 12:57:32,923 - INFO - Repository exists, fetching: https://github.com//kaoru6/asterisk
+2024-06-21 12:57:39,862 - INFO - Checking out commit: 1fe14f38dd43dc894d21f85762b51208ba5c8acb
+2024-06-21 12:57:40,780 - INFO - Found parent commit: fbf8f4ac2b3606bf491bbbfca799da74447e5bd6
+2024-06-21 12:57:40,780 - INFO - Repository exists, fetching: https://github.com//xrg/asterisk-xrg
+2024-06-21 12:58:02,401 - INFO - Checking out commit: 10da3dab24e8ca08cf2c983f8d0206e383535b5a
+2024-06-21 12:58:03,012 - INFO - Found parent commit: bc1db655399316ac0e9cd178f1beffedc5037969
+2024-06-21 12:58:03,016 - INFO - Repository exists, fetching: https://github.com//pruiz/asterisk
+2024-06-21 12:58:11,010 - INFO - Checking out commit: e0ef9bd22810c6969a7f222eec04798f19a7e2d6
+2024-06-21 12:58:11,018 - ERROR - GitCommandError processing https://github.com//pruiz/asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout e0ef9bd22810c6969a7f222eec04798f19a7e2d6
+  stderr: 'fatal: unable to read tree (e0ef9bd22810c6969a7f222eec04798f19a7e2d6)'
+2024-06-21 12:58:12,024 - INFO - Repository exists, fetching: https://github.com//pruiz/asterisk
+2024-06-21 12:58:18,665 - INFO - Checking out commit: e0ef9bd22810c6969a7f222eec04798f19a7e2d6
+2024-06-21 12:58:18,670 - ERROR - GitCommandError processing https://github.com//pruiz/asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout e0ef9bd22810c6969a7f222eec04798f19a7e2d6
+  stderr: 'fatal: unable to read tree (e0ef9bd22810c6969a7f222eec04798f19a7e2d6)'
+2024-06-21 12:58:18,670 - INFO - Attempting full clone for https://github.com//pruiz/asterisk
+2024-06-21 12:58:27,237 - INFO - Repository exists, fetching: https://github.com//silentindark/asterisk-1
+2024-06-21 12:58:27,755 - INFO - Checking out commit: fe8b7f31db687f8b9992864b82c93d22833019c7
+2024-06-21 12:58:28,577 - INFO - Found parent commit: 76155d60ce52b4a8b039286df3d5ea30f05bc0a3
+2024-06-21 12:58:28,577 - INFO - Repository exists, fetching: https://github.com//xrg/asterisk-xrg
+2024-06-21 12:58:29,288 - INFO - Checking out commit: 51714a24347dc57f9a208a4a8af84115ef407b83
+2024-06-21 12:58:29,739 - INFO - Found parent commit: 6ecbd7845ea74c14e2447cc62d69c4fdbf379d2a
+2024-06-21 12:58:29,739 - INFO - Repository exists, fetching: https://github.com//mojolingo/asterisk
+2024-06-21 12:58:32,774 - INFO - Checking out commit: 20ac3662f137dbf7f42d5295590069a7d3b1166b
+2024-06-21 12:58:32,782 - ERROR - GitCommandError processing https://github.com//mojolingo/asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 20ac3662f137dbf7f42d5295590069a7d3b1166b
+  stderr: 'fatal: unable to read tree (20ac3662f137dbf7f42d5295590069a7d3b1166b)'
+2024-06-21 12:58:33,785 - INFO - Repository exists, fetching: https://github.com//mojolingo/asterisk
+2024-06-21 12:58:34,144 - INFO - Checking out commit: 20ac3662f137dbf7f42d5295590069a7d3b1166b
+2024-06-21 12:58:34,150 - ERROR - GitCommandError processing https://github.com//mojolingo/asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 20ac3662f137dbf7f42d5295590069a7d3b1166b
+  stderr: 'fatal: unable to read tree (20ac3662f137dbf7f42d5295590069a7d3b1166b)'
+2024-06-21 12:58:34,150 - INFO - Attempting full clone for https://github.com//mojolingo/asterisk
+2024-06-21 12:58:57,314 - INFO - Repository exists, fetching: https://github.com//mojolingo/asterisk
+2024-06-21 12:58:57,811 - INFO - Checking out commit: 20ac3662f137dbf7f42d5295590069a7d3b1166b
+2024-06-21 12:58:58,385 - INFO - Found parent commit: cc83014ec3e4178680593dde908907afe109aa5c
+2024-06-21 12:58:58,385 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:58:58,711 - INFO - Checking out commit: 60de4fbbdf3ede49f158e23a9e3b679f2e519c1e
+2024-06-21 12:58:58,717 - ERROR - GitCommandError processing https://github.com//jcollie/asterisk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 60de4fbbdf3ede49f158e23a9e3b679f2e519c1e
+  stderr: 'fatal: unable to read tree (60de4fbbdf3ede49f158e23a9e3b679f2e519c1e)'
+2024-06-21 12:58:59,719 - INFO - Repository exists, fetching: https://github.com//jcollie/asterisk
+2024-06-21 12:59:00,081 - INFO - Checking out commit: 60de4fbbdf3ede49f158e23a9e3b679f2e519c1e
+2024-06-21 12:59:00,086 - ERROR - GitCommandError processing https://github.com//jcollie/asterisk (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 60de4fbbdf3ede49f158e23a9e3b679f2e519c1e
+  stderr: 'fatal: unable to read tree (60de4fbbdf3ede49f158e23a9e3b679f2e519c1e)'
+2024-06-21 12:59:00,086 - INFO - Attempting full clone for https://github.com//jcollie/asterisk
+2024-06-21 12:59:06,337 - ERROR - Error processing row: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v -- https://github.com//pruiz/asterisk repo_cache/asterisk
+  stderr: 'Cloning into 'repo_cache/asterisk'...
+POST git-upload-pack (175 bytes)
+POST git-upload-pack (217 bytes)
+fatal: could not open '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/asterisk/.git/objects/pack/tmp_pack_Zxizv6' for reading: No such file or directory
+fatal: fetch-pack: invalid index-pack output
+'
+2024-06-21 12:59:06,337 - INFO - Repository exists, fetching: http://github.com//rails/rails
+2024-06-21 12:59:39,856 - ERROR - Error processing row: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v -- https://github.com//jcollie/asterisk repo_cache/asterisk
+  stderr: 'Cloning into 'repo_cache/asterisk'...
+POST git-upload-pack (175 bytes)
+POST git-upload-pack (gzip 32117 to 16179 bytes)
+fatal: could not open '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/asterisk/.git/objects/pack/tmp_pack_UnpN32' for reading: No such file or directory
+fatal: fetch-pack: invalid index-pack output
+'
+2024-06-21 12:59:39,857 - INFO - Repository exists, fetching: https://github.com//PHPMailer/PHPMailer
+2024-06-21 12:59:43,009 - INFO - Checking out commit: 8beacc646acb67c995aea10ac5585970efc7355a
+2024-06-21 12:59:43,087 - INFO - Found parent commit: d7c9ad524c3bf519985a7f257fc831b52a20ec69
+2024-06-21 12:59:43,087 - INFO - Repository exists, fetching: http://github.com//Illydth/wowraidmanager
+2024-06-21 12:59:45,386 - INFO - Checking out commit: 7dd6367ae85003dd5d715431b6ab695f2c2f200a
+2024-06-21 12:59:45,604 - INFO - Found parent commit: 9415e32a0e7259c88519a7e20c875fed9e382ae7
+2024-06-21 12:59:45,605 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:00:08,580 - INFO - Checking out commit: 7282ed863ca7e6f928bae9162c9a63a98775a19d
+2024-06-21 13:00:08,587 - ERROR - GitCommandError processing http://github.com//rails/rails (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 7282ed863ca7e6f928bae9162c9a63a98775a19d
+  stderr: 'fatal: unable to read tree (7282ed863ca7e6f928bae9162c9a63a98775a19d)'
+2024-06-21 13:00:09,592 - INFO - Repository exists, fetching: http://github.com//rails/rails
+2024-06-21 13:00:13,032 - INFO - Checking out commit: 7282ed863ca7e6f928bae9162c9a63a98775a19d
+2024-06-21 13:00:13,037 - ERROR - GitCommandError processing http://github.com//rails/rails (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 7282ed863ca7e6f928bae9162c9a63a98775a19d
+  stderr: 'fatal: unable to read tree (7282ed863ca7e6f928bae9162c9a63a98775a19d)'
+2024-06-21 13:00:13,037 - INFO - Attempting full clone for http://github.com//rails/rails
+2024-06-21 13:01:07,772 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:07,773 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:07,773 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:07,773 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:07,773 - INFO - Repository exists, fetching: https://github.com//jianlinwei/cool-php-captcha
+2024-06-21 13:01:08,133 - INFO - Checking out commit: c84fb6b153bebaf228feee0cbf50728d27ae3f80
+2024-06-21 13:01:08,186 - INFO - Found parent commit: c4e85084ac5ad755310bfbe1e20d8f17e014736c
+2024-06-21 13:01:08,186 - INFO - Repository exists, fetching: https://github.com//dpup/fittr-flickr
+2024-06-21 13:01:08,533 - INFO - Checking out commit: 08875dd8a2e5d0d16568bb0d67cb4328062fccde
+2024-06-21 13:01:08,562 - INFO - Found parent commit: 084b39c54f25b1e22f6d5b3d75b71afb31463672
+2024-06-21 13:01:08,562 - INFO - Cloning repository: https://github.com//capnsquarepants/wordcraft
+2024-06-21 13:01:08,775 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:08,775 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:08,775 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:08,780 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:08,826 - ERROR - GitCommandError processing https://github.com//capnsquarepants/wordcraft (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//capnsquarepants/wordcraft repo_cache/wordcraft
+  stderr: 'Cloning into 'repo_cache/wordcraft'...
+remote: Repository not found.
+fatal: repository 'https://github.com//capnsquarepants/wordcraft/' not found
+'
+2024-06-21 13:01:09,291 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:09,292 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:09,292 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:09,293 - INFO - Repository exists, fetching: https://github.com//Turante/sandbox-theme
+2024-06-21 13:01:09,293 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:09,832 - INFO - Cloning repository: https://github.com//capnsquarepants/wordcraft
+2024-06-21 13:01:09,863 - INFO - Checking out commit: 8045b1e10970342f558b2c5f360e0bd135af2b10
+2024-06-21 13:01:09,887 - INFO - Found parent commit: 57367168ce441bbcb75688e924742f03ffc7c679
+2024-06-21 13:01:09,887 - INFO - Repository exists, fetching: http://github.com//bratsche/pango
+2024-06-21 13:01:10,112 - ERROR - GitCommandError processing https://github.com//capnsquarepants/wordcraft (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//capnsquarepants/wordcraft repo_cache/wordcraft
+  stderr: 'Cloning into 'repo_cache/wordcraft'...
+remote: Repository not found.
+fatal: repository 'https://github.com//capnsquarepants/wordcraft/' not found
+'
+2024-06-21 13:01:10,298 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:10,298 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:10,299 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:01:10,587 - ERROR - GitCommandError processing http://github.com//bratsche/pango (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:10,588 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:10,588 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:10,588 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:01:10,589 - INFO - Repository exists, fetching: http://github.com//alandekok/freeradius-server
+2024-06-21 13:01:10,589 - INFO - Repository exists, fetching: http://github.com//macournoyer/thin
+2024-06-21 13:01:10,589 - INFO - Repository exists, fetching: http://github.com//gisle/html-parser
+---------------------------------------------------------------------------
+2024-06-21 13:03:27,475 - INFO - Repository exists, fetching: https://github.com//KDE/kde1-kdebase
+2024-06-21 13:03:27,475 - INFO - Repository exists, fetching: https://github.com//wp-plugins/secure-files
+2024-06-21 13:03:27,475 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 13:03:27,475 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 13:03:27,475 - INFO - Repository exists, fetching: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-21 13:03:27,896 - INFO - Checking out commit: cab025e5fc2bcdad8032d833ebc38e6bd2a13c92
+2024-06-21 13:03:27,913 - INFO - Checking out commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-21 13:03:27,919 - INFO - Found parent commit: b1afc063fd49cfb875e1c6f591543ebff6649469
+2024-06-21 13:03:27,920 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:03:27,967 - INFO - Found parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
+2024-06-21 13:03:27,967 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:03:28,004 - INFO - Checking out commit: 04906bd5de2f220bf100b605dad37b4a1d9a91a6
+2024-06-21 13:03:28,224 - INFO - Found parent commit: 97b820813960d87174deca43ed34c6cd5cd03d11
+2024-06-21 13:03:28,224 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 13:03:28,630 - INFO - Checking out commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 13:03:28,651 - INFO - Found parent commit: 610d7bccb071ebe0ff8468cd3a211dcf86bb7973
+2024-06-21 13:03:28,651 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 13:03:29,017 - INFO - Checking out commit: 2bcbead3bdb5f118bf2c38c541eaa73c29dcc90f
+2024-06-21 13:03:29,041 - INFO - Found parent commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 13:03:29,041 - INFO - Repository exists, fetching: https://github.com//wp-plugins/the-hackers-diet
+2024-06-21 13:03:29,413 - INFO - Checking out commit: 7dd8acf7cd8442609840037121074425d363b694
+2024-06-21 13:03:29,439 - INFO - Found parent commit: bd2a3532505358e7346839ab064e551a36a6d9d8
+2024-06-21 13:03:38,607 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 13:03:38,888 - INFO - Found parent commit: 0a97afba6986e2818cd26869704820e00efcae63
+2024-06-21 13:04:06,970 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 13:04:07,408 - INFO - Found parent commit: f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+2024-06-21 13:05:00,712 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git fetch -v --depth=1000 -- origin
+  stderr: 'fatal: Unable to create '/Users/darshpoddar/Documents/Coding/Malicious-Commits/repo_cache/linux/.git/shallow.lock': File exists.'
+2024-06-21 13:05:01,719 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:06:53,139 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:06:53,140 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+---------------------------------------------------------------------------
+2024-06-21 13:11:34,905 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 13:11:34,905 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 13:11:34,905 - INFO - Repository exists, fetching: https://github.com//KDE/kde1-kdebase
+2024-06-21 13:11:34,905 - INFO - Repository exists, fetching: https://github.com//wp-plugins/secure-files
+2024-06-21 13:11:34,905 - INFO - Repository exists, fetching: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-21 13:11:35,331 - INFO - Checking out commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-21 13:11:35,355 - INFO - Checking out commit: cab025e5fc2bcdad8032d833ebc38e6bd2a13c92
+2024-06-21 13:11:35,363 - INFO - Found parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
+2024-06-21 13:11:35,363 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:11:35,377 - INFO - Found parent commit: b1afc063fd49cfb875e1c6f591543ebff6649469
+2024-06-21 13:11:35,377 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-21 13:11:35,394 - INFO - Checking out commit: 04906bd5de2f220bf100b605dad37b4a1d9a91a6
+2024-06-21 13:11:35,417 - INFO - Found parent commit: 97b820813960d87174deca43ed34c6cd5cd03d11
+2024-06-21 13:11:35,417 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 13:11:35,763 - INFO - Checking out commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 13:11:35,781 - INFO - Found parent commit: 610d7bccb071ebe0ff8468cd3a211dcf86bb7973
+2024-06-21 13:11:35,781 - INFO - Repository exists, fetching: https://github.com//web-cyradm/web-cyradm
+2024-06-21 13:11:36,163 - INFO - Checking out commit: 2bcbead3bdb5f118bf2c38c541eaa73c29dcc90f
+2024-06-21 13:11:36,188 - INFO - Found parent commit: 3e8f0717f133907bb6a09cb674b05c5f273da3e1
+2024-06-21 13:11:36,188 - INFO - Repository exists, fetching: https://github.com//wp-plugins/the-hackers-diet
+2024-06-21 13:11:36,555 - INFO - Checking out commit: 7dd8acf7cd8442609840037121074425d363b694
+2024-06-21 13:11:36,585 - INFO - Found parent commit: bd2a3532505358e7346839ab064e551a36a6d9d8
+2024-06-21 13:11:47,862 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 13:11:47,885 - INFO - Found parent commit: 0a97afba6986e2818cd26869704820e00efcae63
+2024-06-21 13:12:12,896 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 13:12:12,931 - INFO - Found parent commit: f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+2024-06-21 13:12:30,082 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+2024-06-21 13:12:30,084 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(-2)
+  cmdline: git fetch -v --depth=1000 -- origin
+---------------------------------------------------------------------------
+2024-06-21 13:17:22,663 - INFO - Repository exists, fetching: https://github.com//bminor/glibc
+2024-06-21 13:18:02,158 - INFO - Checking out commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-21 13:18:02,190 - INFO - Found parent commit: f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+2024-06-21 13:18:02,191 - INFO - Repository exists, fetching: https://github.com//KDE/kde1-kdebase
+2024-06-21 13:18:02,700 - INFO - Checking out commit: 04906bd5de2f220bf100b605dad37b4a1d9a91a6
+2024-06-21 13:18:02,722 - INFO - Found parent commit: 97b820813960d87174deca43ed34c6cd5cd03d11
+2024-06-21 13:18:02,723 - INFO - Repository exists, fetching: https://github.com//krb5/krb5
+2024-06-21 13:18:13,987 - INFO - Checking out commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-21 13:18:14,011 - INFO - Found parent commit: 0a97afba6986e2818cd26869704820e00efcae63
+2024-06-21 13:18:14,012 - INFO - Repository exists, fetching: https://github.com//wp-plugins/secure-files
+2024-06-21 13:18:14,404 - INFO - Checking out commit: cab025e5fc2bcdad8032d833ebc38e6bd2a13c92
+2024-06-21 13:18:14,429 - INFO - Found parent commit: b1afc063fd49cfb875e1c6f591543ebff6649469
+2024-06-21 13:18:14,431 - INFO - Repository exists, fetching: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-21 13:18:14,795 - INFO - Checking out commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-21 13:18:14,822 - INFO - Found parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
+2024-06-21 13:18:14,823 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
