@@ -1,0 +1,6 @@
+id,cve_id,commit_url,project_name,commit_id,repo_url,parent_commit_id
+0,CVE-1999-0199,https://github.com/bminor/glibc/commit/2864e767053317538feafa815046fff89e5a16be#diff-94e8c502f255fdfc346df0e29fd4ef40,glibc,2864e767053317538feafa815046fff89e5a16be,https://github.com//bminor/glibc,f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+1,CVE-1999-0731,https://github.com/KDE/kde1-kdebase/commit/04906bd5de2f220bf100b605dad37b4a1d9a91a6,kde1-kdebase,04906bd5de2f220bf100b605dad37b4a1d9a91a6,https://github.com//KDE/kde1-kdebase,97b820813960d87174deca43ed34c6cd5cd03d11
+2,CVE-2002-2443,https://github.com/krb5/krb5/commit/cf1a0c411b2668c57c41e9c4efd15ba17b6b322c,krb5,cf1a0c411b2668c57c41e9c4efd15ba17b6b322c,https://github.com//krb5/krb5,0a97afba6986e2818cd26869704820e00efcae63
+3,CVE-2005-10002,https://github.com/wp-plugins/secure-files/commit/cab025e5fc2bcdad8032d833ebc38e6bd2a13c92,secure-files,cab025e5fc2bcdad8032d833ebc38e6bd2a13c92,https://github.com//wp-plugins/secure-files,b1afc063fd49cfb875e1c6f591543ebff6649469
+4,CVE-2006-10001,https://github.com/wp-plugins/subscribe-to-comments/commit/9683bdf462fcac2f32b33be98f0b96497fbd1bb6,subscribe-to-comments,9683bdf462fcac2f32b33be98f0b96497fbd1bb6,https://github.com//wp-plugins/subscribe-to-comments,de59be732c6c7976dc293c20a8c7648782249bd2
