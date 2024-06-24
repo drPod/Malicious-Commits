@@ -350,3 +350,1926 @@ fatal: repository 'https://github.com//capnsquarepants/wordcraft/' not found
 2024-06-21 13:18:14,795 - INFO - Checking out commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
 2024-06-21 13:18:14,822 - INFO - Found parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
 2024-06-21 13:18:14,823 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:02:43,211 - INFO - Cloning repository: https://github.com//torvalds/linux
+2024-06-23 20:04:29,607 - INFO - Cloning repository: https://github.com//atampy25/quickentity-editor-next
+2024-06-23 20:04:42,958 - INFO - Checking out commit: 5303b45a20a6e4e9318729b8dd7bbf09b37b369d
+2024-06-23 20:04:44,248 - INFO - Found parent commit: d56dbe2f464fbd2388bf2d10460e8b3d308a319b
+2024-06-23 20:04:44,249 - INFO - Cloning repository: https://github.com//gookit/goutil
+2024-06-23 20:04:45,302 - INFO - Checking out commit: d7b94fede71f018f129f7d21feb58c895d28dadc
+2024-06-23 20:04:45,402 - INFO - Found parent commit: 965e4f0cd348b6576ef1fe2b4226a388269e619a
+2024-06-23 20:04:45,403 - INFO - Cloning repository: https://github.com//torvalds/linux
+2024-06-23 20:14:52,055 - INFO - Checking out commit: 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+2024-06-23 20:14:52,793 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:14:57,804 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:17:09,786 - INFO - Checking out commit: 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+2024-06-23 20:17:10,763 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:17:20,773 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:19:31,288 - INFO - Checking out commit: 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+2024-06-23 20:19:32,249 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 1ba5bf993c6a3142e18e68ea6452b347f9cb5635
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:19:32,250 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:21:40,343 - INFO - Checking out commit: 9399f0c51489ae8c16d6559b82a452fdc1895e91
+2024-06-23 20:21:41,255 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 9399f0c51489ae8c16d6559b82a452fdc1895e91
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:21:46,265 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:23:58,158 - INFO - Checking out commit: 9399f0c51489ae8c16d6559b82a452fdc1895e91
+2024-06-23 20:23:59,197 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 9399f0c51489ae8c16d6559b82a452fdc1895e91
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:24:09,208 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 20:26:24,227 - INFO - Checking out commit: 9399f0c51489ae8c16d6559b82a452fdc1895e91
+2024-06-23 20:26:25,358 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 9399f0c51489ae8c16d6559b82a452fdc1895e91
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	include/uapi/linux/netfilter/xt_CONNMARK.h
+	include/uapi/linux/netfilter/xt_DSCP.h
+	include/uapi/linux/netfilter/xt_MARK.h
+	include/uapi/linux/netfilter/xt_RATEEST.h
+	include/uapi/linux/netfilter/xt_TCPMSS.h
+	include/uapi/linux/netfilter_ipv4/ipt_ECN.h
+	include/uapi/linux/netfilter_ipv4/ipt_TTL.h
+	include/uapi/linux/netfilter_ipv6/ip6t_HL.h
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_HL.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+	tools/memory-model/litmus-tests/Z6.0+pooncelock+poonceLock+pombonce.litmus
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 20:26:25,359 - INFO - Cloning repository: https://github.com//admidio/admidio
+2024-06-23 20:26:33,768 - INFO - Checking out commit: a7c211b835cafe1158932fbfcff9e5552e57510a
+2024-06-23 20:26:33,774 - ERROR - GitCommandError processing https://github.com//admidio/admidio (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout a7c211b835cafe1158932fbfcff9e5552e57510a
+  stderr: 'fatal: unable to read tree (a7c211b835cafe1158932fbfcff9e5552e57510a)'
+2024-06-23 20:26:33,775 - INFO - Attempting full clone for https://github.com//admidio/admidio
+2024-06-23 20:26:45,118 - INFO - Repository exists, fetching: https://github.com//admidio/admidio
+2024-06-23 20:26:46,021 - INFO - Checking out commit: a7c211b835cafe1158932fbfcff9e5552e57510a
+2024-06-23 20:26:46,750 - INFO - Found parent commit: 4715ceafb35a7d1c264f7957dd3b5d212222f270
+2024-06-23 20:26:46,750 - INFO - Cloning repository: https://github.com//effectindex/tripreporter
+2024-06-23 20:26:47,976 - INFO - Checking out commit: bd80ba833b9023d39ca22e29874296c8729dd53b
+2024-06-23 20:26:48,017 - INFO - Found parent commit: b6a510f05443d85451e8660c9f7d40d5ad4d4f49
+2024-06-23 20:26:48,017 - INFO - Cloning repository: https://github.com//socketio/engine.io
+2024-06-23 20:26:48,866 - INFO - Checking out commit: fc480b4f305e16fe5972cf337d055e598372dc44
+2024-06-23 20:26:48,891 - INFO - Found parent commit: 014195118535669af0ad3bde38a76601dafa4d81
+2024-06-23 20:26:48,892 - INFO - Cloning repository: https://github.com//xwiki/xwiki-commons
+2024-06-23 20:26:52,245 - INFO - Checking out commit: 0b8e9c45b7e7457043938f35265b2aa5adc76a68
+2024-06-23 20:26:52,426 - INFO - Found parent commit: 8c82fc6ff997fca7e2b524f3a125fef7ec6c987c
+2024-06-23 20:26:52,427 - INFO - Cloning repository: https://github.com//nextcloud/cookbook
+2024-06-23 20:26:55,893 - INFO - Checking out commit: 489bb744
+2024-06-23 20:26:55,900 - ERROR - GitCommandError processing https://github.com//nextcloud/cookbook (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 489bb744
+  stderr: 'error: pathspec '489bb744' did not match any file(s) known to git'
+2024-06-23 20:27:00,910 - INFO - Repository exists, fetching: https://github.com//nextcloud/cookbook
+2024-06-23 20:27:01,436 - INFO - Checking out commit: 489bb744
+2024-06-23 20:27:01,442 - ERROR - GitCommandError processing https://github.com//nextcloud/cookbook (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 489bb744
+  stderr: 'error: pathspec '489bb744' did not match any file(s) known to git'
+2024-06-23 20:27:11,453 - INFO - Repository exists, fetching: https://github.com//nextcloud/cookbook
+2024-06-23 20:27:11,979 - INFO - Checking out commit: 489bb744
+2024-06-23 20:27:11,986 - ERROR - GitCommandError processing https://github.com//nextcloud/cookbook (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout 489bb744
+  stderr: 'error: pathspec '489bb744' did not match any file(s) known to git'
+2024-06-23 20:27:11,986 - INFO - Repository exists, fetching: https://github.com//nextcloud/cookbook
+2024-06-23 20:27:12,504 - INFO - Checking out commit: a46d98559e2c64292da9ffb06138cccc2e50ae1b
+2024-06-23 20:27:12,805 - INFO - Found parent commit: 7097b16872e872b8a7a9605f39710df9a4154f4f
+2024-06-23 20:27:12,806 - INFO - Cloning repository: https://github.com//greenplum-db/gpdb
+2024-06-23 20:27:13,178 - ERROR - GitCommandError processing https://github.com//greenplum-db/gpdb (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//greenplum-db/gpdb repo_cache/gpdb
+  stderr: 'Cloning into 'repo_cache/gpdb'...
+remote: Repository not found.
+fatal: repository 'https://github.com//greenplum-db/gpdb/' not found
+'
+2024-06-23 20:27:18,188 - INFO - Cloning repository: https://github.com//greenplum-db/gpdb
+2024-06-23 20:27:18,544 - ERROR - GitCommandError processing https://github.com//greenplum-db/gpdb (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//greenplum-db/gpdb repo_cache/gpdb
+  stderr: 'Cloning into 'repo_cache/gpdb'...
+remote: Repository not found.
+fatal: repository 'https://github.com//greenplum-db/gpdb/' not found
+'
+2024-06-23 20:27:28,554 - INFO - Cloning repository: https://github.com//greenplum-db/gpdb
+2024-06-23 20:27:28,907 - ERROR - GitCommandError processing https://github.com//greenplum-db/gpdb (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//greenplum-db/gpdb repo_cache/gpdb
+  stderr: 'Cloning into 'repo_cache/gpdb'...
+remote: Repository not found.
+fatal: repository 'https://github.com//greenplum-db/gpdb/' not found
+'
+2024-06-23 20:27:28,908 - INFO - Cloning repository: https://github.com//TryGhost/Ghost
+2024-06-23 20:27:39,613 - INFO - Checking out commit: b3caf16005289cc9909488391b4a26f3f4a66a90
+2024-06-23 20:27:39,619 - ERROR - GitCommandError processing https://github.com//TryGhost/Ghost (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout b3caf16005289cc9909488391b4a26f3f4a66a90
+  stderr: 'fatal: unable to read tree (b3caf16005289cc9909488391b4a26f3f4a66a90)'
+2024-06-23 20:27:39,619 - INFO - Attempting full clone for https://github.com//TryGhost/Ghost
+2024-06-23 20:28:01,916 - INFO - Repository exists, fetching: https://github.com//TryGhost/Ghost
+2024-06-23 20:28:08,769 - INFO - Checking out commit: b3caf16005289cc9909488391b4a26f3f4a66a90
+2024-06-23 20:28:10,055 - INFO - Found parent commit: 514c8917c09471528fe60c4a7184a6bcc97b6c81
+2024-06-23 20:28:10,056 - INFO - Cloning repository: https://www.github.com//tauri-apps/tauri
+2024-06-23 20:28:22,624 - INFO - Checking out commit: fa90214b052b1a5d38d54fbf1ca422b4c37cfd1f
+2024-06-23 20:28:22,630 - ERROR - GitCommandError processing https://www.github.com//tauri-apps/tauri (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fa90214b052b1a5d38d54fbf1ca422b4c37cfd1f
+  stderr: 'fatal: unable to read tree (fa90214b052b1a5d38d54fbf1ca422b4c37cfd1f)'
+2024-06-23 20:28:22,630 - INFO - Attempting full clone for https://www.github.com//tauri-apps/tauri
+2024-06-23 20:28:32,569 - INFO - Repository exists, fetching: https://www.github.com//tauri-apps/tauri
+2024-06-23 20:28:33,827 - INFO - Checking out commit: fa90214b052b1a5d38d54fbf1ca422b4c37cfd1f
+2024-06-23 20:28:34,224 - INFO - Found parent commit: 34e03b8455a3b35a8717cb44ea03b28bc796a88a
+2024-06-23 20:28:34,224 - INFO - Repository exists, fetching: https://www.github.com//tauri-apps/tauri
+2024-06-23 20:28:35,304 - INFO - Checking out commit: 58ea0b45268dbd46cbac0ebb0887353d057ca767
+2024-06-23 20:28:35,433 - INFO - Found parent commit: e4159d4a1bd487907a588490aaff515a184a9d19
+2024-06-23 20:28:35,434 - INFO - Cloning repository: https://github.com//vapor/postgres-nio
+2024-06-23 20:28:36,347 - INFO - Checking out commit: 2df54bc94607f44584ae6ffa74e3cd754fffafc7
+2024-06-23 20:28:36,398 - INFO - Found parent commit: dd1b740fff3847c594bc258f834356e53b87f9de
+2024-06-23 20:28:36,398 - INFO - Cloning repository: https://github.com//samboy/MaraDNS
+2024-06-23 20:30:36,071 - INFO - Checking out commit: bab062bde40b2ae8a91eecd522e84d8b993bab58
+2024-06-23 20:30:36,133 - INFO - Found parent commit: 20b7ac02ad5dc15ca66421815cc4227636d98397
+2024-06-23 20:30:36,134 - INFO - Cloning repository: https://github.com//mage-ai/mage-ai
+2024-06-23 20:30:41,697 - INFO - Checking out commit: f63cd00f6a3be372397d37a4c9a49bfaf50d7650
+2024-06-23 20:30:41,704 - ERROR - GitCommandError processing https://github.com//mage-ai/mage-ai (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout f63cd00f6a3be372397d37a4c9a49bfaf50d7650
+  stderr: 'fatal: unable to read tree (f63cd00f6a3be372397d37a4c9a49bfaf50d7650)'
+2024-06-23 20:30:41,704 - INFO - Attempting full clone for https://github.com//mage-ai/mage-ai
+2024-06-23 20:31:00,185 - INFO - Repository exists, fetching: https://github.com//mage-ai/mage-ai
+2024-06-23 20:31:01,858 - INFO - Checking out commit: f63cd00f6a3be372397d37a4c9a49bfaf50d7650
+2024-06-23 20:31:02,904 - INFO - Found parent commit: e16a64962d540046b1210b5b749897cf600f0ed3
+2024-06-23 20:31:02,904 - INFO - Cloning repository: https://github.com//craftcms/cms
+2024-06-23 20:31:50,477 - INFO - Checking out commit: 52bd161614620edbab2d24d078ca9ebca2528442
+2024-06-23 20:31:51,236 - INFO - Found parent commit: 5d6e77d94c1c6b009f08ff0a2846965f37b1f6a7
+2024-06-23 20:31:51,237 - INFO - Cloning repository: https://github.com//vyperlang/vyper
+2024-06-23 20:31:52,884 - INFO - Checking out commit: 4f8289a81206f767df1900ac48f485d90fc87edb
+2024-06-23 20:31:53,002 - INFO - Found parent commit: 92c32f8e61677f7bbd6fd95ada0b7a45da594513
+2024-06-23 20:31:53,002 - INFO - Cloning repository: https://github.com//serenity-is/Serenity
+2024-06-23 20:31:55,262 - INFO - Checking out commit: 11b9d267f840513d04b4f4d4876de7823a6e48d2
+2024-06-23 20:31:55,734 - INFO - Found parent commit: 7197b4385d354d59e5107d7b049a8f1486f0caa9
+2024-06-23 20:31:55,735 - INFO - Repository exists, fetching: https://github.com//serenity-is/Serenity
+2024-06-23 20:31:56,107 - INFO - Checking out commit: 11b9d267f840513d04b4f4d4876de7823a6e48d2
+2024-06-23 20:31:56,235 - INFO - Found parent commit: 7197b4385d354d59e5107d7b049a8f1486f0caa9
+2024-06-23 20:31:56,236 - INFO - Repository exists, fetching: https://github.com//serenity-is/Serenity
+2024-06-23 20:31:56,640 - INFO - Checking out commit: 11b9d267f840513d04b4f4d4876de7823a6e48d2
+2024-06-23 20:31:56,668 - INFO - Found parent commit: 7197b4385d354d59e5107d7b049a8f1486f0caa9
+2024-06-23 20:31:56,669 - INFO - Cloning repository: https://github.com//microweber/microweber
+2024-06-23 20:32:07,934 - INFO - Checking out commit: 42efa981a2239d042d910069952d6276497bdcf1
+2024-06-23 20:32:07,941 - ERROR - GitCommandError processing https://github.com//microweber/microweber (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 42efa981a2239d042d910069952d6276497bdcf1
+  stderr: 'fatal: unable to read tree (42efa981a2239d042d910069952d6276497bdcf1)'
+2024-06-23 20:32:07,941 - INFO - Attempting full clone for https://github.com//microweber/microweber
+2024-06-23 22:35:24,667 - INFO - Cloning repository: https://github.com//microweber/microweber
+2024-06-23 22:35:36,927 - INFO - Checking out commit: 42efa981a2239d042d910069952d6276497bdcf1
+2024-06-23 22:35:36,935 - ERROR - GitCommandError processing https://github.com//microweber/microweber (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 42efa981a2239d042d910069952d6276497bdcf1
+  stderr: 'fatal: unable to read tree (42efa981a2239d042d910069952d6276497bdcf1)'
+2024-06-23 22:35:36,935 - INFO - Attempting full clone for https://github.com//microweber/microweber
+2024-06-23 22:36:42,643 - INFO - Repository exists, fetching: https://github.com//microweber/microweber
+2024-06-23 22:36:47,829 - INFO - Checking out commit: 42efa981a2239d042d910069952d6276497bdcf1
+2024-06-23 22:36:49,698 - INFO - Found parent commit: 21d5b03e9bfc247956261f1dbc1d8ab77f9080ae
+2024-06-23 22:36:49,698 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 22:39:09,910 - INFO - Checking out commit: 3037933448f60f9acb705997eae62013ecb81e0d
+2024-06-23 22:39:22,301 - INFO - Found parent commit: 829cca4d1783088e43bace57a555044cc937c554
+2024-06-23 22:39:22,302 - INFO - Cloning repository: https://github.com//pymumu/smartdns
+2024-06-23 22:39:23,479 - INFO - Checking out commit: 56d0332bf91104cfc877635f6c82e9348587df04
+2024-06-23 22:39:23,537 - INFO - Found parent commit: e38d5eaecca631ebc9b66e2c37e1986f2d58c27b
+2024-06-23 22:39:23,539 - INFO - Cloning repository: https://github.com//ovn-org/ovn
+2024-06-23 22:39:26,282 - INFO - Checking out commit: 9a3f7ed905e525ebdcb14541e775211cbb0203bd
+2024-06-23 22:39:26,288 - ERROR - GitCommandError processing https://github.com//ovn-org/ovn (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9a3f7ed905e525ebdcb14541e775211cbb0203bd
+  stderr: 'fatal: unable to read tree (9a3f7ed905e525ebdcb14541e775211cbb0203bd)'
+2024-06-23 22:39:26,288 - INFO - Attempting full clone for https://github.com//ovn-org/ovn
+2024-06-23 22:39:43,447 - INFO - Repository exists, fetching: https://github.com//ovn-org/ovn
+2024-06-23 22:39:44,451 - INFO - Checking out commit: 9a3f7ed905e525ebdcb14541e775211cbb0203bd
+2024-06-23 22:39:44,563 - INFO - Found parent commit: 6e67469beb4b8ccdf682c3244ab0c84c4fcaae2b
+2024-06-23 22:39:44,563 - INFO - Cloning repository: https://github.com//alkacon/opencms-core
+2024-06-23 22:39:52,943 - INFO - Checking out commit: 21bfbeaf6b038e2c03bb421ce7f0933dd7a7633e
+2024-06-23 22:39:53,887 - INFO - Found parent commit: 05c0645760d9ca0fd34b3b44af3d821fd8ebe247
+2024-06-23 22:39:53,887 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 22:42:15,456 - INFO - Checking out commit: b7c81f80246fac44077166f3e07103affe6db8ff
+2024-06-23 22:42:16,551 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b7c81f80246fac44077166f3e07103affe6db8ff
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 22:42:21,556 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 22:44:43,286 - INFO - Checking out commit: b7c81f80246fac44077166f3e07103affe6db8ff
+2024-06-23 22:44:44,192 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b7c81f80246fac44077166f3e07103affe6db8ff
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 22:44:54,202 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 22:47:17,732 - INFO - Checking out commit: b7c81f80246fac44077166f3e07103affe6db8ff
+2024-06-23 22:47:18,623 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b7c81f80246fac44077166f3e07103affe6db8ff
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-23 22:47:18,624 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 22:49:39,347 - INFO - Checking out commit: 2b09d5d364986f724f17001ccfe4126b9b43a0be
+2024-06-23 22:49:45,982 - INFO - Found parent commit: ee9fffdc3887a46eab3209bc46b228b543c75fa6
+2024-06-23 22:49:45,983 - INFO - Cloning repository: https://github.com//waqaskanju/Chitor-CMS
+2024-06-23 22:51:51,003 - INFO - Checking out commit: 69d34420ad382c91b0c285432418c1b0810128c1
+2024-06-23 22:51:51,036 - INFO - Found parent commit: a734972a0100c4996504d2d4d652c062252edce5
+2024-06-23 22:51:51,037 - INFO - Cloning repository: https://github.com//froxlor/froxlor
+2024-06-23 22:51:53,297 - INFO - Checking out commit: da810ea95393dfaec68a70e30b7c887c50563a7e
+2024-06-23 22:51:53,398 - INFO - Found parent commit: 51b6e067e8c39b6af9c9d2fea80cd0aec2063d79
+2024-06-23 22:51:53,398 - INFO - Repository exists, fetching: https://github.com//froxlor/froxlor
+2024-06-23 22:51:53,829 - INFO - Checking out commit: 464216072456efb35b4541c58e7016463dfbd9a6
+2024-06-23 22:51:53,877 - INFO - Found parent commit: 78a259ef3b0451f36bd323a20da15a06d9ad683d
+2024-06-23 22:51:53,878 - INFO - Cloning repository: https://github.com//wekan/wekan
+2024-06-23 22:51:57,671 - INFO - Checking out commit: 47ac33d6c234359c31d9b5eae49ed3e793907279
+2024-06-23 22:51:58,187 - INFO - Found parent commit: ce35799506d2e71e6c2ac8a768b617d8e44e5f95
+2024-06-23 22:51:58,188 - INFO - Cloning repository: https://github.com//owncast/owncast
+2024-06-23 22:52:11,607 - INFO - Checking out commit: f40135dbf28093864482f9662c23e478ea192b16
+2024-06-23 22:52:11,613 - ERROR - GitCommandError processing https://github.com//owncast/owncast (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout f40135dbf28093864482f9662c23e478ea192b16
+  stderr: 'fatal: unable to read tree (f40135dbf28093864482f9662c23e478ea192b16)'
+2024-06-23 22:52:11,613 - INFO - Attempting full clone for https://github.com//owncast/owncast
+2024-06-23 22:53:13,121 - INFO - Repository exists, fetching: https://github.com//owncast/owncast
+2024-06-23 22:53:14,694 - INFO - Checking out commit: f40135dbf28093864482f9662c23e478ea192b16
+2024-06-23 22:53:15,305 - INFO - Found parent commit: b8fe446152be0c3be33a4423eff623c0b6605a31
+2024-06-23 22:53:15,305 - INFO - Cloning repository: https://github.com//nilsteampassnet/teampass
+2024-06-23 22:53:26,221 - INFO - Checking out commit: 241dbd4159a5d63b55af426464d30dbb53925705
+2024-06-23 22:53:27,711 - INFO - Found parent commit: 774985f62f080715774604927fba2cb6ef701612
+2024-06-23 22:53:27,711 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-23 22:53:28,149 - INFO - Checking out commit: 241dbd4159a5d63b55af426464d30dbb53925705
+2024-06-23 22:53:28,598 - INFO - Found parent commit: 774985f62f080715774604927fba2cb6ef701612
+2024-06-23 22:53:28,599 - INFO - Repository exists, fetching: https://github.com//froxlor/froxlor
+2024-06-23 22:53:29,049 - INFO - Checking out commit: 94d9c3eedf31bc8447e3aa349e32880dde02ee52
+2024-06-23 22:53:29,172 - INFO - Found parent commit: f9f104847762ce2c6508c15d808062e2fc59430f
+2024-06-23 22:53:29,172 - INFO - Cloning repository: https://github.com//ImageMagick/ImageMagick
+2024-06-23 22:53:33,084 - INFO - Checking out commit: f620340935777b28fa3f7b0ed7ed6bd86946934c
+2024-06-23 22:53:33,091 - ERROR - GitCommandError processing https://github.com//ImageMagick/ImageMagick (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout f620340935777b28fa3f7b0ed7ed6bd86946934c
+  stderr: 'fatal: unable to read tree (f620340935777b28fa3f7b0ed7ed6bd86946934c)'
+2024-06-23 22:53:33,091 - INFO - Attempting full clone for https://github.com//ImageMagick/ImageMagick
+2024-06-23 22:53:52,380 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick
+2024-06-23 22:53:53,001 - INFO - Checking out commit: f620340935777b28fa3f7b0ed7ed6bd86946934c
+2024-06-23 22:53:53,806 - INFO - Found parent commit: 18e15da2dc6ceae05e95077f85e9d67dac31c5d8
+2024-06-23 22:53:53,807 - INFO - Cloning repository: https://github.com//ImageMagick/ImageMagick6
+2024-06-23 22:53:57,569 - INFO - Checking out commit: 85a370c79afeb45a97842b0959366af5236e9023
+2024-06-23 22:53:57,576 - ERROR - GitCommandError processing https://github.com//ImageMagick/ImageMagick6 (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 85a370c79afeb45a97842b0959366af5236e9023
+  stderr: 'fatal: unable to read tree (85a370c79afeb45a97842b0959366af5236e9023)'
+2024-06-23 22:53:57,576 - INFO - Attempting full clone for https://github.com//ImageMagick/ImageMagick6
+2024-06-23 22:54:16,283 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick6
+2024-06-23 22:54:16,752 - INFO - Checking out commit: 85a370c79afeb45a97842b0959366af5236e9023
+2024-06-23 22:54:17,397 - INFO - Found parent commit: 01e79c207608bb7eacd4b6710663213773684dcd
+2024-06-23 22:54:17,397 - INFO - Repository exists, fetching: https://github.com//vyperlang/vyper
+2024-06-23 22:54:17,834 - INFO - Checking out commit: 3de1415ee77a9244eb04bdb695e249d3ec9ed868
+2024-06-23 22:54:17,912 - INFO - Found parent commit: 4f8289a81206f767df1900ac48f485d90fc87edb
+2024-06-23 22:54:17,913 - INFO - Repository exists, fetching: https://github.com//vyperlang/vyper
+2024-06-23 22:54:18,332 - INFO - Checking out commit: c3e68c302aa6e1429946473769dd1232145822ac
+2024-06-23 22:54:18,356 - INFO - Found parent commit: 3de1415ee77a9244eb04bdb695e249d3ec9ed868
+2024-06-23 22:54:18,357 - INFO - Cloning repository: https://github.com//oroinc/OroCalendarBundle
+2024-06-23 22:54:19,437 - INFO - Checking out commit: 460a8ffb63b10c76f2fa26d53512164851c4909b
+2024-06-23 22:54:19,443 - ERROR - GitCommandError processing https://github.com//oroinc/OroCalendarBundle (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 460a8ffb63b10c76f2fa26d53512164851c4909b
+  stderr: 'fatal: unable to read tree (460a8ffb63b10c76f2fa26d53512164851c4909b)'
+2024-06-23 22:54:19,443 - INFO - Attempting full clone for https://github.com//oroinc/OroCalendarBundle
+2024-06-23 22:55:09,961 - INFO - Repository exists, fetching: https://github.com//oroinc/OroCalendarBundle
+2024-06-23 22:55:10,702 - INFO - Checking out commit: 460a8ffb63b10c76f2fa26d53512164851c4909b
+2024-06-23 22:55:10,778 - INFO - Found parent commit: fa001c6b6dfbd4bd0ef7e72bd168bc978226e90a
+2024-06-23 22:55:10,779 - INFO - Repository exists, fetching: https://github.com//oroinc/OroCalendarBundle
+2024-06-23 22:55:11,495 - INFO - Checking out commit: 5f4734aa02088191c1c1d90ac0909f48610fe531
+2024-06-23 22:55:11,541 - INFO - Found parent commit: f125afd7daabecbb997439f0aaf242299f505a24
+2024-06-23 22:55:11,541 - INFO - Cloning repository: https://github.com//oroinc/OroCRMCallBundle
+2024-06-23 22:55:12,237 - INFO - Checking out commit: 456b1dda7762abf4ff59eafffaa70ab7f09d1c85
+2024-06-23 22:55:12,243 - ERROR - GitCommandError processing https://github.com//oroinc/OroCRMCallBundle (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 456b1dda7762abf4ff59eafffaa70ab7f09d1c85
+  stderr: 'fatal: unable to read tree (456b1dda7762abf4ff59eafffaa70ab7f09d1c85)'
+2024-06-23 22:55:12,244 - INFO - Attempting full clone for https://github.com//oroinc/OroCRMCallBundle
+2024-06-23 22:55:17,927 - INFO - Repository exists, fetching: https://github.com//oroinc/OroCRMCallBundle
+2024-06-23 22:55:18,598 - INFO - Checking out commit: 456b1dda7762abf4ff59eafffaa70ab7f09d1c85
+2024-06-23 22:55:18,636 - INFO - Found parent commit: d616200375885d32a35ea03fc760a6ab064d125f
+2024-06-23 22:55:18,636 - INFO - Repository exists, fetching: https://github.com//oroinc/OroCRMCallBundle
+2024-06-23 22:55:19,242 - INFO - Checking out commit: 9a41dff459bb4aff864175ca883d553ac0954950
+2024-06-23 22:55:19,272 - INFO - Found parent commit: 1f9cd8578cb2e7a5dbed1cf1e7399a78f92d96df
+2024-06-23 22:55:19,272 - INFO - Cloning repository: https://github.com//anuko/timetracker
+2024-06-23 22:55:20,888 - INFO - Checking out commit: 093cfe158099704ffd4a1624be217f9935e914eb
+2024-06-23 22:55:20,940 - INFO - Found parent commit: ec4d03d4c6fa87fc08c316e414ee3ef3c510db0c
+2024-06-23 22:55:20,941 - INFO - Cloning repository: https://github.com//xwiki/xwiki-platform
+2024-06-23 22:55:31,025 - INFO - Checking out commit: de72760d4a3e1e9be64a10660a0c19e9534e2ec4
+2024-06-23 22:55:31,034 - ERROR - GitCommandError processing https://github.com//xwiki/xwiki-platform (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout de72760d4a3e1e9be64a10660a0c19e9534e2ec4
+  stderr: 'fatal: unable to read tree (de72760d4a3e1e9be64a10660a0c19e9534e2ec4)'
+2024-06-23 22:55:31,034 - INFO - Attempting full clone for https://github.com//xwiki/xwiki-platform
+2024-06-23 22:56:09,278 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-23 22:56:30,358 - INFO - Checking out commit: de72760d4a3e1e9be64a10660a0c19e9534e2ec4
+2024-06-23 22:56:31,773 - INFO - Found parent commit: 1c3f22ac6596bece52dc4d474229b2bd948f99f3
+2024-06-23 22:56:31,773 - INFO - Cloning repository: https://github.com//xwiki/xwiki-rendering
+2024-06-23 22:56:33,871 - INFO - Checking out commit: c40e2f5f9482ec6c3e71dbf1fff5ba8a5e44cdc1
+2024-06-23 22:56:34,019 - INFO - Found parent commit: 40e5d9534e9c5af62ef27f7d2bc8ca9ca3539e8f
+2024-06-23 22:56:34,019 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-23 22:56:55,371 - INFO - Checking out commit: 28905f7f518cc6f21ea61fe37e9e1ed97ef36f01
+2024-06-23 22:56:56,001 - INFO - Found parent commit: 01b2ad3418e01e5acc4f20f65c02ad94cff9a46b
+2024-06-23 22:56:56,001 - INFO - Cloning repository: https://github.com//Enalean/tuleap
+2024-06-23 22:57:15,245 - INFO - Checking out commit: 6840529def97f564844e810e5a7c5bf837cf58d5
+2024-06-23 22:57:17,692 - INFO - Found parent commit: b440600fb731d5bb4971d846c6c092044789e984
+2024-06-23 22:57:17,693 - INFO - Cloning repository: https://github.com//WWBN/AVideo
+2024-06-23 22:57:50,022 - INFO - Checking out commit: 1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3
+2024-06-23 22:57:50,045 - ERROR - GitCommandError processing https://github.com//WWBN/AVideo (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3
+  stderr: 'fatal: unable to read tree (1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3)'
+2024-06-23 22:57:50,045 - INFO - Attempting full clone for https://github.com//WWBN/AVideo
+2024-06-23 22:58:30,212 - INFO - Repository exists, fetching: https://github.com//WWBN/AVideo
+2024-06-23 22:58:31,513 - INFO - Checking out commit: 1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3
+2024-06-23 22:58:37,019 - INFO - Found parent commit: 89507b853fc5a458f1668ede75250b34a62736e7
+2024-06-23 22:58:37,020 - INFO - Cloning repository: https://github.com//pimcore/customer-data-framework
+2024-06-23 22:58:38,589 - INFO - Checking out commit: e3f333391582d9309115e6b94e875367d0ea7163
+2024-06-23 22:58:38,703 - INFO - Found parent commit: 4e0105c3a78d20686a0c010faef27d2297b98803
+2024-06-23 22:58:38,704 - INFO - Cloning repository: https://github.com//in-toto/in-toto
+2024-06-23 22:58:39,789 - INFO - Checking out commit: 3a21d84f40811b7d191fa7bd17265c1f99599afd
+2024-06-23 22:58:39,828 - INFO - Found parent commit: 3989c84a462a82366d7fce69ca0ddf462f13bab2
+2024-06-23 22:58:39,828 - INFO - Cloning repository: https://github.com//gravitl/netmaker
+2024-06-23 22:58:54,437 - INFO - Checking out commit: 1621c27c1d176b639e9768b2acad7693e387fd51
+2024-06-23 22:58:54,501 - INFO - Found parent commit: 49c0224f741984bd4fd40c1609f9a3b732945ff6
+2024-06-23 22:58:54,502 - INFO - Repository exists, fetching: https://github.com//gravitl/netmaker
+2024-06-23 22:58:55,122 - INFO - Checking out commit: 9362c39a9a822f0e07361aa7c77af2610597e657
+2024-06-23 22:58:55,154 - INFO - Found parent commit: ec5cb01750d5d84fdccda839f8a8bd948a9be1f2
+2024-06-23 22:58:55,154 - INFO - Repository exists, fetching: https://github.com//gravitl/netmaker
+2024-06-23 22:58:55,743 - INFO - Checking out commit: b3be57c65bf0bbfab43b66853c8e3637a43e2839
+2024-06-23 22:58:55,778 - INFO - Found parent commit: b5e6836a6c8a9b1cf12ca87c734ce22502cca0a9
+2024-06-23 22:58:55,778 - INFO - Cloning repository: https://github.com//vert-x3/vertx-stomp
+2024-06-23 22:58:56,448 - INFO - Checking out commit: 0de4bc5a44ddb57e74d92c445f16456fa03f265b
+2024-06-23 22:58:56,472 - INFO - Found parent commit: 5cc82225dce39e60c2f6692b426d27b5bdf0d82b
+2024-06-23 22:58:56,473 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 23:01:19,135 - INFO - Checking out commit: 504a10d9e46bc37b23d0a1ae2f28973c8516e636
+2024-06-23 23:01:27,370 - INFO - Found parent commit: e0fcc9c68d1147ca33159d57332b02ca8bac6ab9
+2024-06-23 23:01:27,371 - INFO - Cloning repository: https://github.com//it-novum/openitcockpit
+2024-06-23 23:01:37,251 - INFO - Checking out commit: 2c2c243964dda97a82eddb3804e39f9665c574bb
+2024-06-23 23:01:37,653 - INFO - Found parent commit: bdd6250e4a5656a648b75a2084792c9b3851f4b6
+2024-06-23 23:01:37,654 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 23:04:00,645 - INFO - Checking out commit: c1592a89942e9678f7d9c8030efa777c0d57edab
+2024-06-23 23:04:03,595 - INFO - Found parent commit: de4773f0235acf74554f6a64ea60adc0d7b01895
+2024-06-23 23:04:03,596 - INFO - Repository exists, fetching: https://github.com//TryGhost/Ghost
+2024-06-23 23:04:04,407 - INFO - Checking out commit: 378dd913aa8d0fd0da29b0ffced8884579598b0f
+2024-06-23 23:04:04,703 - INFO - Found parent commit: c99016fd2fca58eaacbebb9dca6c974aabaa67f6
+2024-06-23 23:04:04,703 - INFO - Cloning repository: https://github.com//nuxt/nuxt
+2024-06-23 23:04:06,665 - INFO - Checking out commit: 65a8f4eb3ef1b249a95fd59e323835a96428baff
+2024-06-23 23:04:06,672 - ERROR - GitCommandError processing https://github.com//nuxt/nuxt (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 65a8f4eb3ef1b249a95fd59e323835a96428baff
+  stderr: 'fatal: unable to read tree (65a8f4eb3ef1b249a95fd59e323835a96428baff)'
+2024-06-23 23:04:06,672 - INFO - Attempting full clone for https://github.com//nuxt/nuxt
+2024-06-23 23:04:18,184 - INFO - Repository exists, fetching: https://github.com//nuxt/nuxt
+2024-06-23 23:04:19,248 - INFO - Checking out commit: 65a8f4eb3ef1b249a95fd59e323835a96428baff
+2024-06-23 23:04:19,459 - INFO - Found parent commit: 48c034cf02de0aa13f43c8f05af4d58fd1f917ae
+2024-06-23 23:04:19,459 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 23:06:38,914 - INFO - Checking out commit: 611792920925fb088ddccbe2783c7f92fdfb6b64
+2024-06-23 23:06:46,285 - INFO - Found parent commit: 54aa39a513dbf2164ca462a19f04519b2407a224
+2024-06-23 23:06:46,286 - INFO - Cloning repository: https://github.com//fossbilling/fossbilling
+2024-06-23 23:06:48,320 - INFO - Checking out commit: b65a75fcf70feaf547d414672f78d7cbe8a98e7e
+2024-06-23 23:06:48,565 - INFO - Found parent commit: 64d60e254af58fb2091778c19ee501f57a67abf8
+2024-06-23 23:06:48,566 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-23 23:06:48,940 - INFO - Checking out commit: b65a75fcf70feaf547d414672f78d7cbe8a98e7e
+2024-06-23 23:06:49,023 - INFO - Found parent commit: 64d60e254af58fb2091778c19ee501f57a67abf8
+2024-06-23 23:06:49,023 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-23 23:06:49,407 - INFO - Checking out commit: 56a64fefddf6a0b06304bdd443fdb0bb55423533
+2024-06-23 23:06:49,446 - INFO - Found parent commit: 28559c39b9a0335ef8a505c6dfc479746500e393
+2024-06-23 23:06:49,446 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-23 23:06:49,902 - INFO - Checking out commit: b95f92554e5cb38bd0710c0f4b413c5adda6f617
+2024-06-23 23:06:49,991 - INFO - Found parent commit: 56a64fefddf6a0b06304bdd443fdb0bb55423533
+2024-06-23 23:06:49,992 - INFO - Cloning repository: https://github.com//planetlabs/planet-client-python
+2024-06-23 23:06:52,111 - INFO - Checking out commit: d71415a83119c5e89d7b80d5f940d162376ee3b7
+2024-06-23 23:06:52,151 - INFO - Found parent commit: 9783607b2d79496f912f2da9ec60084fa43438ed
+2024-06-23 23:06:52,152 - INFO - Cloning repository: https://github.com//aiven/aiven-extras
+2024-06-23 23:06:52,714 - INFO - Checking out commit: 8682ae01bec0791708bf25791786d776e2fb0250
+2024-06-23 23:06:52,744 - INFO - Found parent commit: bf259febf0fd1e76479d4d4f252cc36a4ff9767f
+2024-06-23 23:06:52,744 - INFO - Repository exists, fetching: https://github.com//anuko/timetracker
+2024-06-23 23:06:53,150 - INFO - Checking out commit: 8a7367d7f77ea697c090f5ca4e19669181cc7bcf
+2024-06-23 23:06:53,268 - INFO - Found parent commit: 010a05a6e7b76d1bafb4d362ee83be548b9e8671
+2024-06-23 23:06:53,268 - INFO - Cloning repository: https://github.com//facelessuser/pymdown-extensions
+2024-06-23 23:06:55,005 - INFO - Checking out commit: b7bb4878d6017c03c8dc97c42d8d3bb6ee81db9d
+2024-06-23 23:06:55,058 - INFO - Found parent commit: a8fb9666566dfb7e86094082860b5616885d35f4
+2024-06-23 23:06:55,058 - INFO - Cloning repository: https://github.com//dataease/dataease
+2024-06-23 23:07:06,194 - INFO - Checking out commit: 72f428e87b5395c03d2f94ef6185fc247ddbc8dc
+2024-06-23 23:07:08,229 - INFO - Found parent commit: 2cb2b3e7a5de4f6eb70970e5f523612c377bbe83
+2024-06-23 23:07:08,230 - INFO - Cloning repository: https://github.com//umbraco/UmbracoIdentityExtensions
+2024-06-23 23:07:08,723 - INFO - Checking out commit: e792429f9d1fa25c1ba4f7a61d23ee02fedd6dc9
+2024-06-23 23:07:08,760 - INFO - Found parent commit: 835319ba1e39ce0e6a2794a7ed4b3967d70b7646
+2024-06-23 23:07:08,761 - INFO - Cloning repository: https://github.com//patriksimek/vm2
+2024-06-23 23:07:19,440 - INFO - Checking out commit: 5206ba25afd86ef547a2c9d48d46ca7a9e6ec238
+2024-06-23 23:07:19,464 - INFO - Found parent commit: d88105f99752305c5b8a77b63ddee3ec86912daf
+2024-06-23 23:07:19,464 - INFO - Repository exists, fetching: https://github.com//patriksimek/vm2
+2024-06-23 23:07:19,827 - INFO - Checking out commit: d88105f99752305c5b8a77b63ddee3ec86912daf
+2024-06-23 23:07:19,858 - INFO - Found parent commit: 4d662e34d369b920943eee139ef60fb557666a43
+2024-06-23 23:07:19,859 - INFO - Cloning repository: https://github.com//autolab/Autolab
+2024-06-23 23:09:29,337 - INFO - Checking out commit: 410a9228ee265f80692334d75eb2c3b4dac6f9e5
+2024-06-23 23:09:29,453 - INFO - Found parent commit: 1940740544008ff03f9766bffe10b38fa3804e16
+2024-06-23 23:09:29,454 - INFO - Cloning repository: https://github.com//Ombi-app/Ombi
+2024-06-23 23:09:32,252 - INFO - Checking out commit: b8a8f029d80454d582bc4a2a05175106809335d0
+2024-06-23 23:09:32,414 - INFO - Found parent commit: f94e8ab1534df3a0552e3079328c8bb2c50fe792
+2024-06-23 23:09:32,414 - INFO - Cloning repository: https://github.com//PostHog/posthog-js
+2024-06-23 23:09:35,708 - INFO - Checking out commit: 67e07eb8bb271a3a6f4aa251382e4d25abb385a0
+2024-06-23 23:09:35,837 - INFO - Found parent commit: 2bd489fb20c975c48f97ae98f0a1eb514807d76f
+2024-06-23 23:09:35,837 - INFO - Repository exists, fetching: https://github.com//vyperlang/vyper
+2024-06-23 23:09:36,339 - INFO - Checking out commit: 02339dfda0f3caabad142060d511d10bfe93c520
+2024-06-23 23:09:36,422 - INFO - Found parent commit: deb3378e87145339e2a717f59079dc7752a25b4a
+2024-06-23 23:09:36,422 - INFO - Repository exists, fetching: https://github.com//autolab/Autolab
+2024-06-23 23:09:36,871 - INFO - Checking out commit: 14f508484a8323eceb0cf3a128573b43eabbc80d
+2024-06-23 23:09:36,954 - INFO - Found parent commit: 410a9228ee265f80692334d75eb2c3b4dac6f9e5
+2024-06-23 23:09:36,954 - INFO - Cloning repository: https://github.com//zulip/zulip
+2024-06-23 23:09:42,523 - INFO - Checking out commit: 7c2693a2c64904d1d0af8503b57763943648cbe5
+2024-06-23 23:09:42,531 - ERROR - GitCommandError processing https://github.com//zulip/zulip (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 7c2693a2c64904d1d0af8503b57763943648cbe5
+  stderr: 'fatal: unable to read tree (7c2693a2c64904d1d0af8503b57763943648cbe5)'
+2024-06-23 23:09:42,532 - INFO - Attempting full clone for https://github.com//zulip/zulip
+2024-06-23 23:10:19,226 - INFO - Repository exists, fetching: https://github.com//zulip/zulip
+2024-06-23 23:10:33,665 - INFO - Checking out commit: 7c2693a2c64904d1d0af8503b57763943648cbe5
+2024-06-23 23:10:36,065 - INFO - Found parent commit: 3df1b4dd7c210c21deb6f829df19412b74573f8d
+2024-06-23 23:10:36,065 - INFO - Cloning repository: https://github.com//psf/requests
+2024-06-23 23:10:37,866 - INFO - Checking out commit: 74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5
+2024-06-23 23:10:37,911 - INFO - Found parent commit: 302225334678490ec66b3614a9dddb8a02c5f4fe
+2024-06-23 23:10:37,912 - INFO - Cloning repository: https://github.com//lima-vm/lima
+2024-06-23 23:10:39,614 - INFO - Checking out commit: 01dbd4d9cabe692afa4517be3995771f0ebb38a5
+2024-06-23 23:10:39,719 - INFO - Found parent commit: 3dbc08cbd0d2b7ef60f475a515e63974a9dff370
+2024-06-23 23:10:39,722 - INFO - Cloning repository: https://github.com//kanboard/kanboard
+2024-06-23 23:10:45,537 - INFO - Checking out commit: 26b6eebb78d4306e48b836a58f7c386251aa2bc7
+2024-06-23 23:10:45,781 - INFO - Found parent commit: fe5fd9f7747bf6b61b2f43abdc2e1d45e39e777e
+2024-06-23 23:10:45,783 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-23 23:10:46,240 - INFO - Checking out commit: c9c187206700030c43493b80fd599b4d096cb713
+2024-06-23 23:10:46,364 - INFO - Found parent commit: 26b6eebb78d4306e48b836a58f7c386251aa2bc7
+2024-06-23 23:10:46,364 - INFO - Cloning repository: https://github.com//saleor/saleor
+2024-06-23 23:10:50,924 - INFO - Checking out commit: 1328274e1a3d04ab87d7daee90229ff47b3bc35e
+2024-06-23 23:10:50,932 - ERROR - GitCommandError processing https://github.com//saleor/saleor (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 1328274e1a3d04ab87d7daee90229ff47b3bc35e
+  stderr: 'fatal: unable to read tree (1328274e1a3d04ab87d7daee90229ff47b3bc35e)'
+2024-06-23 23:10:50,932 - INFO - Attempting full clone for https://github.com//saleor/saleor
+2024-06-23 23:11:10,080 - INFO - Repository exists, fetching: https://github.com//saleor/saleor
+2024-06-23 23:11:18,037 - INFO - Checking out commit: 1328274e1a3d04ab87d7daee90229ff47b3bc35e
+2024-06-23 23:11:18,902 - INFO - Found parent commit: 77c9484c2585a845aa7b675fbebb08949601dd4c
+2024-06-23 23:11:18,902 - INFO - Cloning repository: https://github.com//socketio/socket.io-parser
+2024-06-23 23:11:19,621 - INFO - Checking out commit: 3b78117bf6ba7e99d7a5cfc1ba54d0477554a7f3
+2024-06-23 23:11:19,646 - INFO - Found parent commit: 0841bd562351c3d45a5288e2adf9707cc8a3131d
+2024-06-23 23:11:19,646 - INFO - Repository exists, fetching: https://github.com//socketio/socket.io-parser
+2024-06-23 23:11:20,015 - INFO - Checking out commit: 2dc3c92622dad113b8676be06f23b1ed46b02ced
+2024-06-23 23:11:20,026 - ERROR - GitCommandError processing https://github.com//socketio/socket.io-parser (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 2dc3c92622dad113b8676be06f23b1ed46b02ced
+  stderr: 'fatal: unable to read tree (2dc3c92622dad113b8676be06f23b1ed46b02ced)'
+2024-06-23 23:11:20,026 - INFO - Attempting full clone for https://github.com//socketio/socket.io-parser
+2024-06-23 23:11:25,768 - INFO - Repository exists, fetching: https://github.com//socketio/socket.io-parser
+2024-06-23 23:11:26,305 - INFO - Checking out commit: 2dc3c92622dad113b8676be06f23b1ed46b02ced
+2024-06-23 23:11:26,343 - INFO - Found parent commit: 4b3c191bc411578099c8dd35499d8c7a75860192
+2024-06-23 23:11:26,344 - INFO - Cloning repository: https://github.com//ckan/ckan-docker-base
+2024-06-23 23:11:27,776 - INFO - Checking out commit: 5483c46ce9b518a4e1b626ef7032cce2c1d75c7d
+2024-06-23 23:11:27,849 - INFO - Found parent commit: f145acd912ec30ca4387bc3f9bc0ac91b207a2e5
+2024-06-23 23:11:27,849 - INFO - Cloning repository: https://github.com//goreleaser/nfpm
+2024-06-23 23:11:28,910 - INFO - Checking out commit: ed9abdf63d5012cc884f2a83b4ab2b42b3680d30
+2024-06-23 23:11:28,967 - INFO - Found parent commit: 4593dcb36ae178ccb5e6514b93499bf81d70529e
+2024-06-23 23:11:28,968 - INFO - Cloning repository: https://github.com//metersphere/metersphere
+2024-06-23 23:11:38,059 - INFO - Checking out commit: c59e381d368990214813085a1a4877c5ef865411
+2024-06-23 23:11:38,066 - ERROR - GitCommandError processing https://github.com//metersphere/metersphere (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout c59e381d368990214813085a1a4877c5ef865411
+  stderr: 'fatal: unable to read tree (c59e381d368990214813085a1a4877c5ef865411)'
+2024-06-23 23:11:38,066 - INFO - Attempting full clone for https://github.com//metersphere/metersphere
+2024-06-23 23:12:08,373 - INFO - Repository exists, fetching: https://github.com//metersphere/metersphere
+2024-06-23 23:12:19,523 - INFO - Checking out commit: c59e381d368990214813085a1a4877c5ef865411
+2024-06-23 23:12:21,591 - INFO - Found parent commit: 26a4cc505f9f398bc2793138aebb6b5d1775bca8
+2024-06-23 23:12:21,591 - INFO - Cloning repository: https://github.com//qt/qtbase
+2024-06-23 23:28:15,863 - INFO - Checking out commit: 1b736a815be0222f4b24289cf17575fc15707305
+2024-06-23 23:28:15,873 - ERROR - GitCommandError processing https://github.com//qt/qtbase (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 1b736a815be0222f4b24289cf17575fc15707305
+  stderr: 'fatal: unable to read tree (1b736a815be0222f4b24289cf17575fc15707305)'
+2024-06-23 23:28:15,873 - INFO - Attempting full clone for https://github.com//qt/qtbase
+2024-06-23 23:29:05,378 - INFO - Repository exists, fetching: https://github.com//qt/qtbase
+2024-06-23 23:29:31,021 - INFO - Checking out commit: 1b736a815be0222f4b24289cf17575fc15707305
+2024-06-23 23:29:33,298 - INFO - Found parent commit: 5f6600fa26b9b5d03d8880c9915f4ddffd716b98
+2024-06-23 23:29:33,298 - INFO - Cloning repository: https://github.com//gitpod-io/gitpod
+2024-06-23 23:29:36,782 - INFO - Checking out commit: 6771283c3406586e352337675b79ff2ca50f191b
+2024-06-23 23:29:36,789 - ERROR - GitCommandError processing https://github.com//gitpod-io/gitpod (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 6771283c3406586e352337675b79ff2ca50f191b
+  stderr: 'fatal: unable to read tree (6771283c3406586e352337675b79ff2ca50f191b)'
+2024-06-23 23:29:36,789 - INFO - Attempting full clone for https://github.com//gitpod-io/gitpod
+2024-06-23 23:29:50,907 - INFO - Repository exists, fetching: https://github.com//gitpod-io/gitpod
+2024-06-23 23:29:57,051 - INFO - Checking out commit: 6771283c3406586e352337675b79ff2ca50f191b
+2024-06-23 23:29:58,264 - INFO - Found parent commit: 72e822c8dbc247382ff1e02032dec2231fe89698
+2024-06-23 23:29:58,265 - INFO - Cloning repository: https://github.com//OPCFoundation/UA-Java-Legacy
+2024-06-23 23:30:00,137 - INFO - Checking out commit: 6f176f2b445a27c157f1a32f225accc9ce8873c0
+2024-06-23 23:30:00,196 - INFO - Found parent commit: ff9466e4dfde878582f86edd417bc879cd78d1d0
+2024-06-23 23:30:00,196 - INFO - Cloning repository: https://github.com//gpac/gpac
+2024-06-23 23:30:05,234 - INFO - Checking out commit: 6a748ccc3f76ff10e3ae43014967ea4b0c088aaf
+2024-06-23 23:30:05,640 - INFO - Found parent commit: be234763f3513e662f5fa2b660e07e8c4bf67874
+2024-06-23 23:30:05,640 - INFO - Cloning repository: https://github.com//salesagility/suitecrm-core
+2024-06-23 23:30:10,975 - INFO - Checking out commit: 1f949f1ac2b7fe82f3c2c6071f842b804ba91929
+2024-06-23 23:30:11,923 - INFO - Found parent commit: 2c1f3e092a7533b704e87c3705e563fbe1dcdb5e
+2024-06-23 23:30:11,924 - INFO - Cloning repository: https://github.com//saleor/react-storefront
+2024-06-23 23:30:14,301 - INFO - Checking out commit: c29aab226f07ca980cc19787dcef101e11b83ef7
+2024-06-23 23:30:14,524 - INFO - Found parent commit: ca86cd6433cd68426e28b028539c2fd8f4d496a6
+2024-06-23 23:30:14,525 - INFO - Repository exists, fetching: https://github.com//admidio/admidio
+2024-06-23 23:30:15,640 - INFO - Checking out commit: c87a7074a1a73c4851263060afd76aa4d5b6415f
+2024-06-23 23:30:16,562 - INFO - Found parent commit: 3d8bafaa4e9b7a314ffdf548622a8c7b38faee8a
+2024-06-23 23:30:16,562 - INFO - Repository exists, fetching: https://github.com//admidio/admidio
+2024-06-23 23:30:17,397 - INFO - Checking out commit: 3d8bafaa4e9b7a314ffdf548622a8c7b38faee8a
+2024-06-23 23:30:17,441 - INFO - Found parent commit: 4668d4a8abf9b3aa78fbd0894d99a376d54fd3a2
+2024-06-23 23:30:17,442 - INFO - Repository exists, fetching: https://github.com//admidio/admidio
+2024-06-23 23:30:18,764 - INFO - Checking out commit: 3b248b7d5e0e60a00ee2f9a6908d538d62a5837f
+2024-06-23 23:30:18,804 - INFO - Found parent commit: f20c8ecf0a563edeebf75a28c489ce8948d3b230
+2024-06-23 23:30:18,805 - INFO - Cloning repository: https://github.com//bigbluebutton/bigbluebutton
+2024-06-23 23:30:57,993 - INFO - Checking out commit: 43394dade595d0707384e4878357901537352415
+2024-06-23 23:30:58,002 - ERROR - GitCommandError processing https://github.com//bigbluebutton/bigbluebutton (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 43394dade595d0707384e4878357901537352415
+  stderr: 'fatal: unable to read tree (43394dade595d0707384e4878357901537352415)'
+2024-06-23 23:30:58,002 - INFO - Attempting full clone for https://github.com//bigbluebutton/bigbluebutton
+2024-06-23 23:31:35,403 - INFO - Repository exists, fetching: https://github.com//bigbluebutton/bigbluebutton
+2024-06-23 23:31:38,348 - INFO - Checking out commit: 43394dade595d0707384e4878357901537352415
+2024-06-23 23:31:39,581 - INFO - Found parent commit: a588fa5de6dc893664bb4cb36c2a5b97ad3eeb1e
+2024-06-23 23:31:39,582 - INFO - Repository exists, fetching: https://github.com//bigbluebutton/bigbluebutton
+2024-06-23 23:31:42,396 - INFO - Checking out commit: b18aff32e65a47f1eb2c800e86dcfc7a8fb05e71
+2024-06-23 23:31:43,579 - INFO - Found parent commit: 0135813f96e270780acc5697f876ac57dd112069
+2024-06-23 23:31:43,580 - INFO - Cloning repository: https://github.com//xibosignage/xibo-cms
+2024-06-23 23:31:53,202 - INFO - Checking out commit: 45c6b53c3978639db03b63270a56f4397f49b2c9
+2024-06-23 23:31:53,209 - ERROR - GitCommandError processing https://github.com//xibosignage/xibo-cms (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 45c6b53c3978639db03b63270a56f4397f49b2c9
+  stderr: 'fatal: unable to read tree (45c6b53c3978639db03b63270a56f4397f49b2c9)'
+2024-06-23 23:31:53,209 - INFO - Attempting full clone for https://github.com//xibosignage/xibo-cms
+2024-06-23 23:32:09,165 - INFO - Repository exists, fetching: https://github.com//xibosignage/xibo-cms
+2024-06-23 23:32:10,734 - INFO - Checking out commit: 45c6b53c3978639db03b63270a56f4397f49b2c9
+2024-06-23 23:32:11,843 - INFO - Found parent commit: b6ed97da9c376ed7db2aae9558b086bb9cf1a1d1
+2024-06-23 23:32:11,843 - INFO - Repository exists, fetching: https://github.com//xibosignage/xibo-cms
+2024-06-23 23:32:13,185 - INFO - Checking out commit: 1cbba380fa751a00756e70d7b08b5c6646092658
+2024-06-23 23:32:13,782 - INFO - Found parent commit: 5736f5e109262dbf8c962985559321c49f2c37cf
+2024-06-23 23:32:13,783 - INFO - Cloning repository: https://github.com//django-ses/django-ses
+2024-06-23 23:32:14,462 - INFO - Checking out commit: b71b5f413293a13997b6e6314086cb9c22629795
+2024-06-23 23:32:14,470 - ERROR - GitCommandError processing https://github.com//django-ses/django-ses (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout b71b5f413293a13997b6e6314086cb9c22629795
+  stderr: 'fatal: unable to read tree (b71b5f413293a13997b6e6314086cb9c22629795)'
+2024-06-23 23:32:14,470 - INFO - Attempting full clone for https://github.com//django-ses/django-ses
+2024-06-23 23:32:20,092 - INFO - Repository exists, fetching: https://github.com//django-ses/django-ses
+2024-06-23 23:32:20,646 - INFO - Checking out commit: b71b5f413293a13997b6e6314086cb9c22629795
+2024-06-23 23:32:20,681 - INFO - Found parent commit: c01fd529156e08b91b57507332084632067cf85f
+2024-06-23 23:32:20,682 - INFO - Repository exists, fetching: https://github.com//zulip/zulip
+2024-06-23 23:32:35,172 - INFO - Checking out commit: 3ca131743b00f42bad8edbac4ef92656d954c629
+2024-06-23 23:32:36,058 - INFO - Found parent commit: 5f7727888c7b8058b2b708ea228ccf6c61409a17
+2024-06-23 23:32:36,059 - INFO - Repository exists, fetching: https://github.com//zulip/zulip
+2024-06-23 23:32:50,314 - INFO - Checking out commit: 03cfb3d9fe61c975d133121ec31a7357f0c9e18f
+2024-06-23 23:32:50,710 - INFO - Found parent commit: e3598c80ecb23f1a0a03acf96c9d31ff0f952aa7
+2024-06-23 23:32:50,710 - INFO - Cloning repository: https://github.com//pomerium/pomerium
+2024-06-23 23:32:52,243 - INFO - Checking out commit: d315e683357a9b587ba9ef399a8813bcc52fdebb
+2024-06-23 23:32:52,378 - INFO - Found parent commit: 37c8dcc9db7d798e8b97ff6ce4c557a793a8a5fc
+2024-06-23 23:32:52,378 - INFO - Cloning repository: https://github.com//labring/sealos
+2024-06-23 23:33:04,011 - INFO - Checking out commit: 4cdf52e55666864e5f90ed502e9fc13e18985b7b
+2024-06-23 23:33:04,018 - ERROR - GitCommandError processing https://github.com//labring/sealos (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 4cdf52e55666864e5f90ed502e9fc13e18985b7b
+  stderr: 'fatal: unable to read tree (4cdf52e55666864e5f90ed502e9fc13e18985b7b)'
+2024-06-23 23:33:04,018 - INFO - Attempting full clone for https://github.com//labring/sealos
+2024-06-23 23:33:35,638 - INFO - Repository exists, fetching: https://github.com//labring/sealos
+2024-06-23 23:33:36,341 - INFO - Checking out commit: 4cdf52e55666864e5f90ed502e9fc13e18985b7b
+2024-06-23 23:33:38,404 - INFO - Found parent commit: 0007374f776b70ce02b3279d3b72a10e14ccb8d7
+2024-06-23 23:33:38,404 - INFO - Repository exists, fetching: https://github.com//craftcms/cms
+2024-06-23 23:33:41,109 - INFO - Checking out commit: 9d0cd0bda7c8a830a3373f8c0f06943e519ac888
+2024-06-23 23:33:42,355 - INFO - Found parent commit: 5b4ca408bd3177368674b13472d3e20d87ece844
+2024-06-23 23:33:42,355 - INFO - Repository exists, fetching: https://github.com//craftcms/cms
+2024-06-23 23:33:44,791 - INFO - Checking out commit: b77cb3023bed4f4a37c11294c4d319ff9f598e1f
+2024-06-23 23:33:45,626 - INFO - Found parent commit: 8c2ad0bd313015b8ee42326af2848ee748f1d766
+2024-06-23 23:33:45,627 - INFO - Repository exists, fetching: https://github.com//craftcms/cms
+2024-06-23 23:33:48,479 - INFO - Checking out commit: 053d7119697e480ff81c5723bb9a33eaa49e0fc7
+2024-06-23 23:33:49,107 - INFO - Found parent commit: 5663224f2f64c06f5140450ef2a2673b3ea8667e
+2024-06-23 23:33:49,108 - INFO - Repository exists, fetching: https://github.com//craftcms/cms
+2024-06-23 23:33:51,377 - INFO - Checking out commit: 8c2ad0bd313015b8ee42326af2848ee748f1d766
+2024-06-23 23:33:51,682 - INFO - Found parent commit: c21a32ea8f9f3ded626e07c36c85ab0da2379b22
+2024-06-23 23:33:51,682 - INFO - Cloning repository: https://github.com//sigstore/rekor
+2024-06-23 23:33:52,934 - INFO - Checking out commit: 140c5add105179e5ffd9e3e114fd1b6b93aebbd4
+2024-06-23 23:33:53,001 - INFO - Found parent commit: 85bb2bc7a35dcc94cd94e18984711806f437dcb6
+2024-06-23 23:33:53,001 - INFO - Cloning repository: https://github.com//bcgit/bc-java
+2024-06-23 23:34:02,047 - INFO - Checking out commit: e8c409a8389c815ea3fda5e8b94c92fdfe583bcc
+2024-06-23 23:34:02,463 - INFO - Found parent commit: b9b03cc6e676cdb9f61f3606f00c2f42b2582b2c
+2024-06-23 23:34:02,464 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-23 23:36:23,247 - INFO - Checking out commit: 47c29d69212911f50bdcdd0564b5999a559010d4
+2024-06-23 23:36:30,030 - INFO - Found parent commit: bf6c880d5d1448489ebf92e2d13d5713ff644930
+2024-06-23 23:36:30,031 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:36:30,425 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:36:35,435 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:36:35,782 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:36:45,792 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:36:46,142 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:36:46,143 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:36:46,464 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:36:51,475 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:36:51,829 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:37:01,840 - INFO - Cloning repository: https://github.com//ninj4c0d3r/OcoMon-Research
+2024-06-23 23:37:02,214 - ERROR - GitCommandError processing https://github.com//ninj4c0d3r/OcoMon-Research (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//ninj4c0d3r/OcoMon-Research repo_cache/OcoMon-Research
+  stderr: 'Cloning into 'repo_cache/OcoMon-Research'...
+remote: Repository not found.
+fatal: repository 'https://github.com//ninj4c0d3r/OcoMon-Research/' not found
+'
+2024-06-23 23:37:02,215 - INFO - Cloning repository: https://github.com//Dolibarr/dolibarr
+2024-06-23 23:38:30,958 - INFO - Checking out commit: bb7b69ef43673ed403436eac05e0bc31d5033ff7
+2024-06-23 23:38:33,516 - INFO - Found parent commit: 3a2a73fd025dafd79336bdb5823332be7c45ec22
+2024-06-23 23:38:33,516 - INFO - Repository exists, fetching: https://github.com//Dolibarr/dolibarr
+2024-06-23 23:38:38,514 - INFO - Checking out commit: be82f51f68d738cce205f4ce5b469ef42ed82d9e
+2024-06-23 23:38:39,483 - INFO - Found parent commit: 07036453044f66811ad92b44f6c98284aecc9134
+2024-06-23 23:38:39,483 - INFO - Cloning repository: https://github.com//nanomq/NanoNNG
+2024-06-23 23:38:41,249 - INFO - Checking out commit: 657e6c81c474bdee0e6413483b990e90610030c1
+2024-06-23 23:38:41,255 - ERROR - GitCommandError processing https://github.com//nanomq/NanoNNG (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 657e6c81c474bdee0e6413483b990e90610030c1
+  stderr: 'fatal: unable to read tree (657e6c81c474bdee0e6413483b990e90610030c1)'
+2024-06-23 23:38:41,255 - INFO - Attempting full clone for https://github.com//nanomq/NanoNNG
+2024-06-23 23:38:48,318 - INFO - Repository exists, fetching: https://github.com//nanomq/NanoNNG
+2024-06-23 23:38:49,036 - INFO - Checking out commit: 657e6c81c474bdee0e6413483b990e90610030c1
+2024-06-23 23:38:49,154 - INFO - Found parent commit: aef8e31e8cbb85402a123ad35e7d5767be8cc0e4
+2024-06-23 23:38:49,154 - INFO - Cloning repository: https://github.com//chamilo/chamilo-lms
+2024-06-23 23:39:12,713 - INFO - Checking out commit: 37be9ce7243a30259047dd4517c48ff8b21d657a
+2024-06-23 23:39:12,720 - ERROR - GitCommandError processing https://github.com//chamilo/chamilo-lms (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 37be9ce7243a30259047dd4517c48ff8b21d657a
+  stderr: 'fatal: unable to read tree (37be9ce7243a30259047dd4517c48ff8b21d657a)'
+2024-06-23 23:39:12,721 - INFO - Attempting full clone for https://github.com//chamilo/chamilo-lms
+2024-06-23 23:40:05,077 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-23 23:40:11,526 - INFO - Checking out commit: 37be9ce7243a30259047dd4517c48ff8b21d657a
+2024-06-23 23:40:18,864 - INFO - Found parent commit: 0ced3edd3bf6f23e1e83ff8ab1e89ca6793dc06b
+2024-06-23 23:40:18,865 - INFO - Cloning repository: https://https:///github.com
+2024-06-23 23:40:18,912 - ERROR - GitCommandError processing https://https:///github.com (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://https:///github.com repo_cache/github.com
+  stderr: 'Cloning into 'repo_cache/github.com'...
+fatal: unable to access 'https://https:///github.com/': Could not resolve host: https
+'
+2024-06-23 23:40:23,918 - INFO - Cloning repository: https://https:///github.com
+2024-06-23 23:40:23,976 - ERROR - GitCommandError processing https://https:///github.com (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://https:///github.com repo_cache/github.com
+  stderr: 'Cloning into 'repo_cache/github.com'...
+fatal: unable to access 'https://https:///github.com/': Could not resolve host: https
+'
+2024-06-23 23:40:33,981 - INFO - Cloning repository: https://https:///github.com
+2024-06-23 23:40:34,051 - ERROR - GitCommandError processing https://https:///github.com (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://https:///github.com repo_cache/github.com
+  stderr: 'Cloning into 'repo_cache/github.com'...
+fatal: unable to access 'https://https:///github.com/': Could not resolve host: https
+'
+2024-06-23 23:40:34,052 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-23 23:40:34,518 - INFO - Checking out commit: 47343fb58db5c17c14bc6941dacbeb9c96957351
+2024-06-23 23:40:34,692 - INFO - Found parent commit: ef0200c45ace958772fdb698c767d0a83fd0f300
+2024-06-23 23:40:34,692 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-23 23:40:35,126 - INFO - Checking out commit: b9c35a174750f1463aea86168524efce6cd48ef7
+2024-06-23 23:40:35,169 - INFO - Found parent commit: 2f90e055d0024a48db87ca6e5f2274db7e82e21c
+2024-06-23 23:40:35,170 - INFO - Cloning repository: https://github.com//minio/console
+2024-06-23 23:41:01,298 - INFO - Checking out commit: 17e791afb90c9ad27c65f63c6be14f2f6a3a9d60
+2024-06-23 23:41:01,924 - INFO - Found parent commit: 920fc7d937d25dfa466461d238d23df4e6ac757b
+2024-06-23 23:41:01,925 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-23 23:41:02,465 - INFO - Checking out commit: 437b141fa2267df36976814e704517f30d2424bd
+2024-06-23 23:41:02,812 - INFO - Found parent commit: cda45ddb3028850abee4af497002f529b2fea667
+2024-06-23 23:41:02,812 - INFO - Cloning repository: https://github.com//notaryproject/notation
+2024-06-23 23:41:04,604 - INFO - Checking out commit: ed22fde52f6d70ae0b53521bd28c9ccafa868c24
+2024-06-23 23:41:04,657 - INFO - Found parent commit: 5181b9de1cdee6a707fddfa68267ffda9e666bf6
+2024-06-23 23:41:04,660 - INFO - Cloning repository: https://github.com//jstachio/jstachio
+2024-06-23 23:41:41,665 - INFO - Checking out commit: 7b2f78377d1284df14c580be762a25af5f8dcd66
+2024-06-23 23:41:41,757 - INFO - Found parent commit: f8ce4dba4b2ef9f8d6c78c5642a9ec3e10f7033f
+2024-06-23 23:41:41,758 - INFO - Cloning repository: https://github.com//multiversx/mx-chain-go
+2024-06-23 23:41:56,841 - INFO - Checking out commit: 97295471465f4b5f79e51b32f8b7111f8d921606
+2024-06-23 23:41:57,295 - INFO - Found parent commit: 3f77428f796b29d82f25afc751029d482d452d01
+2024-06-23 23:41:57,295 - INFO - Cloning repository: https://github.com//txthinking/brook
+2024-06-23 23:42:01,355 - INFO - Checking out commit: 314d7070c37babf6c38a0fe1eada872bb74bf03e
+2024-06-23 23:42:01,398 - INFO - Found parent commit: 6b71c0a7d8c42e6e7dfcd1ac4627f902d9deb876
+2024-06-23 23:42:01,398 - INFO - Cloning repository: https://github.com//megaease/easeprobe
+2024-06-23 23:43:30,101 - INFO - Checking out commit: caaf5860df2aaa76acd29bc40ec9a578d0b1d6e1
+2024-06-23 23:43:30,162 - INFO - Found parent commit: 0e148b8563fa283e03c9fa820997d225ded6e56c
+2024-06-23 23:43:30,162 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-23 23:43:30,682 - INFO - Checking out commit: c20be8f5fa26e54005a90c645e80b11481a65053
+2024-06-23 23:43:30,714 - INFO - Found parent commit: 437b141fa2267df36976814e704517f30d2424bd
+2024-06-23 23:43:30,714 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-23 23:43:31,113 - INFO - Checking out commit: 05f1d23d821152cd61536d3b09e522c0f7573e3c
+2024-06-23 23:43:31,143 - INFO - Found parent commit: c20be8f5fa26e54005a90c645e80b11481a65053
+2024-06-23 23:43:31,143 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-23 23:43:31,538 - INFO - Checking out commit: b501ef44bc28ee9cf603a4fa446ee121d66f652f
+2024-06-23 23:43:31,567 - INFO - Found parent commit: 05f1d23d821152cd61536d3b09e522c0f7573e3c
+2024-06-23 23:43:31,567 - INFO - Cloning repository: https://github.com//RIOT-OS/RIOT
+2024-06-23 23:54:40,395 - INFO - Checking out commit: c9d7863e5664a169035038628029bb07e090c5ff
+2024-06-23 23:54:41,339 - INFO - Found parent commit: e690ef4c1298d90bc323b765c000bb090544fb9f
+2024-06-23 23:54:41,340 - INFO - Repository exists, fetching: https://github.com//RIOT-OS/RIOT
+2024-06-23 23:54:43,623 - INFO - Checking out commit: 31c6191f6196f1a05c9765cffeadba868e3b0723
+2024-06-23 23:54:43,775 - INFO - Found parent commit: e690ef4c1298d90bc323b765c000bb090544fb9f
+2024-06-23 23:54:43,775 - INFO - Repository exists, fetching: https://github.com//RIOT-OS/RIOT
+2024-06-23 23:54:45,886 - INFO - Checking out commit: 1aeb90ee5555ae78b567a6365ae4ab71bfd1404b
+2024-06-23 23:54:45,948 - INFO - Found parent commit: e690ef4c1298d90bc323b765c000bb090544fb9f
+2024-06-23 23:54:45,949 - INFO - Cloning repository: https://github.com//kiwitcms/Kiwi
+2024-06-23 23:54:48,585 - INFO - Checking out commit: d789f4b51025de4f8c747c037d02e1b0da80b034
+2024-06-23 23:54:48,675 - INFO - Found parent commit: ce5b83ef9745f90e24b34a08147e898a52d4c0f3
+2024-06-23 23:54:48,675 - INFO - Cloning repository: https://github.com//binary-husky/gpt_academic
+2024-06-23 23:54:53,689 - INFO - Checking out commit: 1dcc2873d2168ad2d3d70afcb453ac1695fbdf02
+2024-06-23 23:54:53,786 - INFO - Found parent commit: 42cf738a31c4c67ddd30f84c7589c920319d2720
+2024-06-23 23:54:53,786 - INFO - Cloning repository: https://github.com//jgraph/drawio
+2024-06-23 23:56:20,660 - INFO - Checking out commit: 064729fec4262f9373d9fdcafda0be47cd18dd50
+2024-06-23 23:56:21,718 - INFO - Found parent commit: c287bef9101d024b1fd59d55ecd530f25000f9d8
+2024-06-23 23:56:21,719 - INFO - Cloning repository: https://github.com//vitejs/vite
+2024-06-23 23:59:16,345 - INFO - Checking out commit: 813ddd6155c3d54801e264ba832d8347f6f66b32
+2024-06-23 23:59:16,352 - ERROR - GitCommandError processing https://github.com//vitejs/vite (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 813ddd6155c3d54801e264ba832d8347f6f66b32
+  stderr: 'fatal: unable to read tree (813ddd6155c3d54801e264ba832d8347f6f66b32)'
+2024-06-23 23:59:16,352 - INFO - Attempting full clone for https://github.com//vitejs/vite
+2024-06-23 23:59:24,811 - INFO - Repository exists, fetching: https://github.com//vitejs/vite
+2024-06-23 23:59:26,267 - INFO - Checking out commit: 813ddd6155c3d54801e264ba832d8347f6f66b32
+2024-06-23 23:59:26,726 - INFO - Found parent commit: 28923fb1d46b3adf8799ec9038e68d239ad0671d
+2024-06-23 23:59:26,727 - INFO - Cloning repository: https://github.com//strapi/strapi
+2024-06-24 00:24:19,854 - INFO - Checking out commit: 2fa8f30371bfd1db44c15e5747860ee5789096de
+2024-06-24 00:24:20,985 - INFO - Found parent commit: da080df32b85cdd59d46bdda5c984a346cad0860
+2024-06-24 00:24:20,986 - INFO - Cloning repository: https://github.com//GaiZhenbiao/ChuanhuChatGPT
+2024-06-24 00:24:22,114 - INFO - Checking out commit: bfac445e799c317b0f5e738ab394032a18de62eb
+2024-06-24 00:24:22,152 - INFO - Found parent commit: e121fd7107fea3b50cd03e5c9d2923391e3ba6c6
+2024-06-24 00:24:22,152 - INFO - Cloning repository: https://github.com//OpenPrinting/cpdb-libs
+2024-06-24 00:24:22,856 - INFO - Checking out commit: f181bd1f14757c2ae0f17cc76dc20421a40f30b7
+2024-06-24 00:24:22,880 - INFO - Found parent commit: 85555fba64d34f53a2fce099b0488904cc48ed35
+2024-06-24 00:24:22,880 - INFO - Cloning repository: https://github.com//sni/Thruk
+2024-06-24 00:24:25,372 - INFO - Checking out commit: cf03f67621b7bb20e2c768bc62b30e976206aa17
+2024-06-24 00:24:25,379 - ERROR - GitCommandError processing https://github.com//sni/Thruk (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout cf03f67621b7bb20e2c768bc62b30e976206aa17
+  stderr: 'fatal: unable to read tree (cf03f67621b7bb20e2c768bc62b30e976206aa17)'
+2024-06-24 00:24:25,379 - INFO - Attempting full clone for https://github.com//sni/Thruk
+2024-06-24 00:24:36,118 - INFO - Repository exists, fetching: https://github.com//sni/Thruk
+2024-06-24 00:24:37,078 - INFO - Checking out commit: cf03f67621b7bb20e2c768bc62b30e976206aa17
+2024-06-24 00:24:37,243 - INFO - Found parent commit: 99e0033bd1ac2275a44cf2502bfec95071341475
+2024-06-24 00:24:37,243 - INFO - Repository exists, fetching: https://github.com//sni/Thruk
+2024-06-24 00:24:38,179 - INFO - Checking out commit: 26de047275c355c5ae2bbbc51b164f0f8bef5c5b
+2024-06-24 00:24:38,228 - INFO - Found parent commit: c78f2f98ad5ef412681b082c3b582182387f41c5
+2024-06-24 00:24:38,228 - INFO - Cloning repository: https://github.com//hoppscotch/hoppscotch
+2024-06-24 00:30:34,891 - INFO - Checking out commit: 15424903ede20b155d764abf4c4f7c2c84c11247
+2024-06-24 00:30:35,212 - INFO - Found parent commit: 1cce117b0af8482ebd26aceea930a5e08ad11a9e
+2024-06-24 00:30:35,213 - INFO - Cloning repository: https://github.com//shopware5/shopware
+2024-06-24 01:06:54,932 - INFO - Checking out commit: b3518c8d9562a38615d638f31f79829f6e2f4b6a
+2024-06-24 01:06:56,327 - INFO - Found parent commit: 2e2e0b6cd37ef347facea28d079c91dafc455b12
+2024-06-24 01:06:56,329 - INFO - Repository exists, fetching: https://github.com//shopware5/shopware
+2024-06-24 01:06:57,567 - INFO - Checking out commit: 39cc714d9a0be33b43877044d0b88ea3c6b43f3d
+2024-06-24 01:06:57,678 - INFO - Found parent commit: 12c96cbe3d5be051733f4b2c279647117f29024a
+2024-06-24 01:06:57,679 - INFO - Cloning repository: https://github.com//avo-hq/avo
+2024-06-24 01:06:59,885 - INFO - Checking out commit: ec117882ddb1b519481bdd046dc3cfa4474e6e17
+2024-06-24 01:07:00,229 - INFO - Found parent commit: 7891c01e1fba9ca5d7dbccc43d27f385e5d08563
+2024-06-24 01:07:00,229 - INFO - Repository exists, fetching: https://github.com//avo-hq/avo
+2024-06-24 01:07:00,715 - INFO - Checking out commit: 7891c01e1fba9ca5d7dbccc43d27f385e5d08563
+2024-06-24 01:07:00,772 - INFO - Found parent commit: d8ab4c158ebc9163529ed4d2b91f156c991d5483
+2024-06-24 01:07:00,773 - INFO - Cloning repository: https://github.com//NaturalIntelligence/fast-xml-parser
+2024-06-24 01:08:01,690 - INFO - Checking out commit: 39b0e050bb909e8499478657f84a3076e39ce76c
+2024-06-24 01:08:02,239 - INFO - Found parent commit: e7728af371812895f6aacd1a6dd536c0367e5f17
+2024-06-24 01:08:02,239 - INFO - Repository exists, fetching: https://github.com//NaturalIntelligence/fast-xml-parser
+2024-06-24 01:08:02,664 - INFO - Checking out commit: a4bdced80369892ee413bf08e28b78795a2b0d5b
+2024-06-24 01:08:02,708 - INFO - Found parent commit: a874ce78df0be1b5dceadc4e5e7e549c65a7a6ce
+2024-06-24 01:08:02,709 - INFO - Cloning repository: https://github.com//ossrs/srs
+2024-06-24 01:08:11,358 - INFO - Checking out commit: 1d878c2daaf913ad01c6d0bc2f247116c8050338
+2024-06-24 01:08:11,727 - INFO - Found parent commit: df854339ea19847e80f442e11f7506d1b7883152
+2024-06-24 01:08:11,728 - INFO - Cloning repository: https://github.com//mailcow/mailcow-dockerized
+2024-06-24 01:13:41,922 - INFO - Checking out commit: f80940efdccd393bf5fccec2886795372a38c445
+2024-06-24 01:13:42,164 - INFO - Found parent commit: 38cd37622880ef4c3ee2ca1a25abd740bfbe9e54
+2024-06-24 01:13:42,165 - INFO - Cloning repository: https://github.com//zxcvbn-ts/zxcvbn
+2024-06-24 01:13:44,994 - INFO - Checking out commit: 3f9bed21b5d01f6f6863476822ca857355fba22f
+2024-06-24 01:13:45,077 - INFO - Found parent commit: d3a12a11f2b25976ba2180664ff3e86718cbb0b7
+2024-06-24 01:13:45,078 - INFO - Cloning repository: https://github.com//dpgaspar/Flask-AppBuilder
+2024-06-24 01:13:48,052 - INFO - Checking out commit: ae25ad4c87a9051ebe4a4e8f02aee73232642626
+2024-06-24 01:13:48,151 - INFO - Found parent commit: 98e38086c3dcc17f954e8f82d074db97b82313a5
+2024-06-24 01:13:48,152 - INFO - Cloning repository: https://github.com//cesanta/mongoose
+2024-06-24 01:13:50,895 - INFO - Checking out commit: 4663090a8fb036146dfe77718cff612b0101cb0f
+2024-06-24 01:13:51,789 - INFO - Found parent commit: 9088b00006d869de7a5f9515c70a562d87af271e
+2024-06-24 01:13:51,790 - INFO - Cloning repository: https://github.com//cloudexplorer-dev/cloudexplorer-lite
+2024-06-24 01:18:22,025 - INFO - Checking out commit: 7d4dab60352079953b7be120afe9bd14983ae3bc
+2024-06-24 01:18:22,215 - INFO - Found parent commit: deb80ffd17ef2e2cbc2c7229140f683561c16820
+2024-06-24 01:18:22,216 - INFO - Cloning repository: https://github.com//snowflakedb/gosnowflake
+2024-06-24 01:21:07,929 - INFO - Checking out commit: e11a2a555f1b9f7adc1f01fb7b5e7f38fbbb2a1c
+2024-06-24 01:21:08,631 - INFO - Found parent commit: 72ad9136e1d1e4a024b809de6b1054ece47cdb25
+2024-06-24 01:21:08,632 - INFO - Cloning repository: https://github.com//snowflakedb/snowflake-connector-nodejs
+2024-06-24 01:21:09,758 - INFO - Checking out commit: 0c9622ae12cd7d627df404b73a783b4a5f60728a
+2024-06-24 01:21:09,816 - INFO - Found parent commit: ca2f5e6e49caeafb1f882ab873c3dbab5dde67dc
+2024-06-24 01:21:09,816 - INFO - Cloning repository: https://github.com//snowflakedb/snowflake-connector-python
+2024-06-24 01:21:11,471 - INFO - Checking out commit: 1cdbd3b1403c5ef520d7f4d9614fe35165e101ac
+2024-06-24 01:21:11,585 - INFO - Found parent commit: 4b1d4741eb6e902dd415ad7cd91fc04c231bcca4
+2024-06-24 01:21:11,585 - INFO - Cloning repository: https://github.com//OpenZeppelin/openzeppelin-contracts
+2024-06-24 01:21:13,906 - INFO - Checking out commit: d9474327a492f9f310f31bc53f38dbea56ed9a57
+2024-06-24 01:21:14,069 - INFO - Found parent commit: df2778f38ecf196d6ecab6df9b958fb5169d3463
+2024-06-24 01:21:14,070 - INFO - Cloning repository: https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:15,466 - INFO - Checking out commit: 6323b355bd7f5d2ce85d0244fe0883af3881df4e
+2024-06-24 01:21:15,565 - INFO - Found parent commit: 7e9ed075343154ef9b40f353b195c47c7620e9b2
+2024-06-24 01:21:15,565 - INFO - Repository exists, fetching: https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:15,962 - INFO - Checking out commit: 9708fda28ccd0466cb0a8fd409854ab4d92f7dca
+2024-06-24 01:21:15,970 - ERROR - GitCommandError processing https://github.com//weaveworks/tf-controller (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9708fda28ccd0466cb0a8fd409854ab4d92f7dca
+  stderr: 'fatal: unable to read tree (9708fda28ccd0466cb0a8fd409854ab4d92f7dca)'
+2024-06-24 01:21:15,970 - INFO - Attempting full clone for https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:23,051 - INFO - Repository exists, fetching: https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:23,716 - INFO - Checking out commit: 9708fda28ccd0466cb0a8fd409854ab4d92f7dca
+2024-06-24 01:21:23,819 - INFO - Found parent commit: d2701c236882f1e85a30cd74bc45e76989c2b328
+2024-06-24 01:21:23,820 - INFO - Repository exists, fetching: https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:24,435 - INFO - Checking out commit: 28282bc644054e157c3b9a3d38f1f9551ce09074
+2024-06-24 01:21:24,513 - INFO - Found parent commit: 8ae59eb489dd8b8a632e4a9223a0b7fb21fe7efd
+2024-06-24 01:21:24,514 - INFO - Repository exists, fetching: https://github.com//weaveworks/tf-controller
+2024-06-24 01:21:25,113 - INFO - Checking out commit: 98a0688036e9dbcf43fa84960d9a1ef3e09a69cf
+2024-06-24 01:21:25,185 - INFO - Found parent commit: fda60c8c10942f3995a7f23e477f9b7d13e2b20e
+2024-06-24 01:21:25,186 - INFO - Cloning repository: https://github.com//sabnzbd/sabnzbd
+2024-06-24 01:21:28,280 - INFO - Checking out commit: 422b4fce7bfd56e95a315be0400cdfdc585df7cc
+2024-06-24 01:21:28,478 - INFO - Found parent commit: e3a722664819d1c7c8fab97144cc299b1c18b429
+2024-06-24 01:21:28,478 - INFO - Repository exists, fetching: https://github.com//sabnzbd/sabnzbd
+2024-06-24 01:21:28,901 - INFO - Checking out commit: e3a722664819d1c7c8fab97144cc299b1c18b429
+2024-06-24 01:21:29,000 - INFO - Found parent commit: 5b9fc86319a013fffaf01661e94f8b0414b50be7
+2024-06-24 01:21:29,000 - INFO - Cloning repository: https://github.com//gatsbyjs/gatsby
+2024-06-24 01:21:47,233 - INFO - Checking out commit: fc22f4ba3ad7ca5fb3592f38f4f0ca8ae60b4bf7
+2024-06-24 01:21:47,245 - ERROR - GitCommandError processing https://github.com//gatsbyjs/gatsby (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fc22f4ba3ad7ca5fb3592f38f4f0ca8ae60b4bf7
+  stderr: 'fatal: unable to read tree (fc22f4ba3ad7ca5fb3592f38f4f0ca8ae60b4bf7)'
+2024-06-24 01:21:47,245 - INFO - Attempting full clone for https://github.com//gatsbyjs/gatsby
+2024-06-24 01:22:42,140 - INFO - Repository exists, fetching: https://github.com//gatsbyjs/gatsby
+2024-06-24 01:23:09,397 - INFO - Checking out commit: fc22f4ba3ad7ca5fb3592f38f4f0ca8ae60b4bf7
+2024-06-24 01:23:12,269 - INFO - Found parent commit: 8889bfe5271985d19c956dff7f567be86ef2f3df
+2024-06-24 01:23:12,269 - INFO - Repository exists, fetching: https://github.com//gatsbyjs/gatsby
+2024-06-24 01:23:39,418 - INFO - Checking out commit: ae5a654eb346b2e7a9d341b809b2f82d34c0f17c
+2024-06-24 01:23:40,680 - INFO - Found parent commit: 18a47dadfdb0e38daf4371739ebaeb2593d3e6f6
+2024-06-24 01:23:40,681 - INFO - Cloning repository: https://github.com//OpenPrinting/cups
+2024-06-24 01:23:44,241 - INFO - Checking out commit: 9809947a959e18409dcf562a3466ef246cb90cb2
+2024-06-24 01:23:44,478 - INFO - Found parent commit: 3d95ea579cd0bc6cb2b9186e77278ddd363f48a4
+2024-06-24 01:23:44,479 - INFO - Cloning repository: https://github.com//udecode/plate
+2024-06-24 01:23:56,878 - INFO - Checking out commit: 93dd5712854660874900ae12e4d8e6ff28089eb7
+2024-06-24 01:23:58,281 - INFO - Found parent commit: 00774029236d37737abdadf49b074e613e290792
+2024-06-24 01:23:58,282 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:23:58,622 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:24:03,633 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:24:03,994 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:24:14,005 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:24:14,374 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:24:14,375 - INFO - Cloning repository: https://github.com//getgrav/grav
+2024-06-24 01:24:17,346 - INFO - Checking out commit: 9d01140a63c77075ef09b26ef57cf186138151a5
+2024-06-24 01:24:17,562 - INFO - Found parent commit: 259e775db84b690dc43f0fa981dbdfc822c9d8bc
+2024-06-24 01:24:17,562 - INFO - Repository exists, fetching: https://github.com//getgrav/grav
+2024-06-24 01:24:18,172 - INFO - Checking out commit: 244758d4383034fe4cd292d41e477177870b65ec
+2024-06-24 01:24:18,235 - INFO - Found parent commit: 71bbed12f950de8335006d7f91112263d8504f1b
+2024-06-24 01:24:18,235 - INFO - Repository exists, fetching: https://www.github.com//getgrav/grav
+2024-06-24 01:24:18,853 - INFO - Checking out commit: 9d6a2dba09fd4e56f5cdfb9a399caea355bfeb83
+2024-06-24 01:24:18,985 - INFO - Found parent commit: de4af5dbccd8b22b295f956ef143a79272b1fb62
+2024-06-24 01:24:18,986 - INFO - Repository exists, fetching: https://github.com//getgrav/grav
+2024-06-24 01:24:19,630 - INFO - Checking out commit: 71bbed12f950de8335006d7f91112263d8504f1b
+2024-06-24 01:24:19,787 - INFO - Found parent commit: 8c2c1cb72611a399f13423fc6d0e1d998c03e5c8
+2024-06-24 01:24:19,787 - INFO - Cloning repository: https://github.com//plantuml/plantuml
+2024-06-24 01:24:24,616 - INFO - Checking out commit: fbe7fa3b25b4c887d83927cffb1009ec6cb8ab1e
+2024-06-24 01:24:25,119 - INFO - Found parent commit: b32500bb61ae617bb312496d6d832e4be8190797
+2024-06-24 01:24:25,120 - INFO - Repository exists, fetching: https://github.com//plantuml/plantuml
+2024-06-24 01:24:25,590 - INFO - Checking out commit: b32500bb61ae617bb312496d6d832e4be8190797
+2024-06-24 01:24:25,650 - INFO - Found parent commit: 793b78abc52818bf218133244f7107e022151c29
+2024-06-24 01:24:25,650 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-24 01:26:49,269 - INFO - Checking out commit: b561275d633bcd8e0e8055ab86f1a13df75a0269
+2024-06-24 01:26:51,851 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b561275d633bcd8e0e8055ab86f1a13df75a0269
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-24 01:26:56,862 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-24 01:29:19,681 - INFO - Checking out commit: b561275d633bcd8e0e8055ab86f1a13df75a0269
+2024-06-24 01:29:21,276 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b561275d633bcd8e0e8055ab86f1a13df75a0269
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-24 01:29:31,286 - INFO - Repository exists, fetching: https://github.com//torvalds/linux
+2024-06-24 01:31:52,123 - INFO - Checking out commit: b561275d633bcd8e0e8055ab86f1a13df75a0269
+2024-06-24 01:31:53,724 - ERROR - GitCommandError processing https://github.com//torvalds/linux (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b561275d633bcd8e0e8055ab86f1a13df75a0269
+  stderr: 'error: Your local changes to the following files would be overwritten by checkout:
+	net/netfilter/xt_DSCP.c
+	net/netfilter/xt_RATEEST.c
+	net/netfilter/xt_TCPMSS.c
+Please commit your changes or stash them before you switch branches.
+Aborting'
+2024-06-24 01:31:53,726 - INFO - Cloning repository: https://www.github.com//splitbrain/dokuwiki
+2024-06-24 01:31:57,652 - INFO - Checking out commit: 53df38b0e4465894a67a5890f74a6f5f82e827de
+2024-06-24 01:31:58,028 - INFO - Found parent commit: 94ce2489c4227b41d1cbf6ef4257face8810987b
+2024-06-24 01:31:58,028 - INFO - Cloning repository: https://github.com//netvl/xml-rs
+2024-06-24 01:31:58,817 - INFO - Checking out commit: c09549a187e62d39d40467f129e64abf32efc35c
+2024-06-24 01:31:58,848 - INFO - Found parent commit: 563f97599eb6ad36b997a5305745dd8775ba9be4
+2024-06-24 01:31:58,848 - INFO - Repository exists, fetching: https://github.com//00xc/xml-rs
+2024-06-24 01:31:59,238 - INFO - Checking out commit: 0f084d45aa53e4a27476961785f59f2bd7d59a9f
+2024-06-24 01:31:59,288 - INFO - Found parent commit: 7eedb49b04233c47f9ceb7efa26c5bff9a616d48
+2024-06-24 01:31:59,289 - INFO - Cloning repository: https://github.com//Combodo/iTop
+2024-06-24 01:32:10,924 - INFO - Checking out commit: e3ba826e5dfd3b724f1ee97bebfd20ded3c70b10
+2024-06-24 01:32:12,945 - INFO - Found parent commit: 17d22219d23c700fd829a49f41b2e1dd7c211245
+2024-06-24 01:32:12,946 - INFO - Repository exists, fetching: https://github.com//Combodo/iTop
+2024-06-24 01:32:13,520 - INFO - Checking out commit: 519751faa10b2fc5b75ea4516a1b8ef13ca35b33
+2024-06-24 01:32:14,955 - INFO - Found parent commit: b99ff5e84ad9305228ceba76e04b93804f9166de
+2024-06-24 01:32:14,956 - INFO - Repository exists, fetching: https://github.com//Combodo/iTop
+2024-06-24 01:32:15,481 - INFO - Checking out commit: b8f61362f570e1ef8127175331012b7fc8aba802
+2024-06-24 01:32:16,700 - INFO - Found parent commit: e3ba826e5dfd3b724f1ee97bebfd20ded3c70b10
+2024-06-24 01:32:16,707 - INFO - Repository exists, fetching: https://www.github.com//getgrav/grav
+2024-06-24 01:32:17,443 - INFO - Checking out commit: 9d6a2dba09fd4e56f5cdfb9a399caea355bfeb83
+2024-06-24 01:32:17,679 - INFO - Found parent commit: de4af5dbccd8b22b295f956ef143a79272b1fb62
+2024-06-24 01:32:17,680 - INFO - Repository exists, fetching: https://github.com//getgrav/grav
+2024-06-24 01:32:18,900 - INFO - Checking out commit: 8c2c1cb72611a399f13423fc6d0e1d998c03e5c8
+2024-06-24 01:32:19,056 - INFO - Found parent commit: 9d01140a63c77075ef09b26ef57cf186138151a5
+2024-06-24 01:32:19,057 - INFO - Cloning repository: https://github.com//paritytech/ink
+2024-06-24 01:33:25,311 - INFO - Checking out commit: f1407ee9f87e5f64d467a22d26ee88f61db7f3db
+2024-06-24 01:33:25,438 - INFO - Found parent commit: 2eba99ee445a4aee34d0919041388e7e727f7ed8
+2024-06-24 01:33:25,439 - INFO - Cloning repository: https://github.com//spinacms/spina
+2024-06-24 01:33:27,097 - INFO - Checking out commit: 9adfe7b4807b3cc10dbb7351a26cc32f5d8c14a3
+2024-06-24 01:33:27,154 - INFO - Found parent commit: 7f73bbd5db27f9f8016883fb7a701ad81518a120
+2024-06-24 01:33:27,154 - INFO - Cloning repository: https://github.com//xerial/snappy-java
+2024-06-24 01:33:29,609 - INFO - Checking out commit: 820e2e074c58748b41dbd547f4edba9e108ad905
+2024-06-24 01:33:29,690 - INFO - Found parent commit: 27e2ce0fb09c92d2f8948626e32a0655b2b4ddc0
+2024-06-24 01:33:29,690 - INFO - Repository exists, fetching: https://github.com//xerial/snappy-java
+2024-06-24 01:33:30,070 - INFO - Checking out commit: d0042551e4a3509a725038eb9b2ad1f683674d94
+2024-06-24 01:33:30,132 - INFO - Found parent commit: 3bf67857fcf70d9eea56eed4af7c925671e8eaea
+2024-06-24 01:33:30,132 - INFO - Repository exists, fetching: https://github.com//xerial/snappy-java
+2024-06-24 01:33:30,512 - INFO - Checking out commit: 3bf67857fcf70d9eea56eed4af7c925671e8eaea
+2024-06-24 01:33:30,540 - INFO - Found parent commit: 820e2e074c58748b41dbd547f4edba9e108ad905
+2024-06-24 01:33:30,541 - INFO - Cloning repository: https://github.com//MechanicalSoup/MechanicalSoup
+2024-06-24 01:33:31,199 - INFO - Checking out commit: d57c4a269bba3b9a0c5bfa20292955b849006d9e
+2024-06-24 01:33:31,223 - INFO - Found parent commit: b9c8a0c48e44d70b9128a8e0befa3a50df0e4b58
+2024-06-24 01:33:31,224 - INFO - Repository exists, fetching: https://github.com//multiversx/mx-chain-go
+2024-06-24 01:33:36,721 - INFO - Checking out commit: babdb144f1316ab6176bf3dbd7d4621120414d43
+2024-06-24 01:33:37,110 - INFO - Found parent commit: 97295471465f4b5f79e51b32f8b7111f8d921606
+2024-06-24 01:33:37,111 - INFO - Repository exists, fetching: https://github.com//OpenZeppelin/openzeppelin-contracts
+2024-06-24 01:33:37,640 - INFO - Checking out commit: 4d2383e17186be3e8ccf5a442e9686ecc7de1c55
+2024-06-24 01:33:37,646 - ERROR - GitCommandError processing https://github.com//OpenZeppelin/openzeppelin-contracts (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 4d2383e17186be3e8ccf5a442e9686ecc7de1c55
+  stderr: 'fatal: unable to read tree (4d2383e17186be3e8ccf5a442e9686ecc7de1c55)'
+2024-06-24 01:33:37,646 - INFO - Attempting full clone for https://github.com//OpenZeppelin/openzeppelin-contracts
+2024-06-24 01:33:46,641 - INFO - Repository exists, fetching: https://github.com//OpenZeppelin/openzeppelin-contracts
+2024-06-24 01:33:47,477 - INFO - Checking out commit: 4d2383e17186be3e8ccf5a442e9686ecc7de1c55
+2024-06-24 01:33:47,700 - INFO - Found parent commit: f03420b5c77ae3cfa73fce4ffc7f4778cfa2b503
+2024-06-24 01:33:47,708 - INFO - Repository exists, fetching: https://github.com//tauri-apps/tauri
+2024-06-24 01:33:48,529 - INFO - Checking out commit: 066c09a6ea06f42f550d090715e06beb65cd5564
+2024-06-24 01:33:48,789 - INFO - Found parent commit: 28921cb8e89351ba04f8c19b7ae9c9abcd5a0d4c
+2024-06-24 01:33:48,790 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:33:49,151 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:33:54,161 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:33:54,541 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:34:04,551 - INFO - Cloning repository: https://github.com//benjjvi/PyBB
+2024-06-24 01:34:04,923 - ERROR - GitCommandError processing https://github.com//benjjvi/PyBB (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//benjjvi/PyBB repo_cache/PyBB
+  stderr: 'Cloning into 'repo_cache/PyBB'...
+remote: Repository not found.
+fatal: repository 'https://github.com//benjjvi/PyBB/' not found
+'
+2024-06-24 01:34:04,924 - INFO - Cloning repository: https://github.com//netty/netty
+2024-06-24 01:34:08,259 - INFO - Checking out commit: 535da17e45201ae4278c0479e6162bb4127d4c32
+2024-06-24 01:34:08,639 - INFO - Found parent commit: 1bb825b7cec563acbb5e1d257f9d48551bbc707d
+2024-06-24 01:34:08,653 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:34:36,522 - INFO - Checking out commit: 53e8292a31ec70fba5e1d705a4ac443658b9e6df
+2024-06-24 01:34:37,029 - INFO - Found parent commit: e18003be66aa002476f1fdd01a5d6f318ddb97fc
+2024-06-24 01:34:37,030 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:34:58,185 - INFO - Checking out commit: 8910b8857d3442d2e8142f655fdc0512930354d1
+2024-06-24 01:34:58,705 - INFO - Found parent commit: ba915dc63aa6721936e9ccb65ae1dc2c867aeb45
+2024-06-24 01:34:58,705 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:35:19,747 - INFO - Checking out commit: d28d7739089e1ae8961257d9da7135d1a01cb7d4
+2024-06-24 01:35:20,214 - INFO - Found parent commit: 8acde622a4c0d9c9712744c8ae2c3fda4d09e195
+2024-06-24 01:35:20,214 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:35:42,586 - INFO - Checking out commit: 71f889db9962df2d385f4298e29cfbc9050b828a
+2024-06-24 01:35:43,105 - INFO - Found parent commit: 87fbe3ddd5fb846b1d474964867014d437f03eed
+2024-06-24 01:35:43,106 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick
+2024-06-24 01:35:43,744 - INFO - Checking out commit: 1061db7f80fdc9ef572ac60b55f408f7bab6e1b0
+2024-06-24 01:35:44,546 - INFO - Found parent commit: e31343f0153b3871985aa1deaab446d8d58197f2
+2024-06-24 01:35:44,547 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick
+2024-06-24 01:35:45,061 - INFO - Checking out commit: 1061db7f80fdc9ef572ac60b55f408f7bab6e1b0
+2024-06-24 01:35:45,215 - INFO - Found parent commit: e31343f0153b3871985aa1deaab446d8d58197f2
+2024-06-24 01:35:45,216 - INFO - Cloning repository: https://github.com//greenshot/greenshot
+2024-06-24 01:35:47,491 - INFO - Checking out commit: a152e2883fca7f78051b3bd6b1e5cc57355cb44c
+2024-06-24 01:35:47,548 - INFO - Found parent commit: 7e005f741a3f009a1f974ac80d6f6018fdc7528d
+2024-06-24 01:35:47,549 - INFO - Cloning repository: https://github.com//thorsten/phpmyfaq
+2024-06-24 01:35:50,627 - INFO - Checking out commit: 04a0183c25dd425f4c2bfb5f75b7650b932ae278
+2024-06-24 01:35:50,819 - INFO - Found parent commit: 5d4cd24aeb1c7c8c37f87205a8743cb904ac34b1
+2024-06-24 01:35:50,819 - INFO - Cloning repository: https://github.com//hestiacp/hestiacp
+2024-06-24 01:35:53,267 - INFO - Checking out commit: 2326aa525a7ba14513af783f29cb5e62a476e67a
+2024-06-24 01:35:53,273 - ERROR - GitCommandError processing https://github.com//hestiacp/hestiacp (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 2326aa525a7ba14513af783f29cb5e62a476e67a
+  stderr: 'fatal: unable to read tree (2326aa525a7ba14513af783f29cb5e62a476e67a)'
+2024-06-24 01:35:53,273 - INFO - Attempting full clone for https://github.com//hestiacp/hestiacp
+2024-06-24 01:36:03,549 - INFO - Repository exists, fetching: https://github.com//hestiacp/hestiacp
+2024-06-24 01:36:04,841 - INFO - Checking out commit: 2326aa525a7ba14513af783f29cb5e62a476e67a
+2024-06-24 01:36:05,146 - INFO - Found parent commit: 4b4939ddf5a9dbd02f667c73b7b381f009015f60
+2024-06-24 01:36:05,147 - INFO - Cloning repository: https://github.com//brechtsanders/xlsxio
+2024-06-24 01:36:09,193 - INFO - Checking out commit: d653f1604b54532f11b45dca1fa164b4a1f15e2d
+2024-06-24 01:36:09,220 - INFO - Found parent commit: 8d7007c82bd1a0b36bec54d9fbbf5cf3eb9210fb
+2024-06-24 01:36:09,220 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-24 01:36:09,631 - INFO - Checking out commit: 2ddb7438ee0d05f9a9d01555edcfed820960f114
+2024-06-24 01:36:09,703 - INFO - Found parent commit: 9402d6c4d44b77ccd68d98d1e6cedf782bd913dc
+2024-06-24 01:36:09,704 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-24 01:36:10,091 - INFO - Checking out commit: 2ddb7438ee0d05f9a9d01555edcfed820960f114
+2024-06-24 01:36:10,120 - INFO - Found parent commit: 9402d6c4d44b77ccd68d98d1e6cedf782bd913dc
+2024-06-24 01:36:10,121 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-24 01:36:10,521 - INFO - Checking out commit: 9402d6c4d44b77ccd68d98d1e6cedf782bd913dc
+2024-06-24 01:36:10,550 - INFO - Found parent commit: cf00611d4568dd6846468520c8c2c20c9bd66b47
+2024-06-24 01:36:10,551 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:36:18,353 - INFO - Checking out commit: f6e83550c2d17fc93a65ec4be602a78312289f37
+2024-06-24 01:36:20,185 - INFO - Found parent commit: d0cc58370adedb8cff38be09bf4fd355fc41beb6
+2024-06-24 01:36:20,186 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:36:26,580 - INFO - Checking out commit: 0d0c88c4806280ac9b70a299d6e3099269c9bc54
+2024-06-24 01:36:26,724 - INFO - Found parent commit: f6e83550c2d17fc93a65ec4be602a78312289f37
+2024-06-24 01:36:26,724 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:36:32,751 - INFO - Checking out commit: 0c1c29db18856a6f25e21d0405dda2c20b35ff3a
+2024-06-24 01:36:32,944 - INFO - Found parent commit: 408651cf34f8e1b6ba6633a42df423b2592bbf84
+2024-06-24 01:36:32,945 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:36:39,060 - INFO - Checking out commit: ed946908fef23e8aa4cefc28f745f3cd6710099f
+2024-06-24 01:36:39,243 - INFO - Found parent commit: 0a6dc86ebecfaedb39b2c724c85c865c22a9a2e2
+2024-06-24 01:36:39,244 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:36:45,680 - INFO - Checking out commit: cc278f01864948b1fb160e03f0a3dc0875d5f81f
+2024-06-24 01:36:45,802 - INFO - Found parent commit: ed946908fef23e8aa4cefc28f745f3cd6710099f
+2024-06-24 01:36:45,802 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:38:16,347 - INFO - Checking out commit: ea5791ff8ce6ea45148a171b0da5348a7c415e6f
+2024-06-24 01:38:16,466 - INFO - Found parent commit: cc278f01864948b1fb160e03f0a3dc0875d5f81f
+2024-06-24 01:38:16,467 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:38:22,135 - INFO - Checking out commit: 80d1a8c9063a20f286b0195ef537c84a1a11875a
+2024-06-24 01:38:22,286 - INFO - Found parent commit: ababd8850dc6024103c84f1ff1b300e7689ec25d
+2024-06-24 01:38:22,286 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:41:45,817 - INFO - Checking out commit: f9a17bfaf05994383bca5f4b65eb6897acc60d41
+2024-06-24 01:41:45,935 - INFO - Found parent commit: 80d1a8c9063a20f286b0195ef537c84a1a11875a
+2024-06-24 01:41:45,936 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:41:52,081 - INFO - Checking out commit: 19af444d2da9e5a60f02b4ebe7755cdff36709cd
+2024-06-24 01:41:52,195 - INFO - Found parent commit: f9a17bfaf05994383bca5f4b65eb6897acc60d41
+2024-06-24 01:41:52,196 - INFO - Cloning repository: https://github.com//go-gitea/gitea
+2024-06-24 01:41:56,468 - INFO - Checking out commit: 9aaaf980f0ba15611f30568bd67bce3ec12954e2
+2024-06-24 01:41:56,475 - ERROR - GitCommandError processing https://github.com//go-gitea/gitea (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9aaaf980f0ba15611f30568bd67bce3ec12954e2
+  stderr: 'fatal: unable to read tree (9aaaf980f0ba15611f30568bd67bce3ec12954e2)'
+2024-06-24 01:41:56,475 - INFO - Attempting full clone for https://github.com//go-gitea/gitea
+2024-06-24 01:42:15,821 - INFO - Repository exists, fetching: https://github.com//go-gitea/gitea
+2024-06-24 01:42:27,875 - INFO - Checking out commit: 9aaaf980f0ba15611f30568bd67bce3ec12954e2
+2024-06-24 01:42:29,203 - INFO - Found parent commit: 263ed09bbfebfbd7f53f2165c2175c2afab5a42d
+2024-06-24 01:42:29,204 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:42:52,213 - INFO - Checking out commit: b65220a4d86b8888791c3b643074ebca5c089a3a
+2024-06-24 01:42:52,639 - INFO - Found parent commit: cba7132dad388a64be6c5b68c0e1780c2d952781
+2024-06-24 01:42:52,640 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:43:13,486 - INFO - Checking out commit: 824cd742ecf5439971247da11bfe7e0ad2b10ede
+2024-06-24 01:43:14,034 - INFO - Found parent commit: d3fd45ac4b777b9a00f3760275bb67ff333d69d7
+2024-06-24 01:43:14,035 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:43:35,695 - INFO - Checking out commit: 0993a7ab3c102f9ac37ffe361a83a3dc302c0e45
+2024-06-24 01:43:37,923 - INFO - Found parent commit: e64e1335e454e144f2395cc440a36f6ffdcf19ab
+2024-06-24 01:43:37,924 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:44:03,010 - INFO - Checking out commit: 6ce2d04a5779e07f6d3ed3f37d4761049b4fc3ac
+2024-06-24 01:44:06,390 - INFO - Found parent commit: 3de7d920c7517952e789c72b85c85e29d0849631
+2024-06-24 01:44:06,390 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:44:27,757 - INFO - Checking out commit: 1b87fec1e5b5ec00b7a8c3c3f94f6c5e22547392
+2024-06-24 01:44:28,976 - INFO - Found parent commit: a0bd7eefd678716f6e18f2c93e383684fbe65455
+2024-06-24 01:44:28,977 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:44:51,261 - INFO - Checking out commit: 13875a6437d4525ac4aeea25918f2d2dffac9ee1
+2024-06-24 01:44:51,841 - INFO - Found parent commit: 02f1b50d7768a2cdf0cc2df3d3bf5650ecf63977
+2024-06-24 01:44:51,842 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:45:13,417 - INFO - Checking out commit: e80d22d193df364b07bab7925572720f91a8984a
+2024-06-24 01:45:13,933 - INFO - Found parent commit: 540c01c681a2262057289bd2e199d3d79949062a
+2024-06-24 01:45:13,934 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:45:34,867 - INFO - Checking out commit: 24ec12890ac7fa6daec8d0b3435cfcba11362fd5
+2024-06-24 01:45:35,397 - INFO - Found parent commit: 13875a6437d4525ac4aeea25918f2d2dffac9ee1
+2024-06-24 01:45:35,397 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:45:55,986 - INFO - Checking out commit: 35e9073ffec567861e0abeea072bd97921a3decf
+2024-06-24 01:45:56,429 - INFO - Found parent commit: a3fb3778d33dfe07a3d1aad8328dc0c871845a12
+2024-06-24 01:45:56,429 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:46:17,030 - INFO - Checking out commit: d5472100606c8355ed44ada273e91df91f682738
+2024-06-24 01:46:17,348 - INFO - Found parent commit: e80d22d193df364b07bab7925572720f91a8984a
+2024-06-24 01:46:17,349 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:46:38,606 - INFO - Checking out commit: 5c20ff5e3bdea50f1053fe99a27e011b8d0e4b34
+2024-06-24 01:46:38,728 - INFO - Found parent commit: d5472100606c8355ed44ada273e91df91f682738
+2024-06-24 01:46:38,729 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:47:00,367 - INFO - Checking out commit: dbc92dcdace33823ffd1e1591617006cb5fc6a7f
+2024-06-24 01:47:00,485 - INFO - Found parent commit: 8f5a889b7cd140770e54f5b4195d88058790e305
+2024-06-24 01:47:00,485 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:47:21,757 - INFO - Checking out commit: 8f5a889b7cd140770e54f5b4195d88058790e305
+2024-06-24 01:47:21,890 - INFO - Found parent commit: a15e78225b20fd0865d76131bc59dde049525fc6
+2024-06-24 01:47:21,893 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:47:42,724 - INFO - Checking out commit: 9f01166b1a8ee9639666099eb5040302df067e4d
+2024-06-24 01:47:42,838 - INFO - Found parent commit: 215e8a63e0b149d429039c6162994732486052da
+2024-06-24 01:47:42,839 - INFO - Cloning repository: https://github.com//vegaprotocol/vega
+2024-06-24 01:47:57,258 - INFO - Checking out commit: 56b09bf57af8cd9eca5996252d86f469a3e34c68
+2024-06-24 01:47:57,266 - ERROR - GitCommandError processing https://github.com//vegaprotocol/vega (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 56b09bf57af8cd9eca5996252d86f469a3e34c68
+  stderr: 'fatal: unable to read tree (56b09bf57af8cd9eca5996252d86f469a3e34c68)'
+2024-06-24 01:47:57,267 - INFO - Attempting full clone for https://github.com//vegaprotocol/vega
+2024-06-24 01:48:16,927 - INFO - Repository exists, fetching: https://github.com//vegaprotocol/vega
+2024-06-24 01:48:20,810 - INFO - Checking out commit: 56b09bf57af8cd9eca5996252d86f469a3e34c68
+2024-06-24 01:48:22,036 - INFO - Found parent commit: bf207991ef2ef6271b013bd0af24f60e2abbe590
+2024-06-24 01:48:22,036 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 01:48:46,337 - INFO - Checking out commit: 98208c5bb1e8cdf3ff1ac35d8b3d1cb3c28b3263
+2024-06-24 01:48:46,482 - INFO - Found parent commit: 84ae9d1c731d806284b48357a9665cce62a228bb
+2024-06-24 01:48:46,483 - INFO - Cloning repository: https://github.com//remult/remult
+2024-06-24 01:48:56,847 - INFO - Checking out commit: 6892ae97134126d8710ef7302bb2fc37730994c5
+2024-06-24 01:48:57,056 - INFO - Found parent commit: 5341348ebc7b65859bfd02baf750bd999778e155
+2024-06-24 01:48:57,057 - INFO - Cloning repository: https://github.com//livebook-dev/livebook
+2024-06-24 01:49:00,666 - INFO - Checking out commit: 2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1
+2024-06-24 01:49:00,672 - ERROR - GitCommandError processing https://github.com//livebook-dev/livebook (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1
+  stderr: 'fatal: unable to read tree (2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1)'
+2024-06-24 01:49:00,672 - INFO - Attempting full clone for https://github.com//livebook-dev/livebook
+2024-06-24 01:49:11,925 - INFO - Repository exists, fetching: https://github.com//livebook-dev/livebook
+2024-06-24 01:49:12,691 - INFO - Checking out commit: 2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1
+2024-06-24 01:49:13,029 - INFO - Found parent commit: 95fac57057a4b3838f2a7e05c8bb571510de5cc9
+2024-06-24 01:49:13,030 - INFO - Repository exists, fetching: https://github.com//livebook-dev/livebook
+2024-06-24 01:49:13,691 - INFO - Checking out commit: beb10daaadcc765f0380e436bd7cd5f74cf086c8
+2024-06-24 01:49:13,818 - INFO - Found parent commit: 8f971ce05d053b6ef6883c2c334f17656481bce6
+2024-06-24 01:49:13,819 - INFO - Repository exists, fetching: https://github.com//it-novum/openitcockpit
+2024-06-24 01:49:14,856 - INFO - Checking out commit: 6c717f3c352e55257fc3fef2c5dec111f7d2ee6b
+2024-06-24 01:49:15,730 - INFO - Found parent commit: 1b9660552470162fd93eab7eea316196306e094b
+2024-06-24 01:49:15,731 - INFO - Repository exists, fetching: https://github.com//fossbilling/fossbilling
+2024-06-24 01:49:16,161 - INFO - Checking out commit: 5eb516d4ebcb764db1b2edf9c8d0539e76ebde52
+2024-06-24 01:49:16,208 - INFO - Found parent commit: c718051497878e71f0c10192182a468ca0d580bd
+2024-06-24 01:49:16,209 - INFO - Repository exists, fetching: https://github.com//gpac/gpac
+2024-06-24 01:49:16,660 - INFO - Checking out commit: 64201a26476c12a7dbd7ffb5757743af6954db96
+2024-06-24 01:49:17,305 - INFO - Found parent commit: f24227d5ed6f885caa91ff633114b3274d00d07b
+2024-06-24 01:49:17,306 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-24 01:49:17,867 - INFO - Checking out commit: cb8ea5ccca61653895bb6881547e463baa50293d
+2024-06-24 01:49:18,174 - INFO - Found parent commit: 3d6e454dccd65813d37dae1bcb2a7cf0d496383c
+2024-06-24 01:49:18,174 - INFO - Cloning repository: https://github.com//outline/outline
+2024-06-24 01:49:20,601 - INFO - Checking out commit: 9431df45c210e85b77cd27f2ffaf0358b837afa3
+2024-06-24 01:49:20,608 - ERROR - GitCommandError processing https://github.com//outline/outline (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9431df45c210e85b77cd27f2ffaf0358b837afa3
+  stderr: 'fatal: unable to read tree (9431df45c210e85b77cd27f2ffaf0358b837afa3)'
+2024-06-24 01:49:20,608 - INFO - Attempting full clone for https://github.com//outline/outline
+2024-06-24 01:49:29,908 - INFO - Repository exists, fetching: https://github.com//outline/outline
+2024-06-24 01:49:32,271 - INFO - Checking out commit: 9431df45c210e85b77cd27f2ffaf0358b837afa3
+2024-06-24 01:49:32,681 - INFO - Found parent commit: a75d6b298ec50cf0bed599f660ecc4cb8e2d2e1c
+2024-06-24 01:49:32,681 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:49:40,134 - INFO - Checking out commit: 37be9ce7243a30259047dd4517c48ff8b21d657a
+2024-06-24 01:49:40,461 - INFO - Found parent commit: 0ced3edd3bf6f23e1e83ff8ab1e89ca6793dc06b
+2024-06-24 01:49:40,462 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 01:49:46,166 - INFO - Checking out commit: dc7bfce429fbd843a95a57c184b6992c4d709549
+2024-06-24 01:49:46,396 - INFO - Found parent commit: 3650e4463de22412b1de11962ecf6f30d0eef7d2
+2024-06-24 01:49:46,397 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-24 01:49:46,887 - INFO - Checking out commit: cc6abc76aa46ed4a27736c1d2f21e432a5d54e6f
+2024-06-24 01:49:46,934 - INFO - Found parent commit: cb8ea5ccca61653895bb6881547e463baa50293d
+2024-06-24 01:49:46,935 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-24 01:49:47,359 - INFO - Checking out commit: 8acb4dacc2d008a4186a4e13cc143e978f113955
+2024-06-24 01:49:47,393 - INFO - Found parent commit: cc6abc76aa46ed4a27736c1d2f21e432a5d54e6f
+2024-06-24 01:49:47,393 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-24 01:49:47,897 - INFO - Checking out commit: e9f90b746fdde135da3c7fbe4fa22fe2bd32e66b
+2024-06-24 01:49:47,929 - INFO - Found parent commit: 8acb4dacc2d008a4186a4e13cc143e978f113955
+2024-06-24 01:49:47,930 - INFO - Repository exists, fetching: https://github.com//nilsteampassnet/teampass
+2024-06-24 01:49:48,352 - INFO - Checking out commit: 820bb49a362a566c9038e4a3048b26d654babb0e
+2024-06-24 01:49:48,385 - INFO - Found parent commit: e9f90b746fdde135da3c7fbe4fa22fe2bd32e66b
+2024-06-24 01:49:48,386 - INFO - Cloning repository: https://github.com//alextselegidis/easyappointments
+2024-06-24 01:49:51,834 - INFO - Checking out commit: b37b46019553089db4f22eb2fe998bca84b2cb64
+2024-06-24 01:49:51,840 - ERROR - GitCommandError processing https://github.com//alextselegidis/easyappointments (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout b37b46019553089db4f22eb2fe998bca84b2cb64
+  stderr: 'fatal: unable to read tree (b37b46019553089db4f22eb2fe998bca84b2cb64)'
+2024-06-24 01:49:51,840 - INFO - Attempting full clone for https://github.com//alextselegidis/easyappointments
+2024-06-24 01:50:00,726 - INFO - Repository exists, fetching: https://github.com//alextselegidis/easyappointments
+2024-06-24 01:50:01,298 - INFO - Checking out commit: b37b46019553089db4f22eb2fe998bca84b2cb64
+2024-06-24 01:50:01,539 - INFO - Found parent commit: e7ddad564140df0d904dc3dc86a94d952b6a6d66
+2024-06-24 01:50:01,539 - INFO - Repository exists, fetching: https://github.com//pimcore/customer-data-framework
+2024-06-24 01:50:02,044 - INFO - Checking out commit: f15668c86db254e86ba7ac895bc3cdd1a2a3cc45
+2024-06-24 01:50:02,189 - INFO - Found parent commit: b24400034459455c2db1a0fbd02ce1490805328b
+2024-06-24 01:50:02,189 - INFO - Cloning repository: https://github.com//libressl/openbsd
+2024-06-24 01:53:35,967 - INFO - Checking out commit: e42d8f4b21a8a498e2eabbffe4c7b7d4ef7cec54
+2024-06-24 01:53:35,979 - ERROR - GitCommandError processing https://github.com//libressl/openbsd (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout e42d8f4b21a8a498e2eabbffe4c7b7d4ef7cec54
+  stderr: 'fatal: unable to read tree (e42d8f4b21a8a498e2eabbffe4c7b7d4ef7cec54)'
+2024-06-24 01:53:35,979 - INFO - Attempting full clone for https://github.com//libressl/openbsd
+2024-06-24 01:53:48,406 - INFO - Repository exists, fetching: https://github.com//libressl/openbsd
+2024-06-24 01:53:49,704 - INFO - Checking out commit: e42d8f4b21a8a498e2eabbffe4c7b7d4ef7cec54
+2024-06-24 01:53:50,244 - INFO - Found parent commit: 3ea05589a10a373b7fdef94f8262460dbfffa8fc
+2024-06-24 01:53:50,244 - INFO - Cloning repository: https://github.com//squidex/squidex
+2024-06-24 01:53:55,362 - INFO - Checking out commit: 2aca7621845ce18ed4065cba8e3d0fa68aaf02bf
+2024-06-24 01:53:56,067 - INFO - Found parent commit: 8a6ed7b00d081ac0de89748f979f6a118d94bcf6
+2024-06-24 01:53:56,067 - INFO - Cloning repository: https://github.com//Studio-42/elFinder
+2024-06-24 01:53:57,744 - INFO - Checking out commit: bb9aaa7b096a1b83f2f85657c43f12131ece2891
+2024-06-24 01:53:57,793 - INFO - Found parent commit: db34731b9498c8cee0f37b029d37fc6b0652fe72
+2024-06-24 01:53:57,793 - INFO - Cloning repository: https://github.com//lightdash/lightdash
+2024-06-24 01:54:02,807 - INFO - Checking out commit: fcc808c84c2cc3afb343063e32a49440d32a553c
+2024-06-24 01:54:02,816 - ERROR - GitCommandError processing https://github.com//lightdash/lightdash (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fcc808c84c2cc3afb343063e32a49440d32a553c
+  stderr: 'fatal: unable to read tree (fcc808c84c2cc3afb343063e32a49440d32a553c)'
+2024-06-24 01:54:02,817 - INFO - Attempting full clone for https://github.com//lightdash/lightdash
+2024-06-24 01:54:15,547 - INFO - Repository exists, fetching: https://github.com//lightdash/lightdash
+2024-06-24 01:54:46,597 - INFO - Checking out commit: fcc808c84c2cc3afb343063e32a49440d32a553c
+2024-06-24 01:54:47,666 - INFO - Found parent commit: bc1e3ebe9184a8dd103c5316e029d92920bb536a
+2024-06-24 01:54:47,667 - INFO - Cloning repository: https://github.com//virtualsquare/picotcp
+2024-06-24 01:54:49,327 - INFO - Checking out commit: d561990a358899178115e156871cc054a1c55ffe
+2024-06-24 01:54:49,366 - INFO - Found parent commit: eaf166009e44641e6570c576ba071217f100fd99
+2024-06-24 01:54:49,366 - INFO - Repository exists, fetching: https://github.com//virtualsquare/picotcp
+2024-06-24 01:54:49,769 - INFO - Checking out commit: eaf166009e44641e6570c576ba071217f100fd99
+2024-06-24 01:54:49,807 - INFO - Found parent commit: 4573b9ad8c8e3680027c336ca0e719d5727a3586
+2024-06-24 01:54:49,807 - INFO - Repository exists, fetching: https://github.com//virtualsquare/picotcp
+2024-06-24 01:54:50,212 - INFO - Checking out commit: 4b9a16764f2b12b611de9c34a50b4713d10ca401
+2024-06-24 01:54:50,248 - INFO - Found parent commit: d561990a358899178115e156871cc054a1c55ffe
+2024-06-24 01:54:50,248 - INFO - Cloning repository: https://github.com//OISF/suricata
+2024-06-24 01:54:52,498 - INFO - Checking out commit: aee1523b4591430ebed1ded0bb95508e6717a335
+2024-06-24 01:54:52,506 - ERROR - GitCommandError processing https://github.com//OISF/suricata (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout aee1523b4591430ebed1ded0bb95508e6717a335
+  stderr: 'fatal: unable to read tree (aee1523b4591430ebed1ded0bb95508e6717a335)'
+2024-06-24 01:54:52,506 - INFO - Attempting full clone for https://github.com//OISF/suricata
+2024-06-24 01:55:03,753 - INFO - Repository exists, fetching: https://github.com//OISF/suricata
+2024-06-24 01:55:04,907 - INFO - Checking out commit: aee1523b4591430ebed1ded0bb95508e6717a335
+2024-06-24 01:55:05,510 - INFO - Found parent commit: ea3a470eb90f776510c6a4bd36c0c01fd3681389
+2024-06-24 01:55:05,511 - INFO - Repository exists, fetching: https://github.com//OISF/suricata
+2024-06-24 01:55:09,355 - INFO - Checking out commit: 735f5aa9ca3b28cfacc7a443f93a44387fbacf17
+2024-06-24 01:55:09,569 - INFO - Found parent commit: 3f7b7e0b26df9d948549d7ccf40c1a5e41623fd8
+2024-06-24 01:55:09,569 - INFO - Repository exists, fetching: https://github.com//OISF/suricata
+2024-06-24 01:55:13,344 - INFO - Checking out commit: b95bbcc66db526ffcc880eb439dbe8abc87a81da
+2024-06-24 01:55:13,382 - INFO - Found parent commit: 342e21a5ef051831b9e3d2e974aa96407b100ede
+2024-06-24 01:55:13,383 - INFO - Cloning repository: https://github.com//backstage/backstage
+2024-06-24 01:56:09,194 - INFO - Checking out commit: fb7375507d56faedcb7bb3665480070593c8949a
+2024-06-24 01:56:10,746 - INFO - Found parent commit: 7e272d18e10e10a73b554dfe8276f10fe01e3073
+2024-06-24 01:56:10,747 - INFO - Repository exists, fetching: https://github.com//Enalean/tuleap
+2024-06-24 01:56:12,193 - INFO - Checking out commit: 0b2945fbd260d37aa0aff2ca1c867d160f76188d
+2024-06-24 01:56:13,807 - INFO - Found parent commit: 1da71be9219b2d2f6c3657e95e3522435f0ff999
+2024-06-24 01:56:13,807 - INFO - Cloning repository: https://github.com//ericcornelissen/shescape
+2024-06-24 01:56:15,234 - INFO - Checking out commit: d0fce70f987ac0d8331f93cb45d47e79436173ac
+2024-06-24 01:56:15,289 - INFO - Found parent commit: bfd88e7ffbfb75eee1236194ff9025be032d48d1
+2024-06-24 01:56:15,290 - INFO - Cloning repository: https://github.com//openfga/openfga
+2024-06-24 01:56:17,160 - INFO - Checking out commit: 087ce392595f3c319ab3028b5089118ea4063452
+2024-06-24 01:56:17,238 - INFO - Found parent commit: d180fc3e227f9ec11ff3adb3367ac00a2e21ca81
+2024-06-24 01:56:17,239 - INFO - Cloning repository: https://github.com//yt-dlp/yt-dlp
+2024-06-24 01:56:19,176 - INFO - Checking out commit: 3121512228487c9c690d3d39bfd2579addf96e07
+2024-06-24 01:56:19,469 - INFO - Found parent commit: f8b4bcc0a791274223723488bfbfc23ea3276641
+2024-06-24 01:56:19,469 - INFO - Repository exists, fetching: https://github.com//yt-dlp/yt-dlp
+2024-06-24 01:56:19,881 - INFO - Checking out commit: f8b4bcc0a791274223723488bfbfc23ea3276641
+2024-06-24 01:56:19,996 - INFO - Found parent commit: 1ceb657bdd254ad961489e5060f2ccc7d556b729
+2024-06-24 01:56:19,996 - INFO - Repository exists, fetching: https://github.com//yt-dlp/yt-dlp
+2024-06-24 01:56:20,433 - INFO - Checking out commit: 1ceb657bdd254ad961489e5060f2ccc7d556b729
+2024-06-24 01:56:20,547 - INFO - Found parent commit: ad8902f616ad2541f9b9626738f1393fad89a64c
+2024-06-24 01:56:20,548 - INFO - Repository exists, fetching: https://github.com//Enalean/tuleap
+2024-06-24 01:56:21,769 - INFO - Checking out commit: a108186e7538676c4bf6e615f793f3b787a09b91
+2024-06-24 01:56:22,305 - INFO - Found parent commit: c23cd48dd3d9200ef76e1c7ac557b42bf1ae8399
+2024-06-24 01:56:22,305 - INFO - Cloning repository: https://github.com//gradle/gradle
+2024-06-24 01:57:04,791 - INFO - Checking out commit: 859eae2b2acf751ae7db3c9ffefe275aa5da0d5d
+2024-06-24 01:57:10,444 - INFO - Found parent commit: dae4117e546138f3033b9557bda29dbf0e1f0e4d
+2024-06-24 01:57:10,445 - INFO - Repository exists, fetching: https://github.com//gradle/gradle
+2024-06-24 01:57:17,494 - INFO - Checking out commit: b07e528feb3a5ffa66bdcc358549edd73e4c8a12
+2024-06-24 01:57:17,887 - INFO - Found parent commit: cad875fa69225bd08c309a3fb20d4c444a785a29
+2024-06-24 01:57:17,888 - INFO - Repository exists, fetching: https://github.com//gradle/gradle
+2024-06-24 01:57:24,527 - INFO - Checking out commit: 1096b309520a8c315e3b6109a6526de4eabcb879
+2024-06-24 01:57:24,637 - INFO - Found parent commit: b07e528feb3a5ffa66bdcc358549edd73e4c8a12
+2024-06-24 01:57:24,638 - INFO - Repository exists, fetching: https://github.com//gradle/gradle
+2024-06-24 01:57:32,993 - INFO - Checking out commit: 2e5c34d57d0c0b7f0e8b039a192b91e5c8249d91
+2024-06-24 01:57:33,077 - INFO - Found parent commit: 1096b309520a8c315e3b6109a6526de4eabcb879
+2024-06-24 01:57:33,078 - INFO - Cloning repository: https://github.com//krb5/krb5
+2024-06-24 01:57:36,912 - INFO - Checking out commit: ef08b09c9459551aabbe7924fb176f1583053cdd
+2024-06-24 01:57:37,116 - INFO - Found parent commit: 509d8db922e9ad6f108883838473b6178f89874a
+2024-06-24 01:57:37,116 - INFO - Cloning repository: https://github.com//MystenLabs/sui
+2024-06-24 01:57:45,125 - INFO - Checking out commit: 8b681515c0cf435df2a54198a28ab4ef574d202b
+2024-06-24 01:57:45,132 - ERROR - GitCommandError processing https://github.com//MystenLabs/sui (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 8b681515c0cf435df2a54198a28ab4ef574d202b
+  stderr: 'fatal: unable to read tree (8b681515c0cf435df2a54198a28ab4ef574d202b)'
+2024-06-24 01:57:45,132 - INFO - Attempting full clone for https://github.com//MystenLabs/sui
+2024-06-24 01:58:11,422 - INFO - Repository exists, fetching: https://github.com//MystenLabs/sui
+2024-06-24 01:58:32,121 - INFO - Checking out commit: 8b681515c0cf435df2a54198a28ab4ef574d202b
+2024-06-24 01:58:34,971 - INFO - Found parent commit: 6f10a6685cca0a53fc93bc2843f1a04d3733494c
+2024-06-24 01:58:34,972 - INFO - Cloning repository: https://github.com//aptos-labs/aptos-core
+2024-06-24 01:58:41,525 - INFO - Checking out commit: 47a0391c612407fe0b1051ef658a29e35d986963
+2024-06-24 01:58:41,535 - ERROR - GitCommandError processing https://github.com//aptos-labs/aptos-core (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 47a0391c612407fe0b1051ef658a29e35d986963
+  stderr: 'fatal: unable to read tree (47a0391c612407fe0b1051ef658a29e35d986963)'
+2024-06-24 01:58:41,535 - INFO - Attempting full clone for https://github.com//aptos-labs/aptos-core
+2024-06-24 01:59:06,888 - INFO - Repository exists, fetching: https://github.com//aptos-labs/aptos-core
+2024-06-24 01:59:19,172 - INFO - Checking out commit: 47a0391c612407fe0b1051ef658a29e35d986963
+2024-06-24 01:59:22,539 - INFO - Found parent commit: d5d87861f54660fa1008795d1507c24281657ee2
+2024-06-24 01:59:22,540 - INFO - Cloning repository: https://github.com//amauric/tarteaucitron.js
+2024-06-24 01:59:23,724 - INFO - Checking out commit: c4c2fcf2b2212ce968bdcae145bb74283c441e5f
+2024-06-24 01:59:23,757 - INFO - Found parent commit: 2565f0e2bab1a8b68413b0e0e03864279699271a
+2024-06-24 01:59:23,758 - INFO - Cloning repository: https://github.com//craftcms/feed-me
+2024-06-24 01:59:25,579 - INFO - Checking out commit: b5d6ede51848349bd91bc95fec288b6793f15e28%29
+2024-06-24 01:59:25,585 - ERROR - GitCommandError processing https://github.com//craftcms/feed-me (attempt 1): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b5d6ede51848349bd91bc95fec288b6793f15e28%29
+  stderr: 'error: pathspec 'b5d6ede51848349bd91bc95fec288b6793f15e28%29' did not match any file(s) known to git'
+2024-06-24 01:59:30,595 - INFO - Repository exists, fetching: https://github.com//craftcms/feed-me
+2024-06-24 01:59:31,020 - INFO - Checking out commit: b5d6ede51848349bd91bc95fec288b6793f15e28%29
+2024-06-24 01:59:31,027 - ERROR - GitCommandError processing https://github.com//craftcms/feed-me (attempt 2): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b5d6ede51848349bd91bc95fec288b6793f15e28%29
+  stderr: 'error: pathspec 'b5d6ede51848349bd91bc95fec288b6793f15e28%29' did not match any file(s) known to git'
+2024-06-24 01:59:41,037 - INFO - Repository exists, fetching: https://github.com//craftcms/feed-me
+2024-06-24 01:59:41,527 - INFO - Checking out commit: b5d6ede51848349bd91bc95fec288b6793f15e28%29
+2024-06-24 01:59:41,535 - ERROR - GitCommandError processing https://github.com//craftcms/feed-me (attempt 3): Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout b5d6ede51848349bd91bc95fec288b6793f15e28%29
+  stderr: 'error: pathspec 'b5d6ede51848349bd91bc95fec288b6793f15e28%29' did not match any file(s) known to git'
+2024-06-24 01:59:41,535 - INFO - Repository exists, fetching: https://github.com//craftcms/feed-me
+2024-06-24 01:59:41,946 - INFO - Checking out commit: b5d6ede51848349bd91bc95fec288b6793f15e28
+2024-06-24 01:59:42,158 - INFO - Found parent commit: 318d63efbbf76ef1eaa4812ec7b9783a60d04e94
+2024-06-24 01:59:42,158 - INFO - Repository exists, fetching: https://github.com//salesagility/suitecrm-core
+2024-06-24 01:59:42,668 - INFO - Checking out commit: 78285702d76317f081b1fbc59cb2754e93b9a4c3
+2024-06-24 01:59:43,195 - INFO - Found parent commit: 93ce6042aaa0ac203fefd200a41f3997da5571df
+2024-06-24 01:59:43,195 - INFO - Cloning repository: https://github.com//michael-methner/dlt-daemon
+2024-06-24 01:59:45,627 - INFO - Checking out commit: 8ac9a080bee25e67e49bd138d81c992ce7b6d899
+2024-06-24 01:59:45,766 - INFO - Found parent commit: 198715eb7d606515c1dd22187080cae483480849
+2024-06-24 01:59:45,767 - INFO - Cloning repository: https://github.com//relic-toolkit/relic
+2024-06-24 01:59:47,540 - INFO - Checking out commit: 34580d840469361ba9b5f001361cad659687b9ab
+2024-06-24 01:59:47,661 - INFO - Found parent commit: 0ba57234a29ffbe6ae8f0448df5cad7a5084796e
+2024-06-24 01:59:47,662 - INFO - Repository exists, fetching: https://github.com//relic-toolkit/relic
+2024-06-24 01:59:48,146 - INFO - Checking out commit: 421f2e91cf2ba42473d4d54daf24e295679e290e
+2024-06-24 01:59:48,212 - INFO - Found parent commit: 2c93259f3292d4f9dc7c107c0862beab611f0e74
+2024-06-24 01:59:48,213 - INFO - Cloning repository: https://github.com//square/okio
+2024-06-24 01:59:49,642 - INFO - Checking out commit: 81bce1a30af244550b0324597720e4799281da7b
+2024-06-24 01:59:49,725 - INFO - Found parent commit: b9b3fce0d1b3fa3f59091500026db3f629b4fef7
+2024-06-24 01:59:49,725 - INFO - Cloning repository: https://github.com//goauthentik/authentik
+2024-06-24 01:59:54,968 - INFO - Checking out commit: 15026748d19d490eb2baf9a9566ead4f805f7dff
+2024-06-24 01:59:54,974 - ERROR - GitCommandError processing https://github.com//goauthentik/authentik (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 15026748d19d490eb2baf9a9566ead4f805f7dff
+  stderr: 'fatal: unable to read tree (15026748d19d490eb2baf9a9566ead4f805f7dff)'
+2024-06-24 01:59:54,974 - INFO - Attempting full clone for https://github.com//goauthentik/authentik
+2024-06-24 02:00:15,145 - INFO - Repository exists, fetching: https://github.com//goauthentik/authentik
+2024-06-24 02:00:17,723 - INFO - Checking out commit: 15026748d19d490eb2baf9a9566ead4f805f7dff
+2024-06-24 02:00:18,814 - INFO - Found parent commit: 2739376a2af0bb023543e904ee47525f09774472
+2024-06-24 02:00:18,815 - INFO - Repository exists, fetching: https://github.com//goauthentik/authentik
+2024-06-24 02:00:21,148 - INFO - Checking out commit: c07a48a3eccbd7b23026f72136d3392bbc6f795a
+2024-06-24 02:00:21,505 - INFO - Found parent commit: e1bae1240f412da9f86521819ae5b44af150678a
+2024-06-24 02:00:21,506 - INFO - Cloning repository: https://github.com//mastodon/mastodon
+2024-06-24 02:00:27,583 - INFO - Checking out commit: 6d8e0fae3e96f3cf4febe03fa7fcf5b95ff761b2
+2024-06-24 02:00:27,599 - ERROR - GitCommandError processing https://github.com//mastodon/mastodon (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 6d8e0fae3e96f3cf4febe03fa7fcf5b95ff761b2
+  stderr: 'fatal: unable to read tree (6d8e0fae3e96f3cf4febe03fa7fcf5b95ff761b2)'
+2024-06-24 02:00:27,599 - INFO - Attempting full clone for https://github.com//mastodon/mastodon
+2024-06-24 02:00:47,771 - INFO - Repository exists, fetching: https://github.com//mastodon/mastodon
+2024-06-24 02:00:49,423 - INFO - Checking out commit: 6d8e0fae3e96f3cf4febe03fa7fcf5b95ff761b2
+2024-06-24 02:00:50,638 - INFO - Found parent commit: fed9cbfd2ba8db8bffb03f554c24d83b6f8aa059
+2024-06-24 02:00:50,638 - INFO - Repository exists, fetching: https://github.com//mastodon/mastodon
+2024-06-24 02:00:52,271 - INFO - Checking out commit: dc8f1fbd976ae544720a4e07120d9a91b2722440
+2024-06-24 02:00:52,595 - INFO - Found parent commit: 6d8e0fae3e96f3cf4febe03fa7fcf5b95ff761b2
+2024-06-24 02:00:52,595 - INFO - Repository exists, fetching: https://github.com//mastodon/mastodon
+2024-06-24 02:00:54,320 - INFO - Checking out commit: c5929798bf7e56cc2c79b15bed0c4692ded3dcb6
+2024-06-24 02:00:54,416 - INFO - Found parent commit: dc8f1fbd976ae544720a4e07120d9a91b2722440
+2024-06-24 02:00:54,416 - INFO - Repository exists, fetching: https://github.com//mastodon/mastodon
+2024-06-24 02:00:56,179 - INFO - Checking out commit: 610731b03dfcadd887078cb0399f4e514aa1931c
+2024-06-24 02:00:56,283 - INFO - Found parent commit: c5929798bf7e56cc2c79b15bed0c4692ded3dcb6
+2024-06-24 02:00:56,284 - INFO - Cloning repository: https://github.com//jucktnich/meldekarten-generator
+2024-06-24 02:00:56,736 - INFO - Checking out commit: 77e04f4af85a6d0b08e616d40eaa81877a108c96
+2024-06-24 02:00:56,767 - INFO - Found parent commit: 69c40d7b7e673a6d660ef7511dc3a6f78bc98e75
+2024-06-24 02:00:56,767 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:01:19,594 - INFO - Checking out commit: 15a6f845d8206b0ae97f37aa092ca43d4f9d6e59
+2024-06-24 02:01:20,228 - INFO - Found parent commit: c1e0698ee27c578c56e6df506c654aff38b954b6
+2024-06-24 02:01:20,229 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:01:43,690 - INFO - Checking out commit: 217e5bb7a657f2991b154a16ef4d5ae9c29ad39c
+2024-06-24 02:01:43,949 - INFO - Found parent commit: 3619c252d33ef50d4d7420e51e08a1b3ca623c85
+2024-06-24 02:01:43,949 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:02:08,850 - INFO - Checking out commit: 217e5bb7a657f2991b154a16ef4d5ae9c29ad39c
+2024-06-24 02:02:08,955 - INFO - Found parent commit: 3619c252d33ef50d4d7420e51e08a1b3ca623c85
+2024-06-24 02:02:08,956 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:02:30,368 - INFO - Checking out commit: 217e5bb7a657f2991b154a16ef4d5ae9c29ad39c
+2024-06-24 02:02:30,435 - INFO - Found parent commit: 3619c252d33ef50d4d7420e51e08a1b3ca623c85
+2024-06-24 02:02:30,436 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:02:51,395 - INFO - Checking out commit: 46b542854978e9caa687a5c2b8817b8b17877d94
+2024-06-24 02:02:51,564 - INFO - Found parent commit: b0cdfd893912baaa053d106a92e39fa1858843c7
+2024-06-24 02:02:51,564 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:03:13,067 - INFO - Checking out commit: 79418dd92ca11941b46987ef881bf50424898ff4
+2024-06-24 02:03:13,164 - INFO - Found parent commit: 46b542854978e9caa687a5c2b8817b8b17877d94
+2024-06-24 02:03:13,165 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:03:34,198 - INFO - Checking out commit: b0cdfd893912baaa053d106a92e39fa1858843c7
+2024-06-24 02:03:34,307 - INFO - Found parent commit: 6006c3c4ae08e592d12de3230a7cc5cb06dd1f1a
+2024-06-24 02:03:34,308 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-commons
+2024-06-24 02:03:34,833 - INFO - Checking out commit: 99484d48e899a68a1b6e33d457825b776c6fe8c3
+2024-06-24 02:03:35,200 - INFO - Found parent commit: 55d83c9fadfa1aebaa03507af3444f8ea17807c7
+2024-06-24 02:03:35,200 - INFO - Cloning repository: https://github.com//parse-community/parse-server
+2024-06-24 02:03:38,118 - INFO - Checking out commit: 5fad2928fb8ee17304abcdcf259932f827d8c81f
+2024-06-24 02:03:38,126 - ERROR - GitCommandError processing https://github.com//parse-community/parse-server (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 5fad2928fb8ee17304abcdcf259932f827d8c81f
+  stderr: 'fatal: unable to read tree (5fad2928fb8ee17304abcdcf259932f827d8c81f)'
+2024-06-24 02:03:38,126 - INFO - Attempting full clone for https://github.com//parse-community/parse-server
+2024-06-24 02:03:47,928 - INFO - Repository exists, fetching: https://github.com//parse-community/parse-server
+2024-06-24 02:03:48,667 - INFO - Checking out commit: 5fad2928fb8ee17304abcdcf259932f827d8c81f
+2024-06-24 02:03:48,802 - INFO - Found parent commit: a0360712c82c6996aab8dc80454400c006ad7cea
+2024-06-24 02:03:48,802 - INFO - Repository exists, fetching: https://github.com//parse-community/parse-server
+2024-06-24 02:03:49,738 - INFO - Checking out commit: 3dd99dd80e27e5e1d99b42844180546d90c7aa90
+2024-06-24 02:03:49,810 - INFO - Found parent commit: 150627328fd510062f0552a2a8828314b66dc258
+2024-06-24 02:03:49,811 - INFO - Cloning repository: https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:05:52,007 - INFO - Checking out commit: 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+2024-06-24 02:05:52,014 - ERROR - GitCommandError processing https://github.com//vlinkz/calamares-nixos-extensions (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+  stderr: 'fatal: unable to read tree (837ca4da5521a74d3b5ca6f7b88890a6713faa22)'
+2024-06-24 02:05:52,014 - INFO - Attempting full clone for https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:05:58,809 - INFO - Repository exists, fetching: https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:05:59,200 - INFO - Checking out commit: 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+2024-06-24 02:05:59,211 - ERROR - GitCommandError processing https://github.com//vlinkz/calamares-nixos-extensions (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+  stderr: 'fatal: unable to read tree (837ca4da5521a74d3b5ca6f7b88890a6713faa22)'
+2024-06-24 02:05:59,211 - INFO - Attempting full clone for https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:06:11,203 - INFO - Repository exists, fetching: https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:06:11,593 - INFO - Checking out commit: 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+2024-06-24 02:06:11,604 - ERROR - GitCommandError processing https://github.com//vlinkz/calamares-nixos-extensions (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 837ca4da5521a74d3b5ca6f7b88890a6713faa22
+  stderr: 'fatal: unable to read tree (837ca4da5521a74d3b5ca6f7b88890a6713faa22)'
+2024-06-24 02:06:11,604 - INFO - Attempting full clone for https://github.com//vlinkz/calamares-nixos-extensions
+2024-06-24 02:06:28,301 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:06:48,927 - INFO - Checking out commit: 9d9d86179457cb8dc48b4491510537878800be4f
+2024-06-24 02:06:49,133 - INFO - Found parent commit: 79e128441b0d3964b3896e763a59b801e5502644
+2024-06-24 02:06:49,134 - INFO - Cloning repository: https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:06:51,061 - INFO - Checking out commit: 80c508cc5ecb0173ce92d7fab8cfab5e77bd9900
+2024-06-24 02:06:51,132 - INFO - Found parent commit: f15bfa18ba3fece17351381df2eb2705c446aaa6
+2024-06-24 02:06:51,132 - INFO - Repository exists, fetching: https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:06:51,533 - INFO - Checking out commit: 51c65e32837da29435161a2d9c09bbdc2071ecae
+2024-06-24 02:06:51,541 - ERROR - GitCommandError processing https://github.com//aerospike/aerospike-client-java (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 51c65e32837da29435161a2d9c09bbdc2071ecae
+  stderr: 'fatal: unable to read tree (51c65e32837da29435161a2d9c09bbdc2071ecae)'
+2024-06-24 02:06:51,541 - INFO - Attempting full clone for https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:06:58,124 - INFO - Repository exists, fetching: https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:06:58,905 - INFO - Checking out commit: 51c65e32837da29435161a2d9c09bbdc2071ecae
+2024-06-24 02:06:59,000 - INFO - Found parent commit: 4205a8a036a7fbe6eaa692d3dded5b6c52b8c07f
+2024-06-24 02:06:59,000 - INFO - Repository exists, fetching: https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:06:59,778 - INFO - Checking out commit: 02bf28e62fb186f004c82c87b219db2fc5b8262a
+2024-06-24 02:06:59,879 - INFO - Found parent commit: aeda98b973a319482b947ebcd034bfe3de98629d
+2024-06-24 02:06:59,880 - INFO - Repository exists, fetching: https://github.com//aerospike/aerospike-client-java
+2024-06-24 02:07:00,679 - INFO - Checking out commit: 66aafb4cd743cf53baffaeaf69b035f51d2e2e36
+2024-06-24 02:07:00,787 - INFO - Found parent commit: 4dad2cee0ea56eeeec6ec2b3483a67e8fd4cf38c
+2024-06-24 02:07:00,788 - INFO - Cloning repository: https://github.com//protobufjs/protobuf.js
+2024-06-24 02:07:03,527 - INFO - Checking out commit: e66379f451b0393c27d87b37fa7d271619e16b0d
+2024-06-24 02:07:03,569 - INFO - Found parent commit: 56b1e64979dae757b67a21d326e16acee39f2267
+2024-06-24 02:07:03,569 - INFO - Cloning repository: https://github.com//inex/IXP-Manager
+2024-06-24 02:07:08,520 - INFO - Checking out commit: fddbc38adb477c9cd46a462655ffed96d3d42229
+2024-06-24 02:07:08,689 - INFO - Found parent commit: 348a5f48006774947237d672aee72aa743737e75
+2024-06-24 02:07:08,690 - INFO - Repository exists, fetching: https://github.com//froxlor/froxlor
+2024-06-24 02:07:09,191 - INFO - Checking out commit: 03b5a921ff308eeab21bf9d240f27783c8591965
+2024-06-24 02:07:09,275 - INFO - Found parent commit: e357f7e9c31fa90bc014c20a9f5948aae138348a
+2024-06-24 02:07:09,276 - INFO - Cloning repository: https://github.com//plaidweb/webmention.js
+2024-06-24 02:07:09,736 - INFO - Checking out commit: 3551b66b3e40da37fee89ecf72930c5efdc53011
+2024-06-24 02:07:09,765 - INFO - Found parent commit: 94ef4cc5d82656297427878ecf354555333bbaa5
+2024-06-24 02:07:09,766 - INFO - Cloning repository: https://github.com//pimcore/pimcore
+2024-06-24 02:24:45,340 - INFO - Checking out commit: a06ce0abdba19ae0eefc38b035e677f8f0c2bce9
+2024-06-24 02:24:47,228 - INFO - Found parent commit: 6e2f431db5193c9144f892fe4266db4ea90f5b3b
+2024-06-24 02:24:47,229 - INFO - Cloning repository: https://github.com//keylime/keylime
+2024-06-24 02:24:49,119 - INFO - Checking out commit: 95ce3d86bd2c53009108ffda2dcf553312d733db
+2024-06-24 02:24:49,206 - INFO - Found parent commit: 7d8765b10ee9e0c62a48abf18dfd4c50bad23f12
+2024-06-24 02:24:49,206 - INFO - Cloning repository: https://github.com//contao/contao
+2024-06-24 02:31:50,016 - INFO - Checking out commit: 5c9aff32cfc1f7dc452a045862ac2f86a6b9b4b4
+2024-06-24 02:31:50,024 - ERROR - GitCommandError processing https://github.com//contao/contao (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 5c9aff32cfc1f7dc452a045862ac2f86a6b9b4b4
+  stderr: 'fatal: unable to read tree (5c9aff32cfc1f7dc452a045862ac2f86a6b9b4b4)'
+2024-06-24 02:31:50,024 - INFO - Attempting full clone for https://github.com//contao/contao
+2024-06-24 02:32:02,765 - INFO - Repository exists, fetching: https://github.com//contao/contao
+2024-06-24 02:32:03,478 - INFO - Checking out commit: 5c9aff32cfc1f7dc452a045862ac2f86a6b9b4b4
+2024-06-24 02:32:04,528 - INFO - Found parent commit: 0f0bea8048d667cc0906a9da1e88e8d5af0c2e92
+2024-06-24 02:32:04,528 - INFO - Repository exists, fetching: https://github.com//contao/contao
+2024-06-24 02:32:05,131 - INFO - Checking out commit: ccb64c777eb0f9c0e6490c9135d80e915d37cd32
+2024-06-24 02:32:05,681 - INFO - Found parent commit: c4810a73e1a0186625c25ac2d49b980b570c85dd
+2024-06-24 02:32:05,681 - INFO - Repository exists, fetching: https://github.com//contao/contao
+2024-06-24 02:32:06,291 - INFO - Checking out commit: c98585d36baa25fda69c062421e7e7eadc53c82b
+2024-06-24 02:32:07,029 - INFO - Found parent commit: 2f8026c42da3b5e03baae640b590344c3a4b72dd
+2024-06-24 02:32:07,030 - INFO - Repository exists, fetching: https://www.github.com//kiwitcms/kiwi
+2024-06-24 02:32:07,431 - INFO - Checking out commit: 195ea53eaaf360c19227c864cc0fe58910032c3c
+2024-06-24 02:32:07,605 - INFO - Found parent commit: 1ae51fcafc36bd3b1c7f01d4eec886d9a7fa3b07
+2024-06-24 02:32:07,607 - INFO - Repository exists, fetching: https://www.github.com//kiwitcms/kiwi
+2024-06-24 02:32:08,031 - INFO - Checking out commit: ffb00450be52fe11a82a2507632c2328cae4ec9d
+2024-06-24 02:32:08,074 - INFO - Found parent commit: 4b8a051ec2208265e11ed5c928a7f18fd03e23e0
+2024-06-24 02:32:08,075 - INFO - Cloning repository: https://github.com//borgbackup/borg
+2024-06-24 02:32:11,261 - INFO - Checking out commit: 3eb070191da10c2d3f7bc6484cf3d51c3045f884
+2024-06-24 02:32:11,333 - INFO - Found parent commit: 6aa350aeb46ccaf2ce9f4a16a84e08614e02eec0
+2024-06-24 02:32:11,334 - INFO - Cloning repository: https://github.com//OpenTSDB/opentsdb
+2024-06-24 02:32:14,080 - INFO - Checking out commit: fa88d3e4b5369f9fb73da384fab0b23e246309ba
+2024-06-24 02:32:14,123 - INFO - Found parent commit: 07c4641471c6f5c2ab5aab615969e97211eb50d9
+2024-06-24 02:32:14,124 - INFO - Repository exists, fetching: https://github.com//OpenTSDB/opentsdb
+2024-06-24 02:32:14,496 - INFO - Checking out commit: 07c4641471c6f5c2ab5aab615969e97211eb50d9
+2024-06-24 02:32:14,547 - INFO - Found parent commit: 22b27ea30a859a6dbdcd65fcdf61190d46e1b677
+2024-06-24 02:32:14,547 - INFO - Repository exists, fetching: https://github.com//kanboard/kanboard
+2024-06-24 02:32:15,041 - INFO - Checking out commit: 25b93343baeaf8ad018dcd87b094e47a5c6a3e0a
+2024-06-24 02:32:15,144 - INFO - Found parent commit: 03eca81c0e4e40027b177d4fd37b57c3bb0bc670
+2024-06-24 02:32:15,145 - INFO - Cloning repository: https://github.com//zopefoundation/Products.CMFCore
+2024-06-24 02:32:16,016 - INFO - Checking out commit: 40f03f43a60f28ca9485c8ef429efef729be54e5
+2024-06-24 02:32:16,044 - INFO - Found parent commit: 1fa289cf7f6d323cdab2136eea32ea99a878f179
+2024-06-24 02:32:16,044 - INFO - Cloning repository: https://github.com//discourse/discourse
+2024-06-24 02:32:26,443 - INFO - Checking out commit: 52b003d915761f1581ae2d105f3cbe76df7bf1ff
+2024-06-24 02:32:26,454 - ERROR - GitCommandError processing https://github.com//discourse/discourse (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 52b003d915761f1581ae2d105f3cbe76df7bf1ff
+  stderr: 'fatal: unable to read tree (52b003d915761f1581ae2d105f3cbe76df7bf1ff)'
+2024-06-24 02:32:26,454 - INFO - Attempting full clone for https://github.com//discourse/discourse
+2024-06-24 02:33:09,662 - INFO - Repository exists, fetching: https://github.com//discourse/discourse
+2024-06-24 02:33:16,960 - INFO - Checking out commit: 52b003d915761f1581ae2d105f3cbe76df7bf1ff
+2024-06-24 02:33:19,385 - INFO - Found parent commit: eed7d8660132e1164b0cc6f342d751423d6a7288
+2024-06-24 02:33:19,386 - INFO - Cloning repository: https://github.com//micronaut-projects/micronaut-security
+2024-06-24 02:33:22,147 - INFO - Checking out commit: 9728b925221a0d87798ccf250657a3c214b7e980
+2024-06-24 02:33:22,154 - ERROR - GitCommandError processing https://github.com//micronaut-projects/micronaut-security (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9728b925221a0d87798ccf250657a3c214b7e980
+  stderr: 'fatal: unable to read tree (9728b925221a0d87798ccf250657a3c214b7e980)'
+2024-06-24 02:33:22,154 - INFO - Attempting full clone for https://github.com//micronaut-projects/micronaut-security
+2024-06-24 02:33:39,452 - INFO - Repository exists, fetching: https://github.com//micronaut-projects/micronaut-security
+2024-06-24 02:33:40,574 - INFO - Checking out commit: 9728b925221a0d87798ccf250657a3c214b7e980
+2024-06-24 02:33:40,822 - INFO - Found parent commit: c3eeb1957a1e3d5a6b60042a349bbc93cd0809fc
+2024-06-24 02:33:40,823 - INFO - Cloning repository: https://github.com//rgrove/sanitize
+2024-06-24 02:33:41,581 - INFO - Checking out commit: 76ed46e6dc70820f38efe27de8dabd54dddb5220
+2024-06-24 02:33:41,620 - INFO - Found parent commit: a92f21cd223a32a1737262d68e56a4fb8b9470f9
+2024-06-24 02:33:41,620 - INFO - Cloning repository: https://github.com//getsentry/sentry
+2024-06-24 02:33:50,721 - INFO - Checking out commit: e932b15435bf36239431eaa3790a6bcfa47046a9
+2024-06-24 02:33:50,733 - ERROR - GitCommandError processing https://github.com//getsentry/sentry (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout e932b15435bf36239431eaa3790a6bcfa47046a9
+  stderr: 'fatal: unable to read tree (e932b15435bf36239431eaa3790a6bcfa47046a9)'
+2024-06-24 02:33:50,733 - INFO - Attempting full clone for https://github.com//getsentry/sentry
+2024-06-24 02:34:25,396 - INFO - Repository exists, fetching: https://github.com//getsentry/sentry
+2024-06-24 02:34:44,144 - INFO - Checking out commit: e932b15435bf36239431eaa3790a6bcfa47046a9
+2024-06-24 02:34:46,899 - INFO - Found parent commit: 8e308bbb054ee8d834b81b60c4c442e334d308fd
+2024-06-24 02:34:46,901 - INFO - Cloning repository: https://github.com//ethyca/fides
+2024-06-24 02:34:51,433 - INFO - Checking out commit: f526d9ffb176006d701493c9d0eff6b4884e811f
+2024-06-24 02:34:51,911 - INFO - Found parent commit: 1212eadf972fa9beed2908d377a3ee39e1f3d6f7
+2024-06-24 02:34:51,912 - INFO - Repository exists, fetching: https://github.com//statamic/cms
+2024-06-24 02:34:54,701 - INFO - Checking out commit: c714893ad92de6e5ede17b501003441af505b30d
+2024-06-24 02:34:54,707 - ERROR - GitCommandError processing https://github.com//statamic/cms (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout c714893ad92de6e5ede17b501003441af505b30d
+  stderr: 'fatal: unable to read tree (c714893ad92de6e5ede17b501003441af505b30d)'
+2024-06-24 02:34:54,707 - INFO - Attempting full clone for https://github.com//statamic/cms
+2024-06-24 02:35:04,253 - INFO - Repository exists, fetching: https://github.com//statamic/cms
+2024-06-24 02:35:05,382 - INFO - Checking out commit: c714893ad92de6e5ede17b501003441af505b30d
+2024-06-24 02:35:05,953 - INFO - Found parent commit: f806b6b007ddcf066082eef175653c5beaa96d60
+2024-06-24 02:35:05,953 - INFO - Repository exists, fetching: https://github.com//getsentry/sentry
+2024-06-24 02:35:24,509 - INFO - Checking out commit: ee44c6be35e5e464bc40637580f39867898acd8b
+2024-06-24 02:35:25,948 - INFO - Found parent commit: 8d836eae82c5728192a76ccb78cae8b1b5621d26
+2024-06-24 02:35:25,949 - INFO - Repository exists, fetching: https://github.com//admidio/admidio
+2024-06-24 02:35:27,004 - INFO - Checking out commit: d66585d14b1160712a8a9bfaf9769dd3da0e9a83
+2024-06-24 02:35:27,092 - INFO - Found parent commit: 3193c562bbc763daf4e54467e3d815f001473910
+2024-06-24 02:35:27,093 - INFO - Repository exists, fetching: https://github.com//automattic/mongoose
+2024-06-24 02:35:27,571 - INFO - Checking out commit: 305ce4ff789261df7e3f6e72363d0703e025f80d
+2024-06-24 02:35:27,577 - ERROR - GitCommandError processing https://github.com//automattic/mongoose (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 305ce4ff789261df7e3f6e72363d0703e025f80d
+  stderr: 'fatal: unable to read tree (305ce4ff789261df7e3f6e72363d0703e025f80d)'
+2024-06-24 02:35:27,577 - INFO - Attempting full clone for https://github.com//automattic/mongoose
+2024-06-24 02:35:41,604 - INFO - Repository exists, fetching: https://github.com//automattic/mongoose
+2024-06-24 02:35:43,592 - INFO - Checking out commit: 305ce4ff789261df7e3f6e72363d0703e025f80d
+2024-06-24 02:35:43,793 - INFO - Found parent commit: 35e59eb0f07f2a9a7c2de1e84510013ea66d4cd4
+2024-06-24 02:35:43,794 - INFO - Repository exists, fetching: https://github.com//alextselegidis/easyappointments
+2024-06-24 02:35:44,387 - INFO - Checking out commit: b37b46019553089db4f22eb2fe998bca84b2cb64
+2024-06-24 02:35:44,510 - INFO - Found parent commit: e7ddad564140df0d904dc3dc86a94d952b6a6d66
+2024-06-24 02:35:44,511 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:38:37,819 - INFO - Checking out commit: 75e9b3e0acac6f7a643da6ff19a00d55a94417a1
+2024-06-24 02:38:38,418 - INFO - Found parent commit: c263933d1d958edee3999820f636c8cb919d03d1
+2024-06-24 02:38:38,418 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:38:44,616 - INFO - Checking out commit: c263933d1d958edee3999820f636c8cb919d03d1
+2024-06-24 02:38:44,763 - INFO - Found parent commit: 4f7b5ebf90c35999917c231276e47a4184275690
+2024-06-24 02:38:44,763 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:38:50,836 - INFO - Checking out commit: 546a18b0bd1446123f4e29f81f42e71b761f51b7
+2024-06-24 02:38:50,980 - INFO - Found parent commit: 75e9b3e0acac6f7a643da6ff19a00d55a94417a1
+2024-06-24 02:38:50,981 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:38:56,799 - INFO - Checking out commit: 91ecc6141de6de9483c5a31fbb9fa91450f24940
+2024-06-24 02:38:56,922 - INFO - Found parent commit: da61f287d2e508a5e940953b474051d0f21e91c0
+2024-06-24 02:38:56,923 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:39:02,966 - INFO - Checking out commit: da61f287d2e508a5e940953b474051d0f21e91c0
+2024-06-24 02:39:03,095 - INFO - Found parent commit: 546a18b0bd1446123f4e29f81f42e71b761f51b7
+2024-06-24 02:39:03,096 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:39:09,002 - INFO - Checking out commit: 4f7b5ebf90c35999917c231276e47a4184275690
+2024-06-24 02:39:09,121 - INFO - Found parent commit: 6730eb22f6900321e29cf609b17862589ed5c0d9
+2024-06-24 02:39:09,121 - INFO - Repository exists, fetching: https://github.com//chamilo/chamilo-lms
+2024-06-24 02:39:14,951 - INFO - Checking out commit: c75ff227bcf00e9f88e9477b78eaeed9e0668905
+2024-06-24 02:39:15,095 - INFO - Found parent commit: 91ecc6141de6de9483c5a31fbb9fa91450f24940
+2024-06-24 02:39:15,095 - INFO - Cloning repository: https://github.com//Blosc/c-blosc2
+2024-06-24 02:40:10,177 - INFO - Checking out commit: 425e8a9a59d49378d57e2116b6c9b0190a5986f5
+2024-06-24 02:40:10,314 - INFO - Found parent commit: 144ed29aeca9fdd4b559f45983d714545b81c890
+2024-06-24 02:40:10,315 - INFO - Repository exists, fetching: https://github.com//Blosc/c-blosc2
+2024-06-24 02:40:10,719 - INFO - Checking out commit: d55bfcd6804699e1435dc3e233fd76c8a5d3f9e3
+2024-06-24 02:40:10,788 - INFO - Found parent commit: 425e8a9a59d49378d57e2116b6c9b0190a5986f5
+2024-06-24 02:40:10,789 - INFO - Repository exists, fetching: https://github.com//Blosc/c-blosc2
+2024-06-24 02:40:11,163 - INFO - Checking out commit: 425e8a9a59d49378d57e2116b6c9b0190a5986f5
+2024-06-24 02:40:11,230 - INFO - Found parent commit: 144ed29aeca9fdd4b559f45983d714545b81c890
+2024-06-24 02:40:11,231 - INFO - Repository exists, fetching: https://github.com//Blosc/c-blosc2
+2024-06-24 02:40:11,612 - INFO - Checking out commit: 425e8a9a59d49378d57e2116b6c9b0190a5986f5
+2024-06-24 02:40:11,648 - INFO - Found parent commit: 144ed29aeca9fdd4b559f45983d714545b81c890
+2024-06-24 02:40:11,648 - INFO - Cloning repository: https://github.com//matrix-org/matrix-react-sdk
+2024-06-24 02:40:23,036 - INFO - Checking out commit: 22fcd34c606f32129ebc967fc21f24fb708a98b8
+2024-06-24 02:40:23,568 - INFO - Found parent commit: d8dcfc96cceb1418017c818cb029719c6f2688e2
+2024-06-24 02:40:23,569 - INFO - Cloning repository: https://github.com//MightyPirates/OpenComputers
+2024-06-24 02:40:27,419 - INFO - Checking out commit: d13c015357fd6c42e0a1bdd6e1ef9462f0450a15
+2024-06-24 02:40:27,550 - INFO - Found parent commit: 5a685f87c0aada7fbfa8bffb0d5d301acf28e070
+2024-06-24 02:40:27,551 - INFO - Cloning repository: https://github.com//cc-tweaked/CC-Tweaked
+2024-06-24 02:40:30,274 - INFO - Checking out commit: 4bbde8c50c00bc572578ab2cff609b3443d10ddf
+2024-06-24 02:40:30,603 - INFO - Found parent commit: cc8c1f38e7e15548c89f5da2f0ead7e1299ad9cc
+2024-06-24 02:40:30,603 - INFO - Cloning repository: https://github.com//IceWhaleTech/CasaOS-Gateway
+2024-06-24 02:40:31,154 - INFO - Checking out commit: 391dd7f0f239020c46bf057cfa25f82031fc15f7
+2024-06-24 02:40:31,182 - INFO - Found parent commit: f76b6bcd949be30867b2c3829cbeb94b0c354aef
+2024-06-24 02:40:31,182 - INFO - Cloning repository: https://github.com//IceWhaleTech/CasaOS
+2024-06-24 02:40:38,071 - INFO - Checking out commit: 705bf1facbffd2ca40b159b0303132b6fdf657ad
+2024-06-24 02:40:38,123 - INFO - Found parent commit: aae1802191031dad43311326f0a36f202419d5a6
+2024-06-24 02:40:38,123 - INFO - Cloning repository: https://github.com//umbraco/Umbraco-CMS
+2024-06-24 02:41:00,428 - INFO - Checking out commit: 82eae48d098b9deecbdf86cf288b2b18020e1fed
+2024-06-24 02:41:01,739 - INFO - Found parent commit: dc5c7a14a576afc4c349877785c5f009275d630c
+2024-06-24 02:41:01,739 - INFO - Repository exists, fetching: https://github.com//umbraco/Umbraco-CMS
+2024-06-24 02:41:04,327 - INFO - Checking out commit: 1f26f2c6f3428833892cde5c6d8441fb041e410e
+2024-06-24 02:41:04,877 - INFO - Found parent commit: 596284f32dace3b50f0ad54b1ca94ecd51aaa0a7
+2024-06-24 02:41:04,877 - INFO - Repository exists, fetching: https://github.com//umbraco/Umbraco-CMS
+2024-06-24 02:41:07,767 - INFO - Checking out commit: 20a4e475c8d7b91d263e4e103ef19f3644e7b569
+2024-06-24 02:41:08,054 - INFO - Found parent commit: 2a601ae0d0682737d6c12f6d2e6c641b51bda717
+2024-06-24 02:41:08,055 - INFO - Cloning repository: https://github.com//warp-tech/warpgate
+2024-06-24 02:41:09,121 - INFO - Checking out commit: 8173f6512ab6183fa5edc5c9a5f3760b8979271e
+2024-06-24 02:41:09,167 - INFO - Found parent commit: 4fe4bfe18ef29883bf37feb63f89ff095ee078ff
+2024-06-24 02:41:09,167 - INFO - Cloning repository: https://github.com//wintercms/storm
+2024-06-24 02:41:10,430 - INFO - Checking out commit: 186d85d8fea2cae43afc807d39f68553c24e56be
+2024-06-24 02:41:10,483 - INFO - Found parent commit: edf2087d07120d2cc0697d81cfce7cb15c99ff17
+2024-06-24 02:41:10,484 - INFO - Cloning repository: https://github.com//wintercms/winter
+2024-06-24 02:41:13,677 - INFO - Checking out commit: fa50b4c7489b67ea80072f8ac9fe5294fce1df1c
+2024-06-24 02:41:13,991 - INFO - Found parent commit: 4f80b2bc6fa7f06b80901e2d26974766ab1d6d80
+2024-06-24 02:41:13,992 - INFO - Cloning repository: https://github.com//Piwigo/Piwigo
+2024-06-24 02:41:16,601 - INFO - Checking out commit: 978425527d6c113887f845d75cf982bbb62d761a
+2024-06-24 02:41:16,809 - INFO - Found parent commit: 639c9d96fa4e5263c9d3da8b2ca19370f042feb3
+2024-06-24 02:41:16,809 - INFO - Cloning repository: https://github.com//zopefoundation/RestrictedPython
+2024-06-24 02:41:17,642 - INFO - Checking out commit: c8eca66ae49081f0016d2e1f094c3d72095ef531
+2024-06-24 02:41:17,673 - INFO - Found parent commit: b82d5821d1669ff56b4264c39b01e658a62875e9
+2024-06-24 02:41:17,675 - INFO - Cloning repository: https://github.com//aio-libs/aiohttp
+2024-06-24 02:41:20,255 - INFO - Checking out commit: 9337fb3f2ab2b5f38d7e98a194bde6f7e3d16c40
+2024-06-24 02:41:20,262 - ERROR - GitCommandError processing https://github.com//aio-libs/aiohttp (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 9337fb3f2ab2b5f38d7e98a194bde6f7e3d16c40
+  stderr: 'fatal: unable to read tree (9337fb3f2ab2b5f38d7e98a194bde6f7e3d16c40)'
+2024-06-24 02:41:20,262 - INFO - Attempting full clone for https://github.com//aio-libs/aiohttp
+2024-06-24 02:41:28,027 - INFO - Repository exists, fetching: https://github.com//aio-libs/aiohttp
+2024-06-24 02:41:29,300 - INFO - Checking out commit: 9337fb3f2ab2b5f38d7e98a194bde6f7e3d16c40
+2024-06-24 02:41:29,372 - INFO - Found parent commit: f07e9b44b5cb909054a697c8dd447b30dbf8073e
+2024-06-24 02:41:29,373 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 02:41:30,435 - INFO - Checking out commit: 4c175405faa0e62437df397811c7526dfc0fbae7
+2024-06-24 02:41:31,016 - INFO - Found parent commit: 64fff541dbd8477cd1c95ee8bf988c29373b4895
+2024-06-24 02:41:31,017 - INFO - Cloning repository: https://github.com//pimcore/admin-ui-classic-bundle
+2024-06-24 02:41:35,978 - INFO - Checking out commit: 5fcd19bdc89a3fe4cb8ad8c356590e1e4740c743
+2024-06-24 02:41:36,419 - INFO - Found parent commit: ddd78677187d504efe33a9c8142a327b8a9ae450
+2024-06-24 02:41:36,420 - INFO - Cloning repository: https://github.com//laurent22/joplin
+2024-06-24 02:56:50,227 - INFO - Checking out commit: caf66068bfc474bbfd505013076ed173cd90ca83
+2024-06-24 02:56:50,238 - ERROR - GitCommandError processing https://github.com//laurent22/joplin (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout caf66068bfc474bbfd505013076ed173cd90ca83
+  stderr: 'fatal: unable to read tree (caf66068bfc474bbfd505013076ed173cd90ca83)'
+2024-06-24 02:56:50,238 - INFO - Attempting full clone for https://github.com//laurent22/joplin
+2024-06-24 02:57:16,290 - INFO - Repository exists, fetching: https://github.com//laurent22/joplin
+2024-06-24 02:57:22,470 - INFO - Checking out commit: caf66068bfc474bbfd505013076ed173cd90ca83
+2024-06-24 02:57:24,097 - INFO - Found parent commit: 8deba24d7d2c34a90ffcc08ac18a96f5abb4298b
+2024-06-24 02:57:24,098 - INFO - Repository exists, fetching: https://github.com//laurent22/joplin
+2024-06-24 02:59:35,735 - INFO - Checking out commit: 9e90d9016daf79b5414646a93fd369aedb035071
+2024-06-24 02:59:36,136 - INFO - Found parent commit: ccec93eaa39e3d6eb7e53a9c9de1e38ecdcb83e6
+2024-06-24 02:59:36,137 - INFO - Cloning repository: https://github.com//MISP/MISP
+2024-06-24 03:16:57,685 - INFO - Checking out commit: f125630c1c2d0f5d11079d3653ab7bb2ab5cd908
+2024-06-24 03:16:58,134 - INFO - Found parent commit: 63e2ce8a40f628b5357b269d153d5dfd6dc01abc
+2024-06-24 03:16:58,135 - INFO - Repository exists, fetching: https://github.com//MISP/MISP
+2024-06-24 03:16:59,549 - INFO - Checking out commit: 286c84fab0047726a6a396ceefaae1bb666fc485
+2024-06-24 03:16:59,711 - INFO - Found parent commit: f7232ed842eccd054d09a1d5ab823927f50cfddf
+2024-06-24 03:16:59,712 - INFO - Cloning repository: https://github.com//kichik/nsis
+2024-06-24 03:17:01,187 - INFO - Checking out commit: 281e2851fe669d10e0650fc89d0e7fb74a598967
+2024-06-24 03:17:01,252 - INFO - Found parent commit: 9391ca91730d5552f614a71bc417662b704bb68b
+2024-06-24 03:17:01,253 - INFO - Repository exists, fetching: https://github.com//kichik/nsis
+2024-06-24 03:17:01,636 - INFO - Checking out commit: 409b5841479c44fbf33a6ba97c1146e46f965467
+2024-06-24 03:17:01,702 - INFO - Found parent commit: 07082893d9a1c9d41bc09b7f167db2f414fbc051
+2024-06-24 03:17:01,703 - INFO - Repository exists, fetching: https://github.com//kichik/nsis
+2024-06-24 03:17:02,147 - INFO - Checking out commit: c40cf78994e74a1a3a381a850c996b251e3277c0
+2024-06-24 03:17:02,212 - INFO - Found parent commit: d9661aa7a8db8d1b591f3b78616a5f26c94ae83e
+2024-06-24 03:17:02,214 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick6
+2024-06-24 03:17:02,694 - INFO - Checking out commit: b466a96965afc1308a4ace93f5535c2b770f294b
+2024-06-24 03:17:03,393 - INFO - Found parent commit: f7d9c71c3ba40fed8d73373357313c6d50821d61
+2024-06-24 03:17:03,394 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick
+2024-06-24 03:17:04,004 - INFO - Checking out commit: 54cdc146bbe50018526770be201b56643ad58ba7
+2024-06-24 03:17:04,515 - INFO - Found parent commit: 899d972cc506a36eae5f52aca78b37847dd99486
+2024-06-24 03:17:04,515 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick
+2024-06-24 03:17:05,061 - INFO - Checking out commit: 651672f19c75161a6159d9b6838fd3095b6c5304
+2024-06-24 03:17:05,205 - INFO - Found parent commit: 54cdc146bbe50018526770be201b56643ad58ba7
+2024-06-24 03:17:05,206 - INFO - Repository exists, fetching: https://github.com//ImageMagick/ImageMagick6
+2024-06-24 03:17:05,650 - INFO - Checking out commit: 7486477aa00c5c7856b111506da075b6cdfa8b73
+2024-06-24 03:17:05,782 - INFO - Found parent commit: b466a96965afc1308a4ace93f5535c2b770f294b
+2024-06-24 03:17:05,782 - INFO - Cloning repository: https://github.com//asterisk/asterisk
+2024-06-24 03:17:09,699 - INFO - Checking out commit: a1ca0268254374b515fa5992f01340f7717113fa
+2024-06-24 03:17:09,920 - INFO - Found parent commit: 39760d109be6f5348b362174e921ac7c521ab980
+2024-06-24 03:17:09,921 - INFO - Cloning repository: https://github.com//codehaus-plexus/plexus-archiver
+2024-06-24 03:17:28,396 - INFO - Checking out commit: 54759839fbdf85caf8442076f001d5fd64e0dcb2
+2024-06-24 03:17:28,457 - INFO - Found parent commit: 18a64852036bd6f0ebc880eb16563d8f08b0bc37
+2024-06-24 03:17:28,458 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 03:17:50,486 - INFO - Checking out commit: d9c88ddc4c0c78fa534bd33237e95dea66003d29
+2024-06-24 03:17:51,342 - INFO - Found parent commit: 1e23a8e2a03d012af1365565677116939071cc8d
+2024-06-24 03:17:51,343 - INFO - Cloning repository: https://github.com//OpenIDC/cjose
+2024-06-24 03:17:52,262 - INFO - Checking out commit: 7325e9a5e71e2fc0e350487ecac7d84acdf0ed5e
+2024-06-24 03:17:52,296 - INFO - Found parent commit: 96f8cb8d1630d76630010a535ba36aecfec8e9c6
+2024-06-24 03:17:52,296 - INFO - Repository exists, fetching: https://github.com//discourse/discourse
+2024-06-24 03:17:53,339 - INFO - Checking out commit: 0976c8fad6970b6182e7837bf87de07709407f25
+2024-06-24 03:17:54,635 - INFO - Found parent commit: 672f3e7e416bf41f8b134d70b6718a638aef82b4
+2024-06-24 03:17:54,636 - INFO - Cloning repository: https://github.com//thm-mni-ii/feedbacksystem
+2024-06-24 03:17:57,987 - INFO - Checking out commit: 8d896125263e1efb1b70990987c7704426325bcf
+2024-06-24 03:17:58,068 - INFO - Found parent commit: 3fd477d8a54f745e2b0b8aa3b7f1f063e44a791c
+2024-06-24 03:17:58,068 - INFO - Repository exists, fetching: https://github.com//IceWhaleTech/CasaOS
+2024-06-24 03:17:58,497 - INFO - Checking out commit: af440eac5563644854ff33f72041e52d3fd1f47c
+2024-06-24 03:17:58,582 - INFO - Found parent commit: 34b4e154a1f6ef11ac93c4752e0dcf9d6ee1a68f
+2024-06-24 03:17:58,582 - INFO - Cloning repository: https://github.com//OpenIdentityPlatform/OpenAM
+2024-06-24 03:18:09,472 - INFO - Checking out commit: 7c18543d126e8a567b83bb4535631825aaa9d742
+2024-06-24 03:18:09,831 - INFO - Found parent commit: 46bce7d6a8ca696be90d84d708c4216a725fdf65
+2024-06-24 03:18:09,832 - INFO - Cloning repository: https://github.com//zenstruck/collection
+2024-06-24 03:18:10,478 - INFO - Checking out commit: f4b1c488206e1b1581b06fcd331686846f13f19c
+2024-06-24 03:18:10,513 - INFO - Found parent commit: d0ee92af58fe20c0e3b5c458b32c3bb18df4c7d3
+2024-06-24 03:18:10,514 - INFO - Cloning repository: https://github.com//9001/copyparty
+2024-06-24 03:18:11,838 - INFO - Checking out commit: 043e3c7dd683113e2b1c15cacb9c8e68f76513ff
+2024-06-24 03:18:11,906 - INFO - Found parent commit: 8f59afb1593a75b8ce8c91ceee304097a07aea6e
+2024-06-24 03:18:11,907 - INFO - Cloning repository: https://github.com//hamba/avro
+2024-06-24 03:18:12,676 - INFO - Checking out commit: b4a402f41cf44b6094b5131286830ba9bb1eb290
+2024-06-24 03:18:12,710 - INFO - Found parent commit: 3abfe1e6382c5dccf2e1a00260c51a64bc1f1ca1
+2024-06-24 03:18:12,710 - INFO - Cloning repository: https://github.com//OpenRefine/OpenRefine
+2024-06-24 03:19:44,325 - INFO - Checking out commit: e9c1e65d58b47aec8cd676bd5c07d97b002f205e
+2024-06-24 03:19:44,682 - INFO - Found parent commit: 15a029576b03eb3f1adde80bd1e3b76800befbaa
+2024-06-24 03:19:44,683 - INFO - Cloning repository: https://github.com//1Panel-dev/1Panel
+2024-06-24 03:19:47,335 - INFO - Checking out commit: e17b80cff4975ee343568ff526b62319f499005d
+2024-06-24 03:19:47,343 - ERROR - GitCommandError processing https://github.com//1Panel-dev/1Panel (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout e17b80cff4975ee343568ff526b62319f499005d
+  stderr: 'fatal: unable to read tree (e17b80cff4975ee343568ff526b62319f499005d)'
+2024-06-24 03:19:47,343 - INFO - Attempting full clone for https://github.com//1Panel-dev/1Panel
+2024-06-24 03:19:56,055 - INFO - Repository exists, fetching: https://github.com//1Panel-dev/1Panel
+2024-06-24 03:19:56,805 - INFO - Checking out commit: e17b80cff4975ee343568ff526b62319f499005d
+2024-06-24 03:19:57,079 - INFO - Found parent commit: 1d6f1b0ef302dad2f6dd1e6bb23f6d5b86c74e59
+2024-06-24 03:19:57,079 - INFO - Cloning repository: https://github.com//openenclave/openenclave
+2024-06-24 03:20:06,589 - INFO - Checking out commit: ca54623333875b9beaad92c999a92b015c44b079
+2024-06-24 03:20:06,598 - ERROR - GitCommandError processing https://github.com//openenclave/openenclave (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout ca54623333875b9beaad92c999a92b015c44b079
+  stderr: 'fatal: unable to read tree (ca54623333875b9beaad92c999a92b015c44b079)'
+2024-06-24 03:20:06,598 - INFO - Attempting full clone for https://github.com//openenclave/openenclave
+2024-06-24 03:20:25,078 - INFO - Repository exists, fetching: https://github.com//openenclave/openenclave
+2024-06-24 03:20:37,038 - INFO - Checking out commit: ca54623333875b9beaad92c999a92b015c44b079
+2024-06-24 03:20:37,844 - INFO - Found parent commit: 31e65e97a2c332f4c3df17e8a129c5a398e4079b
+2024-06-24 03:20:37,845 - INFO - Repository exists, fetching: https://github.com//ethyca/fides
+2024-06-24 03:20:38,448 - INFO - Checking out commit: 5aea738463960d81821c11ae7ade1d627a46bf32
+2024-06-24 03:20:38,799 - INFO - Found parent commit: c4640a838ededce66f12cb3c6a706b186bff6e43
+2024-06-24 03:20:38,799 - INFO - Repository exists, fetching: https://github.com//ethyca/fides
+2024-06-24 03:20:39,357 - INFO - Checking out commit: 8beaace082b325e693dc7682029a3cb7e6c2b69d
+2024-06-24 03:20:39,386 - INFO - Found parent commit: 5aea738463960d81821c11ae7ade1d627a46bf32
+2024-06-24 03:20:39,386 - INFO - Cloning repository: https://github.com//netdisco/netdisco
+2024-06-24 03:20:40,972 - INFO - Checking out commit: 9f4401f2fb00c84210cd551b97c8ad60e78c71e0
+2024-06-24 03:20:41,083 - INFO - Found parent commit: 39562e0633a2472d50f7f33e69c36da4ad1fbfa3
+2024-06-24 03:20:41,083 - INFO - Repository exists, fetching: https://github.com//netdisco/netdisco
+2024-06-24 03:20:41,546 - INFO - Checking out commit: 39562e0633a2472d50f7f33e69c36da4ad1fbfa3
+2024-06-24 03:20:41,584 - INFO - Found parent commit: 6375989bd552bd2097f70d1b76e81803cae896a8
+2024-06-24 03:20:41,585 - INFO - Repository exists, fetching: https://github.com//netdisco/netdisco
+2024-06-24 03:20:42,112 - INFO - Checking out commit: a2da6a7a046c1c0fd41072dd6991eec7614293f8
+2024-06-24 03:20:42,151 - INFO - Found parent commit: ef4e3f5181c9152c837aa23a36bd11e9f6271572
+2024-06-24 03:20:42,152 - INFO - Cloning repository: https://github.com//mlflow/mlflow
+2024-06-24 03:20:58,811 - INFO - Checking out commit: 6dde93758d42455cb90ef324407919ed67668b9b
+2024-06-24 03:20:58,823 - ERROR - GitCommandError processing https://github.com//mlflow/mlflow (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 6dde93758d42455cb90ef324407919ed67668b9b
+  stderr: 'fatal: unable to read tree (6dde93758d42455cb90ef324407919ed67668b9b)'
+2024-06-24 03:20:58,823 - INFO - Attempting full clone for https://github.com//mlflow/mlflow
+2024-06-24 04:23:40,159 - INFO - Repository exists, fetching: https://github.com//mlflow/mlflow
+2024-06-24 04:23:44,944 - INFO - Checking out commit: 6dde93758d42455cb90ef324407919ed67668b9b
+2024-06-24 04:23:46,972 - INFO - Found parent commit: 330bf0b38b07d4adf3fae99af1b44c8e857f514a
+2024-06-24 04:23:46,974 - INFO - Repository exists, fetching: https://github.com//getgrav/grav
+2024-06-24 04:23:47,720 - INFO - Checking out commit: b4c62101a43051fc7f5349c7d0a5b6085375c1d7
+2024-06-24 04:23:47,794 - INFO - Found parent commit: 950cd0854fdb0047d776c6d56447c06863412c57
+2024-06-24 04:23:47,794 - INFO - Repository exists, fetching: https://github.com//getgrav/grav
+2024-06-24 04:23:48,447 - INFO - Checking out commit: 71bbed12f950de8335006d7f91112263d8504f1b
+2024-06-24 04:23:48,480 - INFO - Found parent commit: 8c2c1cb72611a399f13423fc6d0e1d998c03e5c8
+2024-06-24 04:23:48,481 - INFO - Cloning repository: https://github.com//indico/indico
+2024-06-24 04:23:52,686 - INFO - Checking out commit: 2ee636d318653fb1ab193803dafbfe3e371d4130
+2024-06-24 04:23:53,339 - INFO - Found parent commit: bb9df8e96c375484e2a34a67560f21e42d5ef9ad
+2024-06-24 04:23:53,340 - INFO - Repository exists, fetching: https://github.com//vyperlang/vyper
+2024-06-24 04:23:53,778 - INFO - Checking out commit: 019a37ab98ff53f04fecfadf602b6cd5ac748f7f
+2024-06-24 04:23:53,911 - INFO - Found parent commit: 408929fa31ae01dde4f7566bb7babbc7da5b6620
+2024-06-24 04:23:53,912 - INFO - Repository exists, fetching: https://github.com//discourse/discourse
+2024-06-24 04:23:59,942 - INFO - Checking out commit: 62a609ea2d0645a27ee8adbb01ce10a5e03a600b
+2024-06-24 04:24:00,446 - INFO - Found parent commit: bfc3132bb22bd5b7e86f428746b89c4d3d7f5a70
+2024-06-24 04:24:00,447 - INFO - Cloning repository: https://github.com//w8tcha/CKEditor-WordCount-Plugin
+2024-06-24 04:24:01,018 - INFO - Checking out commit: 0f03b3e5b7c1409998a13aba3a95396e6fa349d8
+2024-06-24 04:24:01,039 - INFO - Found parent commit: d5a876dcb3093539f1b0a3270b640cf93fe78cf0
+2024-06-24 04:24:01,039 - INFO - Repository exists, fetching: https://github.com//w8tcha/CKEditor-WordCount-Plugin
+2024-06-24 04:24:01,378 - INFO - Checking out commit: a4b154bdf35b3465320136fcb078f196b437c2f1
+2024-06-24 04:24:01,409 - INFO - Found parent commit: e726a2e69f39452238e74cb441c6c5acd8d7cac3
+2024-06-24 04:24:01,409 - INFO - Repository exists, fetching: https://github.com//discourse/discourse
+2024-06-24 04:24:48,238 - INFO - Checking out commit: dcc825bda505a344eda403a1b8733f30e784034a
+2024-06-24 04:24:48,410 - INFO - Found parent commit: 62a609ea2d0645a27ee8adbb01ce10a5e03a600b
+2024-06-24 04:24:48,419 - INFO - Cloning repository: https://github.com//cryptomator/cryptomator
+2024-06-24 04:24:51,905 - INFO - Checking out commit: b48ebd524b1626bf12ac98e35a7670b868fa208c
+2024-06-24 04:24:52,015 - INFO - Found parent commit: 807e718d13dd96842f149e627664f706f78b8286
+2024-06-24 04:24:52,017 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-rendering
+2024-06-24 04:24:52,529 - INFO - Checking out commit: f4d5acac451dccaf276e69f0b49b72221eef5d2f
+2024-06-24 04:24:52,791 - INFO - Found parent commit: 9a3d99cf52d63f4e0039bab2874e30fe7354a83a
+2024-06-24 04:24:52,792 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 04:24:55,797 - INFO - Checking out commit: 9e8f080094333dec63a8583229a3799208d773be
+2024-06-24 04:24:56,824 - INFO - Found parent commit: 62f83e1113c6141d165ecc28c4eccc7756d949a3
+2024-06-24 04:24:56,825 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 04:40:20,385 - INFO - Checking out commit: d7720219d60d7201c696c3196c9d4a86d0881325
+2024-06-24 04:40:21,426 - INFO - Found parent commit: 1a30c1c199e0760991961b50a7ddb6a1ebf991a0
+2024-06-24 04:40:21,428 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 04:40:43,458 - INFO - Checking out commit: f471f2a392aeeb9e51d59fdfe1d76fccf532523f
+2024-06-24 04:40:44,396 - INFO - Found parent commit: 5e9cceb57f65bf6789f08f8a94a96fdd5c0a5e6b
+2024-06-24 04:40:44,397 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-rendering
+2024-06-24 04:40:44,958 - INFO - Checking out commit: 5f558b8fac8b716d19999225f38cb8ed0814116e
+2024-06-24 04:40:45,042 - INFO - Found parent commit: 1edb2f46ddc8d39b7d9721ccf9292ce2a6c045ac
+2024-06-24 04:40:45,043 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 04:41:06,863 - INFO - Checking out commit: 45d182a4141ff22f3ff289cf71e4669bdc714544
+2024-06-24 04:41:07,216 - INFO - Found parent commit: e4be3cfaa869447d4317fa5880d7f7bff8abff76
+2024-06-24 04:41:07,217 - INFO - Repository exists, fetching: https://github.com//xwiki/xwiki-platform
+2024-06-24 04:41:29,556 - INFO - Checking out commit: ff1d8a1790c6ee534c6a4478360a06efeb2d3591
+2024-06-24 04:41:30,227 - INFO - Found parent commit: a0e6ca083b36be6f183b9af33ae735c1e02010f4
+2024-06-24 04:41:30,228 - INFO - Cloning repository: https://github.com//dapr/dapr
+2024-06-24 04:41:32,933 - INFO - Checking out commit: 83ca1abb11ffe34211db55dcd36d96b94252827a
+2024-06-24 04:41:33,313 - INFO - Found parent commit: 9dbd0ab8733185008ec69ac0fa8d6546320b7799
+2024-06-24 04:41:33,313 - INFO - Cloning repository: https://github.com//certifi/python-certifi
+2024-06-24 04:41:38,804 - INFO - Checking out commit: 8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
+2024-06-24 04:41:38,827 - INFO - Found parent commit: afe77220e0eaa722593fc5d294213ff5275d1b40
+2024-06-24 04:41:38,828 - INFO - Repository exists, fetching: https://github.com//pimcore/pimcore
+2024-06-24 04:41:39,406 - INFO - Checking out commit: 0237527b3244d251fa5ecd4912dfe4f8b2125c54
+2024-06-24 04:41:41,171 - INFO - Found parent commit: 5526a49de038a3c16940fea91218f61676765f00
+2024-06-24 04:41:41,171 - INFO - Repository exists, fetching: https://github.com//pimcore/pimcore
+2024-06-24 04:41:41,635 - INFO - Checking out commit: e641968979d4a2377bbea5e2a76bdede040d0b97
+2024-06-24 04:41:41,702 - INFO - Found parent commit: 8a435ad49a1b40e4a7ab0a7603b6557a4fe520a0
+2024-06-24 04:41:41,702 - INFO - Repository exists, fetching: https://github.com//keylime/keylime
+2024-06-24 04:41:42,619 - INFO - Checking out commit: 9e5ac9f25cd400b16d5969f531cee28290543f2a
+2024-06-24 04:41:42,776 - INFO - Found parent commit: d21f3b46aa5d8c3ec2050a98abc37958413647a5
+2024-06-24 04:41:42,777 - INFO - Repository exists, fetching: https://github.com//pimcore/pimcore
+2024-06-24 04:41:43,231 - INFO - Checking out commit: 92811f07d39e4ad95c92003868f5f7309489d79c
+2024-06-24 04:41:43,296 - INFO - Found parent commit: 43e8013df984d043b32616fb90e266dace4ae7fd
+2024-06-24 04:41:43,296 - INFO - Repository exists, fetching: https://github.com//pimcore/pimcore
+2024-06-24 04:41:43,803 - INFO - Checking out commit: d75888a9b14baaad591548463cca09dfd1395236
+2024-06-24 04:41:43,844 - INFO - Found parent commit: b139742b387241ce4ca618284d6c792ee33f250c
+2024-06-24 04:41:43,844 - INFO - Cloning repository: https://github.com//esnet/iperf
+2024-06-24 04:42:48,442 - INFO - Checking out commit: 0ef151550d96cc4460f98832df84b4a1e87c65e9
+2024-06-24 04:42:48,490 - INFO - Found parent commit: b4878b3fc61f456584292ff7380c9145a0af4a1f
+2024-06-24 04:43:05,128 - INFO - Repository exists, fetching: https://github.com//openbsd/src
+2024-06-24 04:49:00,709 - INFO - Checking out commit: 7bc29a9d5cd697290aa056e94ecee6253d3425f8
