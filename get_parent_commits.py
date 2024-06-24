@@ -30,6 +30,11 @@ def clone_repo_and_get_parent(repo_url, commit_id, repo_cache):
     repo_name = repo_url.split("/")[-1]
     repo_path = os.path.join(repo_cache, repo_name)
 
+    # Set environment variables to prevent Git from prompting for credentials
+    os.environ["GIT_TERMINAL_PROMPT"] = "0"
+    os.environ["GIT_ASKPASS"] = "echo"
+    os.environ["GIT_SSH_COMMAND"] = "ssh -o BatchMode=yes"
+
     for attempt in range(3):  # Try up to 3 times
         try:
             clean_lock_files(repo_path)
@@ -50,13 +55,25 @@ def clone_repo_and_get_parent(repo_url, commit_id, repo_cache):
 
             return parent_commit
         except GitCommandError as e:
+            error_message = str(e)
             logging.error(
-                f"GitCommandError processing {repo_url} (attempt {attempt+1}): {str(e)}"
+                f"GitCommandError processing {repo_url} (attempt {attempt+1}): {error_message}"
             )
-            if "unable to read tree" in str(e) or "does not exist" in str(e):
+            if (
+                "unable to read tree" in error_message
+                or "does not exist" in error_message
+            ):
                 logging.info(f"Attempting full clone for {repo_url}")
                 shutil.rmtree(repo_path, ignore_errors=True)
                 repo = Repo.clone_from(repo_url, repo_path)
+            elif (
+                "Authentication failed" in error_message
+                or "could not read Username" in error_message
+            ):
+                logging.warning(
+                    f"Repository {repo_url} requires authentication. Skipping."
+                )
+                return None
             elif attempt == 2:  # Last attempt
                 return None
         except Exception as e:
