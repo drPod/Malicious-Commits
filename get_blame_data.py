@@ -2,9 +2,11 @@ import csv
 import os
 import subprocess
 from git import Repo
+import git
 from tqdm import tqdm
 import logging
 import traceback
+import requests
 
 log_filename = "blame_processing.log"
 logging.basicConfig(
@@ -92,16 +94,44 @@ def get_patch_info(commit_url):
         logging.error(f"Full traceback: {traceback.format_exc()}")
         return None
 
+def check_repo_exists(repo_url):
+    try:
+        response = requests.head(repo_url)
+        return response.status_code == 200
+    except Exception as e:
+        logging.error(f"Error checking repository {repo_url}: {str(e)}")
+        return False
 
 def clone_repo_if_not_exists(repo_url, repo_path):
+    if not check_repo_exists(repo_url):
+        return False
     try:
         if not os.path.exists(repo_path):
-            logging.info(f"Cloning repository: {repo_url}")
-            Repo.clone_from(repo_url, repo_path)
+            logging.info(f"Attempting to clone repository: {repo_url}")
+            
+            # Use subprocess to run git command with -n flag to prevent prompts
+            result = subprocess.run(
+                ['git', 'clone', '--depth', '1', '-n', repo_url, repo_path],
+                capture_output=True,
+                text=True,
+                timeout=600
+            )
+            
+            if result.returncode != 0:
+                if "Authentication failed" in result.stderr:
+                    logging.warning(f"Authentication required for {repo_url}. Skipping.")
+                else:
+                    logging.warning(f"Failed to clone {repo_url}. Error: {result.stderr}")
+                return False
+            
             logging.info(f"Repository clone finished: {repo_url}")
+        return True
+    except subprocess.TimeoutExpired:
+        logging.warning(f"Timeout while cloning {repo_url}. Skipping.")
+        return False
     except Exception as e:
         logging.error(f"Error in clone_repo_if_not_exists for {repo_url}: {str(e)}")
-        raise
+        return False
 
 
 def get_processed_commits(output_file):
@@ -126,11 +156,23 @@ def process_commits(input_file, output_file):
         if out_f.tell() == 0:
             writer.writeheader()
 
-        for row in tqdm(reader, desc="Processing commits"):
+        # Count total commits
+        total_commits = sum(1 for _ in reader)
+        in_f.seek(0)  # Reset file pointer
+        reader = csv.DictReader(in_f)  # Recreate reader
+
+        # Create progress bar
+        pbar = tqdm(reader, desc="Processing commits", total=total_commits, 
+                    unit="commit", ncols=100, 
+                    bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]")
+
+        for row in pbar:
             commit_id = row["commit_id"]
             parent_commit_id = row["parent_commit_id"]
             commit_url = row["commit_url"]
             repo_url = row["repo_url"]
+
+            pbar.set_postfix({"Current Commit": commit_id[:7]})
 
             if commit_id in processed_commits:
                 logging.info(f"Skipping already processed commit: {commit_id}")
@@ -142,11 +184,17 @@ def process_commits(input_file, output_file):
                 repo_name = repo_url.split("/")[-1]
                 repo_path = os.path.join(repo_cache, repo_name)
 
-                clone_repo_if_not_exists(repo_url, repo_path)
+                if not clone_repo_if_not_exists(repo_url, repo_path):
+                    logging.warning(f"Skipping repository: {repo_url}")
+                    continue
 
                 repo = Repo(repo_path)
                 logging.info(f"Resetting to parent commit: {parent_commit_id}")
-                repo.git.reset("--hard", parent_commit_id)
+                try:
+                    repo.git.reset("--hard", parent_commit_id)
+                except git.exc.GitCommandError:
+                    logging.warning(f"Could not reset to parent commit: {parent_commit_id}. Skipping.")
+                    continue
 
                 patch_info = get_patch_info(commit_url)
                 if not patch_info:
@@ -160,8 +208,12 @@ def process_commits(input_file, output_file):
                     if not removed_lines:
                         continue
 
-                    # logging.info(f"Running git blame on file: {filename}")
-                    blame_output = repo.git.blame("-l", commit_id, "--", filename)
+                    try:
+                        blame_output = repo.git.blame("-l", commit_id, "--", filename)
+                    except git.exc.GitCommandError:
+                        logging.warning(f"Could not run git blame on file: {filename}. Skipping file.")
+                        continue
+
                     file_is_malicious = False
                     for line in blame_output.split("\n"):
                         hash_and_line = line.split(")")[0]
@@ -181,6 +233,9 @@ def process_commits(input_file, output_file):
                 out_f.flush()  # Ensure the write is committed to disk
 
                 processed_commits.add(commit_id)
+                pbar.set_postfix({"Current Commit": commit_id[:7], 
+                                  "Malicious Files": len(malicious_files), 
+                                  "Malicious Hashes": len(malicious_commit_hashes)})
                 logging.info(
                     f"Processed commit: {commit_id}. Found {len(malicious_files)} malicious files and {len(malicious_commit_hashes)} malicious commit hashes."
                 )
