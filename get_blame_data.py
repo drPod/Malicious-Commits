@@ -108,30 +108,13 @@ def clone_repo_if_not_exists(repo_url, repo_path):
     try:
         if not os.path.exists(repo_path):
             logging.info(f"Attempting to clone repository: {repo_url}")
-            
-            # Use subprocess to run git command with -n flag to prevent prompts
-            result = subprocess.run(
-                ['git', 'clone', '--depth', '1', '-n', repo_url, repo_path],
-                capture_output=True,
-                text=True,
-                timeout=600
-            )
-            
-            if result.returncode != 0:
-                if "Authentication failed" in result.stderr:
-                    logging.warning(f"Authentication required for {repo_url}. Skipping.")
-                else:
-                    logging.warning(f"Failed to clone {repo_url}. Error: {result.stderr}")
-                return False
-            
+        if not os.path.exists(repo_path):
+            logging.info(f"Cloning repository: {repo_url}")
+            Repo.clone_from(repo_url, repo_path)
             logging.info(f"Repository clone finished: {repo_url}")
-        return True
-    except subprocess.TimeoutExpired:
-        logging.warning(f"Timeout while cloning {repo_url}. Skipping.")
-        return False
     except Exception as e:
         logging.error(f"Error in clone_repo_if_not_exists for {repo_url}: {str(e)}")
-        return False
+        raise
 
 
 def get_processed_commits(output_file):
