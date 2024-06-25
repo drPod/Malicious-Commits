@@ -1,0 +1,63 @@
+2024-06-25 11:49:33,512 - INFO - Resetting to parent commit: f2b9733fd6af9cd7e2aac553db4b30c96b83f66c
+2024-06-25 11:49:33,732 - INFO - Using cached patch for: https://github.com/bminor/glibc/commit/2864e767053317538feafa815046fff89e5a16be
+2024-06-25 11:49:33,734 - INFO - Patch processing complete. Files changed: ['ChangeLog', 'elf/dl-load.c', 'manual/search.texi', 'misc/syslog.c', 'posix/Makefile', 'posix/regex.c', 'ev/null', 'sysdeps/unix/getlogin_r.c', 'sysdeps/unix/sysv/linux/bits/resource.h', 'timezone/africa', 'timezone/asia', 'timezone/australasia', 'timezone/backward', 'timezone/checktab.awk', 'timezone/europe', 'timezone/iso3166.tab', 'timezone/northamerica', 'timezone/southamerica', 'timezone/zone.tab']
+2024-06-25 11:49:33,734 - INFO - File ChangeLog has 0 removed lines
+2024-06-25 11:49:33,734 - INFO - File elf/dl-load.c has 10 removed lines
+2024-06-25 11:49:33,734 - INFO - File manual/search.texi has 3 removed lines
+2024-06-25 11:49:33,734 - INFO - File misc/syslog.c has 4 removed lines
+2024-06-25 11:49:33,734 - INFO - File posix/Makefile has 1 removed lines
+2024-06-25 11:49:33,734 - INFO - File posix/regex.c has 40 removed lines
+2024-06-25 11:49:33,734 - INFO - File ev/null has 0 removed lines
+2024-06-25 11:49:33,734 - INFO - File sysdeps/unix/getlogin_r.c has 16 removed lines
+2024-06-25 11:49:33,734 - INFO - File sysdeps/unix/sysv/linux/bits/resource.h has 0 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/africa has 20 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/asia has 40 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/australasia has 28 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/backward has 1 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/checktab.awk has 2 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/europe has 26 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/iso3166.tab has 10 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/northamerica has 37 removed lines
+2024-06-25 11:49:33,734 - INFO - File timezone/southamerica has 81 removed lines
+2024-06-25 11:49:33,735 - INFO - File timezone/zone.tab has 7 removed lines
+2024-06-25 11:49:33,735 - INFO - Running git blame on file: elf/dl-load.c
+2024-06-25 11:49:33,981 - INFO - Running git blame on file: manual/search.texi
+2024-06-25 11:49:34,053 - INFO - Running git blame on file: misc/syslog.c
+2024-06-25 11:49:34,118 - INFO - Running git blame on file: posix/Makefile
+2024-06-25 11:49:34,202 - INFO - Running git blame on file: posix/regex.c
+2024-06-25 11:49:34,307 - INFO - Running git blame on file: sysdeps/unix/getlogin_r.c
+2024-06-25 11:49:34,374 - INFO - Running git blame on file: timezone/africa
+2024-06-25 11:49:34,460 - INFO - Running git blame on file: timezone/asia
+2024-06-25 11:49:34,538 - INFO - Running git blame on file: timezone/australasia
+2024-06-25 11:49:34,612 - INFO - Running git blame on file: timezone/backward
+2024-06-25 11:49:34,681 - INFO - Running git blame on file: timezone/checktab.awk
+2024-06-25 11:49:34,730 - INFO - Running git blame on file: timezone/europe
+2024-06-25 11:49:34,817 - INFO - Running git blame on file: timezone/iso3166.tab
+2024-06-25 11:49:34,866 - INFO - Running git blame on file: timezone/northamerica
+2024-06-25 11:49:34,943 - INFO - Running git blame on file: timezone/southamerica
+2024-06-25 11:49:35,015 - INFO - Running git blame on file: timezone/zone.tab
+2024-06-25 11:49:35,069 - INFO - Processed commit: 2864e767053317538feafa815046fff89e5a16be. Found 7 malicious files and 36 malicious commit hashes.
+2024-06-25 11:49:35,070 - INFO - Resetting to parent commit: 97b820813960d87174deca43ed34c6cd5cd03d11
+2024-06-25 11:49:35,158 - INFO - Using cached patch for: https://github.com/KDE/kde1-kdebase/commit/04906bd5de2f220bf100b605dad37b4a1d9a91a6
+2024-06-25 11:49:35,158 - INFO - Patch processing complete. Files changed: ['kscreensaver/saver.cpp']
+2024-06-25 11:49:35,158 - INFO - File kscreensaver/saver.cpp has 0 removed lines
+2024-06-25 11:49:35,158 - INFO - Processed commit: 04906bd5de2f220bf100b605dad37b4a1d9a91a6. Found 0 malicious files and 0 malicious commit hashes.
+2024-06-25 11:49:35,159 - INFO - Resetting to parent commit: 0a97afba6986e2818cd26869704820e00efcae63
+2024-06-25 11:49:35,253 - INFO - Using cached patch for: https://github.com/krb5/krb5/commit/cf1a0c411b2668c57c41e9c4efd15ba17b6b322c
+2024-06-25 11:49:35,254 - INFO - Patch processing complete. Files changed: ['src/kadmin/server/schpw.c']
+2024-06-25 11:49:35,254 - INFO - File src/kadmin/server/schpw.c has 4 removed lines
+2024-06-25 11:49:35,254 - INFO - Running git blame on file: src/kadmin/server/schpw.c
+2024-06-25 11:49:35,582 - INFO - Processed commit: cf1a0c411b2668c57c41e9c4efd15ba17b6b322c. Found 0 malicious files and 0 malicious commit hashes.
+2024-06-25 11:49:35,583 - INFO - Resetting to parent commit: b1afc063fd49cfb875e1c6f591543ebff6649469
+2024-06-25 11:49:35,597 - INFO - Using cached patch for: https://github.com/wp-plugins/secure-files/commit/cab025e5fc2bcdad8032d833ebc38e6bd2a13c92
+2024-06-25 11:49:35,598 - INFO - Patch processing complete. Files changed: ['secure-files.php']
+2024-06-25 11:49:35,598 - INFO - File secure-files.php has 2 removed lines
+2024-06-25 11:49:35,598 - INFO - Running git blame on file: secure-files.php
+2024-06-25 11:49:35,614 - INFO - Processed commit: cab025e5fc2bcdad8032d833ebc38e6bd2a13c92. Found 0 malicious files and 0 malicious commit hashes.
+2024-06-25 11:49:35,615 - INFO - Resetting to parent commit: de59be732c6c7976dc293c20a8c7648782249bd2
+2024-06-25 11:49:35,627 - INFO - Using cached patch for: https://github.com/wp-plugins/subscribe-to-comments/commit/9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-25 11:49:35,628 - INFO - Patch processing complete. Files changed: ['subscribe-to-comments.php']
+2024-06-25 11:49:35,628 - INFO - File subscribe-to-comments.php has 9 removed lines
+2024-06-25 11:49:35,628 - INFO - Running git blame on file: subscribe-to-comments.php
+2024-06-25 11:49:35,645 - INFO - Processed commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6. Found 1 malicious files and 6 malicious commit hashes.
+2024-06-25 11:49:35,645 - INFO - Cloning repository: https://github.com//livehelperchat/livehelperchat
