@@ -94,6 +94,7 @@ def get_patch_info(commit_url):
         logging.error(f"Full traceback: {traceback.format_exc()}")
         return None
 
+
 def check_repo_exists(repo_url):
     try:
         response = requests.head(repo_url)
@@ -101,6 +102,7 @@ def check_repo_exists(repo_url):
     except Exception as e:
         logging.error(f"Error checking repository {repo_url}: {str(e)}")
         return False
+
 
 def clone_repo_if_not_exists(repo_url, repo_path):
     if not check_repo_exists(repo_url):
@@ -145,9 +147,14 @@ def process_commits(input_file, output_file):
         reader = csv.DictReader(in_f)  # Recreate reader
 
         # Create progress bar
-        pbar = tqdm(reader, desc="Processing commits", total=total_commits, 
-                    unit="commit", ncols=100, 
-                    bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]")
+        pbar = tqdm(
+            reader,
+            desc="Processing commits",
+            total=total_commits,
+            unit="commit",
+            ncols=100,
+            bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]",
+        )
 
         for row in pbar:
             commit_id = row["commit_id"]
@@ -171,12 +178,20 @@ def process_commits(input_file, output_file):
                     logging.warning(f"Skipping repository: {repo_url}")
                     continue
 
-                repo = Repo(repo_path)
                 logging.info(f"Resetting to parent commit: {parent_commit_id}")
                 try:
-                    repo.git.reset("--hard", parent_commit_id)
-                except git.exc.GitCommandError:
-                    logging.warning(f"Could not reset to parent commit: {parent_commit_id}. Skipping.")
+                    # Use subprocess to run git reset --hard
+                    subprocess.run(
+                        ["git", "reset", "--hard", parent_commit_id],
+                        cwd=repo_path,
+                        check=True,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                    )
+                except subprocess.CalledProcessError as e:
+                    logging.warning(
+                        f"Could not reset to parent commit: {parent_commit_id}. Error: {e.stderr.decode()}. Skipping."
+                    )
                     continue
 
                 patch_info = get_patch_info(commit_url)
@@ -192,9 +207,18 @@ def process_commits(input_file, output_file):
                         continue
 
                     try:
-                        blame_output = repo.git.blame("-l", commit_id, "--", filename)
-                    except git.exc.GitCommandError:
-                        logging.warning(f"Could not run git blame on file: {filename}. Skipping file.")
+                        blame_output = subprocess.run(
+                            ["git", "blame", "-l", commit_id, "--", filename],
+                            cwd=repo_path,
+                            check=True,
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            text=True,
+                        ).stdout
+                    except subprocess.CalledProcessError as e:
+                        logging.warning(
+                            f"Could not run git blame on file: {filename}. Error: {e.stderr}. Skipping file."
+                        )
                         continue
 
                     file_is_malicious = False
@@ -216,9 +240,13 @@ def process_commits(input_file, output_file):
                 out_f.flush()  # Ensure the write is committed to disk
 
                 processed_commits.add(commit_id)
-                pbar.set_postfix({"Current Commit": commit_id[:7], 
-                                  "Malicious Files": len(malicious_files), 
-                                  "Malicious Hashes": len(malicious_commit_hashes)})
+                pbar.set_postfix(
+                    {
+                        "Current Commit": commit_id[:7],
+                        "Malicious Files": len(malicious_files),
+                        "Malicious Hashes": len(malicious_commit_hashes),
+                    }
+                )
                 logging.info(
                     f"Processed commit: {commit_id}. Found {len(malicious_files)} malicious files and {len(malicious_commit_hashes)} malicious commit hashes."
                 )
