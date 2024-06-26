@@ -17654,3 +17654,175 @@ error: The following untracked working tree files would be removed by checkout:
 Please move or remove them before you switch branches.
 Aborting'
 2024-06-26 00:36:18,349 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:55:43,202 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:55:44,376 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:55:49,377 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:55:50,161 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:56:00,162 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:56:00,935 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:56:00,936 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:56:01,656 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:56:06,659 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:56:07,505 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 2): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:56:17,506 - INFO - Cloning repository: https://github.com//wireapp/wire-ios-data-model
+2024-06-26 10:56:18,221 - ERROR - GitCommandError processing https://github.com//wireapp/wire-ios-data-model (attempt 3): Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1000 -- https://github.com//wireapp/wire-ios-data-model repo_cache\wire-ios-data-model
+  stderr: 'Cloning into 'repo_cache\wire-ios-data-model'...
+remote: Repository not found.
+fatal: repository 'https://github.com//wireapp/wire-ios-data-model/' not found
+'
+2024-06-26 10:56:18,223 - INFO - Repository exists, fetching: https://github.com//flarum/core
+2024-06-26 10:56:18,224 - ERROR - Error processing https://github.com//flarum/core (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\core
+2024-06-26 10:56:23,225 - INFO - Repository exists, fetching: https://github.com//flarum/core
+2024-06-26 10:56:23,226 - ERROR - Error processing https://github.com//flarum/core (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\core
+2024-06-26 10:56:33,228 - INFO - Repository exists, fetching: https://github.com//flarum/core
+2024-06-26 10:56:33,229 - ERROR - Error processing https://github.com//flarum/core (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\core
+2024-06-26 10:56:33,232 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:56:33,233 - ERROR - Error processing https://github.com//redis/redis (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:56:38,235 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:56:38,236 - ERROR - Error processing https://github.com//redis/redis (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:56:48,238 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:56:48,239 - ERROR - Error processing https://github.com//redis/redis (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:56:48,241 - INFO - Cloning repository: https://github.com//reg-viz/reg-suit
+2024-06-26 10:56:50,981 - INFO - Checking out commit: f84ad9c7a22144d6c147dc175c52756c0f444d87
+2024-06-26 10:56:51,278 - INFO - Found parent commit: 1c1a9339e49ddcb92d22e45333a3cb8d62966e9e
+2024-06-26 10:56:51,281 - INFO - Repository exists, fetching: https://github.com//zopefoundation/Zope
+2024-06-26 10:56:52,117 - INFO - Checking out commit: 1d897910139e2c0b11984fc9b78c1da1365bec21
+2024-06-26 10:56:52,533 - INFO - Found parent commit: 15e521bb5f80e8fdcaef6319764132b20a2eaad7
+2024-06-26 10:56:52,534 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:56:52,534 - ERROR - Error processing https://github.com//redis/redis (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:56:57,536 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:56:57,537 - ERROR - Error processing https://github.com//redis/redis (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:57:07,538 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:57:07,539 - ERROR - Error processing https://github.com//redis/redis (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:57:07,541 - INFO - Cloning repository: https://github.com//tiangolo/fastapi
+2024-06-26 10:57:10,744 - INFO - Checking out commit: fa7e3c996edf2d5482fff8f9d890ac2390dede4d
+2024-06-26 10:57:10,793 - ERROR - GitCommandError processing https://github.com//tiangolo/fastapi (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout fa7e3c996edf2d5482fff8f9d890ac2390dede4d
+  stderr: 'fatal: unable to read tree (fa7e3c996edf2d5482fff8f9d890ac2390dede4d)'
+2024-06-26 10:57:10,793 - INFO - Attempting full clone for https://github.com//tiangolo/fastapi
+2024-06-26 10:57:26,775 - INFO - Repository exists, fetching: https://github.com//tiangolo/fastapi
+2024-06-26 10:57:26,775 - ERROR - Error processing https://github.com//tiangolo/fastapi (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\fastapi
+2024-06-26 10:57:31,776 - INFO - Repository exists, fetching: https://github.com//tiangolo/fastapi
+2024-06-26 10:57:31,776 - ERROR - Error processing https://github.com//tiangolo/fastapi (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\fastapi
+2024-06-26 10:57:41,777 - INFO - Repository exists, fetching: https://github.com//tiangolo/fastapi
+2024-06-26 10:57:41,779 - ERROR - Error processing https://github.com//tiangolo/fastapi (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\fastapi
+2024-06-26 10:57:41,784 - INFO - Repository exists, fetching: https://github.com//Studio-42/elFinder
+2024-06-26 10:57:42,568 - INFO - Checking out commit: a106c350b7dfe666a81d6b576816db9fe0899b17
+2024-06-26 10:57:42,816 - INFO - Found parent commit: 60d1d767659b22481315bea4faf252b8dfdd027d
+2024-06-26 10:57:42,818 - INFO - Repository exists, fetching: https://github.com//wireapp/wire-webapp
+2024-06-26 10:57:42,820 - ERROR - Error processing https://github.com//wireapp/wire-webapp (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\wire-webapp
+2024-06-26 10:57:47,821 - INFO - Repository exists, fetching: https://github.com//wireapp/wire-webapp
+2024-06-26 10:57:47,821 - ERROR - Error processing https://github.com//wireapp/wire-webapp (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\wire-webapp
+2024-06-26 10:57:57,822 - INFO - Repository exists, fetching: https://github.com//wireapp/wire-webapp
+2024-06-26 10:57:57,823 - ERROR - Error processing https://github.com//wireapp/wire-webapp (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\wire-webapp
+2024-06-26 10:57:57,831 - INFO - Cloning repository: https://github.com//scandipwa/create-magento-app
+2024-06-26 10:58:00,283 - INFO - Checking out commit: 89115db7031e181eb8fb4ec2822bc6cab88e7071
+2024-06-26 10:58:01,107 - INFO - Found parent commit: 41f4abf8fcc5bf0e85b19185f5e75c726b3f4f29
+2024-06-26 10:58:01,108 - INFO - Cloning repository: https://github.com//TogaTech/tEnvoy
+2024-06-26 10:58:05,421 - INFO - Checking out commit: a121b34a45e289d775c62e58841522891dee686b
+2024-06-26 10:58:05,817 - INFO - Found parent commit: 4e7169cfa1107077a2d55eac8b03f9fce299783e
+2024-06-26 10:58:05,820 - INFO - Repository exists, fetching: https://github.com//pjsip/pjproject
+2024-06-26 10:58:06,488 - INFO - Checking out commit: d5f95aa066f878b0aef6a64e60b61e8626e664cd
+2024-06-26 10:58:07,063 - INFO - Found parent commit: c80f59eb90fc67ada88d4bb6542e968f12669bb3
+2024-06-26 10:58:07,064 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:58:07,066 - ERROR - Error processing https://github.com//redis/redis (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:58:12,067 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:58:12,069 - ERROR - Error processing https://github.com//redis/redis (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:58:22,069 - INFO - Repository exists, fetching: https://github.com//redis/redis
+2024-06-26 10:58:22,070 - ERROR - Error processing https://github.com//redis/redis (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\redis
+2024-06-26 10:58:22,077 - INFO - Cloning repository: https://github.com//ApollosProject/apollos-apps
+2024-06-26 10:58:26,401 - INFO - Checking out commit: cb5f8f1c0b24f1b215b2bb5eb6f9a8e16d728ce2
+2024-06-26 10:58:27,689 - INFO - Found parent commit: a2b62f6b098fe9403f86f3003b8638a6008f2ff7
+2024-06-26 10:58:27,692 - INFO - Repository exists, fetching: https://github.com//symfony/symfony
+2024-06-26 10:58:34,959 - INFO - Checking out commit: 3084764ad82f29dbb025df19978b9cbc3ab34728
+2024-06-26 10:58:42,471 - INFO - Found parent commit: 98777c24f16de9bc697f57e2dfbd6013120a2b38
+2024-06-26 10:58:42,472 - INFO - Cloning repository: https://github.com//symfony/security-http
+2024-06-26 10:58:44,311 - INFO - Checking out commit: 6bf4c31219773a558b019ee12e54572174ff8129
+2024-06-26 10:58:44,588 - INFO - Found parent commit: 746321a1bbd019bf435cf29b0b3da96deaac2b47
+2024-06-26 10:58:44,590 - INFO - Cloning repository: https://github.com//ericnorris/striptags
+2024-06-26 10:58:45,545 - INFO - Checking out commit: f252a6b0819499cd65403707ebaf5cc925f2faca
+2024-06-26 10:58:45,585 - ERROR - GitCommandError processing https://github.com//ericnorris/striptags (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout f252a6b0819499cd65403707ebaf5cc925f2faca
+  stderr: 'fatal: unable to read tree (f252a6b0819499cd65403707ebaf5cc925f2faca)'
+2024-06-26 10:58:45,586 - INFO - Attempting full clone for https://github.com//ericnorris/striptags
+2024-06-26 10:58:45,658 - INFO - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2024-06-26 10:58:45,659 - INFO - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2024-06-26 10:58:45,659 - INFO - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2024-06-26 10:58:45,659 - INFO - Ignored error after process had died: OSError(9, 'The handle is invalid', None, 6, None)
+2024-06-26 10:59:23,527 - INFO - Repository exists, fetching: https://github.com//ericnorris/striptags
+2024-06-26 10:59:23,528 - ERROR - Error processing https://github.com//ericnorris/striptags (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\striptags
+2024-06-26 10:59:28,529 - INFO - Repository exists, fetching: https://github.com//ericnorris/striptags
+2024-06-26 10:59:28,531 - ERROR - Error processing https://github.com//ericnorris/striptags (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\striptags
+2024-06-26 10:59:38,532 - INFO - Repository exists, fetching: https://github.com//ericnorris/striptags
+2024-06-26 10:59:38,534 - ERROR - Error processing https://github.com//ericnorris/striptags (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\striptags
+2024-06-26 10:59:38,542 - INFO - Cloning repository: https://github.com//neos/form
+2024-06-26 10:59:39,581 - INFO - Checking out commit: 69de4219b1f58157e2be6b05811463875d75c246
+2024-06-26 10:59:39,751 - INFO - Found parent commit: dbbb58e2a4581b69990a0189fc01f97cab28a204
+2024-06-26 10:59:39,752 - INFO - Repository exists, fetching: https://github.com//neos/form
+2024-06-26 10:59:40,447 - INFO - Checking out commit: 049d415295be8d4a0478ccba97dba1bb81649567
+2024-06-26 10:59:40,676 - INFO - Found parent commit: a681cfbe98ddb361571edcb01215068dfc044094
+2024-06-26 10:59:40,677 - INFO - Cloning repository: https://github.com//elabftw/elabftw
+2024-06-26 10:59:42,944 - INFO - Checking out commit: 3d2db4d3ad90b0915f29f05aeba41eaaf6a7c726
+2024-06-26 10:59:43,019 - ERROR - GitCommandError processing https://github.com//elabftw/elabftw (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 3d2db4d3ad90b0915f29f05aeba41eaaf6a7c726
+  stderr: 'fatal: unable to read tree (3d2db4d3ad90b0915f29f05aeba41eaaf6a7c726)'
+2024-06-26 10:59:43,020 - INFO - Attempting full clone for https://github.com//elabftw/elabftw
+2024-06-26 11:00:59,930 - INFO - Repository exists, fetching: https://github.com//elabftw/elabftw
+2024-06-26 11:00:59,931 - ERROR - Error processing https://github.com//elabftw/elabftw (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\elabftw
+2024-06-26 11:01:04,932 - INFO - Repository exists, fetching: https://github.com//elabftw/elabftw
+2024-06-26 11:01:04,933 - ERROR - Error processing https://github.com//elabftw/elabftw (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\elabftw
+2024-06-26 11:01:14,935 - INFO - Repository exists, fetching: https://github.com//elabftw/elabftw
+2024-06-26 11:01:14,937 - ERROR - Error processing https://github.com//elabftw/elabftw (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\elabftw
+2024-06-26 11:01:14,938 - INFO - Cloning repository: https://github.com//pterodactyl/wings
+2024-06-26 11:01:16,209 - INFO - Checking out commit: e0078eee0a71d61573a94c75e6efcad069d78de3
+2024-06-26 11:01:16,469 - INFO - Found parent commit: c0063d2c6125f52e566bc7e7546d4533a47db7a3
+2024-06-26 11:01:16,470 - INFO - Cloning repository: https://github.com//ballerina-platform/ballerina-lang
+2024-06-26 11:03:11,270 - INFO - Checking out commit: 4609ffee1744ecd16aac09303b1783bf0a525816
+2024-06-26 11:03:11,333 - ERROR - GitCommandError processing https://github.com//ballerina-platform/ballerina-lang (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout 4609ffee1744ecd16aac09303b1783bf0a525816
+  stderr: 'fatal: unable to read tree (4609ffee1744ecd16aac09303b1783bf0a525816)'
+2024-06-26 11:03:11,333 - INFO - Attempting full clone for https://github.com//ballerina-platform/ballerina-lang
+2024-06-26 11:03:50,313 - INFO - Repository exists, fetching: https://github.com//ballerina-platform/ballerina-lang
+2024-06-26 11:03:50,314 - ERROR - Error processing https://github.com//ballerina-platform/ballerina-lang (attempt 1): C:\Users\epguo\Malicious-Commits\repo_cache\ballerina-lang
+2024-06-26 11:03:55,315 - INFO - Repository exists, fetching: https://github.com//ballerina-platform/ballerina-lang
+2024-06-26 11:03:55,316 - ERROR - Error processing https://github.com//ballerina-platform/ballerina-lang (attempt 2): C:\Users\epguo\Malicious-Commits\repo_cache\ballerina-lang
+2024-06-26 11:04:05,316 - INFO - Repository exists, fetching: https://github.com//ballerina-platform/ballerina-lang
+2024-06-26 11:04:05,318 - ERROR - Error processing https://github.com//ballerina-platform/ballerina-lang (attempt 3): C:\Users\epguo\Malicious-Commits\repo_cache\ballerina-lang
+2024-06-26 11:04:05,320 - INFO - Cloning repository: https://github.com//ory/oathkeeper
+2024-06-26 11:04:47,354 - INFO - Checking out commit: 1f9f625c1a49e134ae2299ee95b8cf158feec932
+2024-06-26 11:04:47,878 - INFO - Found parent commit: 64ac7562669287d391cd72dfd43c5d71ff9f89a1
+2024-06-26 11:04:47,879 - INFO - Cloning repository: https://github.com//auth0/nextjs-auth0
+2024-06-26 11:04:50,508 - INFO - Checking out commit: 6996e2528ceed98627caa28abafbc09e90163ccf
+2024-06-26 11:04:50,954 - INFO - Found parent commit: 36655df8af53c3d52108aa7059f13ef4e5a2685c
+2024-06-26 11:04:50,955 - INFO - Cloning repository: https://github.com//thephpleague/flysystem
+2024-06-26 11:04:52,172 - INFO - Checking out commit: f3ad69181b8afed2c9edf7be5a2918144ff4ea32
+2024-06-26 11:04:52,221 - ERROR - GitCommandError processing https://github.com//thephpleague/flysystem (attempt 1): Cmd('git') failed due to: exit code(128)
+  cmdline: git checkout f3ad69181b8afed2c9edf7be5a2918144ff4ea32
+  stderr: 'fatal: unable to read tree (f3ad69181b8afed2c9edf7be5a2918144ff4ea32)'
+2024-06-26 11:04:52,221 - INFO - Attempting full clone for https://github.com//thephpleague/flysystem
