@@ -176,7 +176,6 @@ def process_commits(input_file, output_file):
 
                 if not clone_repo_if_not_exists(repo_url, repo_path):
                     logging.warning(f"Skipping repository: {repo_url}")
-                    continue
 
                 logging.info(f"Resetting to parent commit: {parent_commit_id}")
                 try:
@@ -223,12 +222,25 @@ def process_commits(input_file, output_file):
 
                     file_is_malicious = False
                     for line in blame_output.split("\n"):
-                        hash_and_line = line.split(")")[0]
-                        commit_hash = hash_and_line.split(" ")[0]
-                        line_content = line.split(")")[1].strip()
-                        if line_content in removed_lines:
-                            malicious_commit_hashes.add(commit_hash)
-                            file_is_malicious = True
+                        if not line:  # Skip empty lines
+                            continue
+                        try:
+                            parts = line.split(")")
+                            if len(parts) < 2:
+                                logging.warning(
+                                    f"Unexpected git blame output format: {line}"
+                                )
+                                continue
+                            hash_and_line = parts[0]
+                            commit_hash = hash_and_line.split(" ")[0]
+                            line_content = ")".join(parts[1:]).strip()
+                            if line_content in removed_lines:
+                                malicious_commit_hashes.add(commit_hash)
+                                file_is_malicious = True
+                        except Exception as e:
+                            logging.warning(
+                                f"Error processing git blame line: {line}. Error: {str(e)}"
+                            )
 
                     if file_is_malicious:
                         malicious_files.add(filename)
