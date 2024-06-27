@@ -1,0 +1,93 @@
+2024-06-26 22:23:17,298 - ERROR - Error opening repository at path/to/your/repository: /Users/darshpoddar/Documents/Coding/Malicious-Commits/path/to/your/repository
+2024-06-26 22:28:35,138 - WARNING - Repository not found in cache: https://github.com//bminor/glibc
+2024-06-26 22:28:35,138 - WARNING - Repository not found in cache: https://github.com//KDE/kde1-kdebase
+2024-06-26 22:28:35,138 - WARNING - Repository not found in cache: https://github.com//krb5/krb5
+2024-06-26 22:28:35,138 - WARNING - Repository not found in cache: https://github.com//wp-plugins/secure-files
+2024-06-26 22:28:35,138 - WARNING - Repository not found in cache: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 22:28:35,138 - INFO - Processing complete. Results saved to commit_metadata.json
+2024-06-26 22:32:39,067 - INFO - Cloning repository: https://github.com//bminor/glibc
+2024-06-26 22:33:23,514 - INFO - Successfully cloned repository: https://github.com//bminor/glibc
+2024-06-26 22:33:23,925 - ERROR - Error retrieving metadata for commit ^28f540f45bbacd939bfd07f213bcad2bf730b1b: Ref 'Invalid revision spec '^28f540f45bbacd939bfd07f213bcad2bf730b1b^0' - not enough parent commits to reach '^28'' did not resolve to an object
+2024-06-26 22:33:24,946 - INFO - Cloning repository: https://github.com//KDE/kde1-kdebase
+2024-06-26 22:33:29,760 - INFO - Successfully cloned repository: https://github.com//KDE/kde1-kdebase
+2024-06-26 22:33:29,760 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:33:29,762 - INFO - Cloning repository: https://github.com//krb5/krb5
+2024-06-26 22:33:39,078 - INFO - Successfully cloned repository: https://github.com//krb5/krb5
+2024-06-26 22:33:39,079 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:33:39,080 - INFO - Cloning repository: https://github.com//wp-plugins/secure-files
+2024-06-26 22:33:39,452 - INFO - Successfully cloned repository: https://github.com//wp-plugins/secure-files
+2024-06-26 22:33:39,452 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:33:39,453 - INFO - Cloning repository: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 22:33:39,950 - INFO - Successfully cloned repository: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 22:33:40,095 - INFO - Processing complete. Results saved to output/commit_metadata.json
+2024-06-26 22:45:49,235 - INFO - Successfully updated repository: https://github.com//bminor/glibc
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 4caef86ca68a3fea8fab5398bedc5e0e6c0d222b
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 102800e09dd56055f0e1a6f6868bfa5ac87d9459
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 38c097cae8e1da0a0b90ac81102795b2198646ca
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 2ad4fab214b13af85237b9e836c525e9ce3e7fb6
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: a5570f62ddba0ec9ecc99250191c02e0c5a911ab
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 7ce241a03e2c0b49482d9d05c8ddb765e89a01d9
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: f962d792472c45c9bccdc6b0697ad3d6350e9270
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: ee188d555b8c32ad9704a7440cab400af967292f
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: 4cca6b868f08e4f95a4c3786a69135676b086c50
+2024-06-26 22:45:49,235 - INFO - Skipping already processed commit: a7123f0edfea20a68e64e447dc6ca0c32736be0e
+2024-06-26 22:45:49,236 - ERROR - Error retrieving metadata for commit ^28f540f45bbacd939bfd07f213bcad2bf730b1b: Ref 'Invalid revision spec '^28f540f45bbacd939bfd07f213bcad2bf730b1b^0' - not enough parent commits to reach '^28'' did not resolve to an object
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 44c8d1a2a8775ad8c67fa1c46ccc67cccf585d93
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: afced61c8f6efc37c3ebeb2f9032f516982b8f21
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 3d61b63cc722951e3a5261e6bc3f0488eb35d441
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: c4563d2d668675c2d5083f6ad01c801d6ccbe013
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: b21c583227fa9f2e4022b6f964c88e17927c5d12
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 2b83a2a4d978012cdf78b648337c31091e20526d
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 91c7b85dc8fc310d4dcbe205861735a6748fecb4
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: b9f1792afb7d0aa747cf443d5fb8ac705b9c9d87
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 5bf62f2d3a8af353fac661b224fc1604d4de51ea
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 51702635af8445431054291c86aaace7c30b0970
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: ff48a63c86133fb352392c60b525d6aaf2d836a2
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: ba1ffaa1c6989873b57edc84491bfd1308b2190d
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 72d8cdf09dead3ee9765f1978a70147ec8545a55
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: d0045e79eb6f1ab705668a6efdfafe8b81d1cad8
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: ae828bc6f9a3ff47cb92846f71a9a7f8c6d5c941
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 8a52392237c44cbbd1ffc62b164230e1159dfb76
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: dfd2257ad98eb0f6eab167e5fe5ff68ca87172e3
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: e3e4e463cf18e47448e92f6cb2c126b9828cd2ca
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: a286028236801749fbdc42473c8dca8c1c233508
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 07b51ba59a50eadbda72fad0b2e55a4f0e26a291
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: dc9972317e6fe44e503fbfe83446272743c76fb3
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 740152054ecbda66dae0e0f66193d8e244cc2376
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: ffee131630368bc2600747346d0b03025cbca6ee
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: a5d1d726704c6e3c4f8457e30cbd3d2840531ee5
+2024-06-26 22:45:49,236 - INFO - Skipping already processed commit: 2864e767053317538feafa815046fff89e5a16be
+2024-06-26 22:45:49,541 - INFO - Successfully updated repository: https://github.com//KDE/kde1-kdebase
+2024-06-26 22:45:49,541 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:45:49,964 - INFO - Successfully updated repository: https://github.com//krb5/krb5
+2024-06-26 22:45:49,964 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:45:50,277 - INFO - Successfully updated repository: https://github.com//wp-plugins/secure-files
+2024-06-26 22:45:50,277 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:45:50,615 - INFO - Successfully updated repository: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 22:45:50,615 - INFO - Skipping already processed commit: 9683bdf462fcac2f32b33be98f0b96497fbd1bb6
+2024-06-26 22:45:50,615 - INFO - Skipping already processed commit: 3a3eb01b4b626207d55060ec933747d59c0cf7d3
+2024-06-26 22:45:50,615 - INFO - Skipping already processed commit: 97e8d550ba15979ccc165678364a5c6b51cf2f72
+2024-06-26 22:45:50,616 - INFO - Skipping already processed commit: 8670bb2c8553b05b9343f30fd698f50a8612a5e1
+2024-06-26 22:45:50,616 - INFO - Skipping already processed commit: ff5f27d078d9ecc3d0f272e87c6f977ae3f50403
+2024-06-26 22:45:50,616 - INFO - Skipping already processed commit: 89198a83b63385da2fbb6ab48344513fb49bf000
+2024-06-26 22:45:50,618 - INFO - Processing complete. Results saved to output/commit_metadata.json
+2024-06-26 22:46:53,199 - INFO - Successfully updated repository: https://github.com//bminor/glibc
+2024-06-26 22:46:53,644 - ERROR - Error retrieving metadata for commit ^28f540f45bbacd939bfd07f213bcad2bf730b1b: Ref 'Invalid revision spec '^28f540f45bbacd939bfd07f213bcad2bf730b1b^0' - not enough parent commits to reach '^28'' did not resolve to an object
+2024-06-26 22:46:54,935 - INFO - Successfully updated repository: https://github.com//KDE/kde1-kdebase
+2024-06-26 22:46:54,935 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:46:55,311 - INFO - Successfully updated repository: https://github.com//krb5/krb5
+2024-06-26 22:46:55,311 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:46:55,607 - INFO - Successfully updated repository: https://github.com//wp-plugins/secure-files
+2024-06-26 22:46:55,607 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 22:46:55,924 - INFO - Successfully updated repository: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 22:46:56,036 - INFO - Processing complete. Results saved to output/commit_metadata.json
+2024-06-26 23:18:11,795 - INFO - Successfully updated repository: https://github.com//bminor/glibc
+2024-06-26 23:18:12,236 - ERROR - Error retrieving metadata for commit ^28f540f45bbacd939bfd07f213bcad2bf730b1b: Ref 'Invalid revision spec '^28f540f45bbacd939bfd07f213bcad2bf730b1b^0' - not enough parent commits to reach '^28'' did not resolve to an object
+2024-06-26 23:18:13,547 - INFO - Successfully updated repository: https://github.com//KDE/kde1-kdebase
+2024-06-26 23:18:13,547 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 23:18:13,959 - INFO - Successfully updated repository: https://github.com//krb5/krb5
+2024-06-26 23:18:13,959 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 23:18:14,293 - INFO - Successfully updated repository: https://github.com//wp-plugins/secure-files
+2024-06-26 23:18:14,293 - ERROR - Error retrieving metadata for commit : Ref 'Invalid revision spec '^0' - not enough parent commits to reach '^0'' did not resolve to an object
+2024-06-26 23:18:14,647 - INFO - Successfully updated repository: https://github.com//wp-plugins/subscribe-to-comments
+2024-06-26 23:18:14,768 - INFO - Processing complete. Results saved to commit_metadata.json
