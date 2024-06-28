@@ -35,54 +35,43 @@ def clone_repo_and_get_parent(repo_url, commit_id, repo_cache):
     os.environ["GIT_ASKPASS"] = "echo"
     os.environ["GIT_SSH_COMMAND"] = "ssh -o BatchMode=yes"
 
-    for attempt in range(3):  # Try up to 3 times
-        try:
-            clean_lock_files(repo_path)
+    try:
+        clean_lock_files(repo_path)
 
-            if not os.path.exists(repo_path):
-                logging.info(f"Cloning repository: {repo_url}")
-                repo = Repo.clone_from(repo_url, repo_path, depth=1000)
-            else:
-                logging.info(f"Repository exists, fetching: {repo_url}")
-                repo = Repo(repo_path)
-                repo.remote().fetch(depth=1000)
+        if not os.path.exists(repo_path):
+            logging.info(f"Cloning repository: {repo_url}")
+            repo = Repo.clone_from(repo_url, repo_path, depth=1000)
+        else:
+            logging.info(f"Repository exists, fetching: {repo_url}")
+            repo = Repo(repo_path)
+            repo.remote().fetch(depth=1000)
 
-            logging.info(f"Checking out commit: {commit_id}")
-            repo.git.checkout(commit_id)
+        logging.info(f"Checking out commit: {commit_id}")
+        repo.git.checkout(commit_id)
 
-            parent_commit = repo.commit(commit_id).parents[0].hexsha
-            logging.info(f"Found parent commit: {parent_commit}")
+        parent_commit = repo.commit(commit_id).parents[0].hexsha
+        logging.info(f"Found parent commit: {parent_commit}")
 
-            return parent_commit
-        except GitCommandError as e:
-            error_message = str(e)
-            logging.error(
-                f"GitCommandError processing {repo_url} (attempt {attempt+1}): {error_message}"
-            )
-            if (
-                "unable to read tree" in error_message
-                or "does not exist" in error_message
-            ):
-                logging.info(f"Attempting full clone for {repo_url}")
-                shutil.rmtree(repo_path, ignore_errors=True)
-                repo = Repo.clone_from(repo_url, repo_path)
-            elif (
-                "Authentication failed" in error_message
-                or "could not read Username" in error_message
-            ):
-                logging.warning(
-                    f"Repository {repo_url} requires authentication. Skipping."
-                )
-                return None
-            elif attempt == 2:  # Last attempt
-                return None
-        except Exception as e:
-            logging.error(
-                f"Error processing {repo_url} (attempt {attempt+1}): {str(e)}"
-            )
-            if attempt == 2:  # Last attempt
-                return None
-        time.sleep(5 * (attempt + 1))  # Increasing delay between retries
+        return parent_commit
+    except GitCommandError as e:
+        error_message = str(e)
+        logging.error(f"GitCommandError processing {repo_url}: {error_message}")
+        if "unable to read tree" in error_message or "does not exist" in error_message:
+            logging.info(f"Attempting full clone for {repo_url}")
+            shutil.rmtree(repo_path, ignore_errors=True)
+            repo = Repo.clone_from(repo_url, repo_path)
+            return clone_repo_and_get_parent(repo_url, commit_id, repo_cache)
+        elif (
+            "Authentication failed" in error_message
+            or "could not read Username" in error_message
+        ):
+            logging.warning(f"Repository {repo_url} requires authentication. Skipping.")
+            return None
+        else:
+            return None
+    except Exception as e:
+        logging.error(f"Error processing {repo_url}: {str(e)}")
+        return None
 
 
 def process_commits(input_file, output_file):
