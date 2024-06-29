@@ -134,19 +134,21 @@ def process_commits(input_file, output_file):
 
     with open(input_file, "r") as in_f, open(output_file, "a", newline="") as out_f:
         reader = csv.DictReader(in_f)
-        fieldnames = reader.fieldnames + ["malicious_files", "malicious_commit_hashes"]
+        fieldnames = reader.fieldnames + [
+            "malicious_files",
+            "malicious_commit_hashes",
+            "used_context_lines",
+        ]
 
         writer = csv.DictWriter(out_f, fieldnames=fieldnames)
 
         if out_f.tell() == 0:
             writer.writeheader()
 
-        # Count total commits
         total_commits = sum(1 for _ in reader)
-        in_f.seek(0)  # Reset file pointer
-        reader = csv.DictReader(in_f)  # Recreate reader
+        in_f.seek(0)
+        reader = csv.DictReader(in_f)
 
-        # Create progress bar
         pbar = tqdm(
             reader,
             desc="Processing commits",
@@ -179,7 +181,6 @@ def process_commits(input_file, output_file):
 
                 logging.info(f"Resetting to parent commit: {parent_commit_id}")
                 try:
-                    # Use subprocess to run git reset --hard
                     subprocess.run(
                         ["git", "reset", "--hard", parent_commit_id],
                         cwd=repo_path,
@@ -200,6 +201,7 @@ def process_commits(input_file, output_file):
 
                 malicious_commit_hashes = set()
                 malicious_files = set()
+                used_context_lines = False
 
                 for filename, removed_lines in patch_info.items():
                     if not removed_lines:
@@ -207,7 +209,17 @@ def process_commits(input_file, output_file):
 
                     try:
                         blame_output = subprocess.run(
-                            ["git", "blame", "-l", commit_id, "--", filename],
+                            [
+                                "git",
+                                "blame",
+                                "-l",
+                                "-C",
+                                "-C",
+                                "-M",
+                                commit_id,
+                                "--",
+                                filename,
+                            ],
                             cwd=repo_path,
                             check=True,
                             stdout=subprocess.PIPE,
@@ -222,7 +234,7 @@ def process_commits(input_file, output_file):
 
                     file_is_malicious = False
                     for line in blame_output.split("\n"):
-                        if not line:  # Skip empty lines
+                        if not line:
                             continue
                         try:
                             parts = line.split(")")
@@ -234,9 +246,18 @@ def process_commits(input_file, output_file):
                             hash_and_line = parts[0]
                             commit_hash = hash_and_line.split(" ")[0]
                             line_content = ")".join(parts[1:]).strip()
+
+                            # Check if the line is in removed_lines or is a context line
                             if line_content in removed_lines:
                                 malicious_commit_hashes.add(commit_hash)
                                 file_is_malicious = True
+                            elif any(
+                                removed_line in line_content
+                                for removed_line in removed_lines
+                            ):
+                                malicious_commit_hashes.add(commit_hash)
+                                file_is_malicious = True
+                                used_context_lines = True
                         except Exception as e:
                             logging.warning(
                                 f"Error processing git blame line: {line}. Error: {str(e)}"
@@ -247,9 +268,10 @@ def process_commits(input_file, output_file):
 
                 row["malicious_files"] = ",".join(malicious_files)
                 row["malicious_commit_hashes"] = ",".join(malicious_commit_hashes)
+                row["used_context_lines"] = "Yes" if used_context_lines else "No"
 
                 writer.writerow(row)
-                out_f.flush()  # Ensure the write is committed to disk
+                out_f.flush()
 
                 processed_commits.add(commit_id)
                 pbar.set_postfix(
@@ -257,10 +279,11 @@ def process_commits(input_file, output_file):
                         "Current Commit": commit_id[:7],
                         "Malicious Files": len(malicious_files),
                         "Malicious Hashes": len(malicious_commit_hashes),
+                        "Used Context": used_context_lines,
                     }
                 )
                 logging.info(
-                    f"Processed commit: {commit_id}. Found {len(malicious_files)} malicious files and {len(malicious_commit_hashes)} malicious commit hashes."
+                    f"Processed commit: {commit_id}. Found {len(malicious_files)} malicious files and {len(malicious_commit_hashes)} malicious commit hashes. Used context lines: {used_context_lines}"
                 )
             except Exception as e:
                 logging.error(f"Error processing commit {commit_id}: {str(e)}")
